@@ -100,7 +100,7 @@ def calculate_value() -> float:
     for check in datalist:
         for ref in ref_list:
             if check[0] == ref['name']:
-                item_value = check[1]*ref['value']
+                item_value = int(check[1])*ref['value']
                 check.append(ref['value'])
                 check.append(item_value)
                 value += item_value
@@ -121,7 +121,7 @@ def write2xlsx(data: list[list[str]], CRC32: str) -> None:
         data_book = openpyxl.open(".\\detail.xlsx", read_only=False)
     except FileNotFoundError:
         data_book = openpyxl.Workbook()
-    data_sheet_1 = data_book.create_sheet(f'材料价值统计[{CRC32}]')
+    data_sheet_1 = data_book.create_sheet(f'材料价值统计{CRC32}')
     for rowY in range(len(data)):
         for colX in range(4):
             data_sheet_1.cell(
@@ -134,6 +134,7 @@ def write2xlsx(data: list[list[str]], CRC32: str) -> None:
 while 1:
     select = re.match("[0-9]{1}", input(menu_msg))
     if select:
+        timestamp = ""
         match int(select.group()):
             case 1:
                 os.popen("python .\\refresh_reference.py")
@@ -146,16 +147,23 @@ while 1:
 
                 except JSONDecodeError:
                     print("Cannot decode clipboard")
-                    storage_json = input("Select a json file.")
-                    text = ""
-                    with open(storage_json, 'r') as json_content:
-                        data = json.load(json_content)
-                        text = json_content.read()
-                    timestamp = f"{(zlib.crc32(text.encode('utf8')) & 0xffffffff):08X}"
+                    while 1:
+                        try:
+                            storage_json = input("Select a json file.")
+                            text = ""
+                            with open(storage_json, 'r') as json_content:
+                                data = json.load(json_content)
+                                text = json_content.read()
+                            timestamp = f"{(zlib.crc32(text.encode('utf8')) & 0xffffffff):08X}"
+                            break
+                        except FileNotFoundError:
+                            pass
                 convert_ref()
                 convert_src()
+                value_GT = calculate_value()
                 print(
-                    f'The Total value of data is {calculate_value():.3f}'
+                    f'The Total value of data is {value_GT:.3f}\n',
+                    f'Equivalent to {value_GT/135:.3f} stone.'
                 )
                 replenish()
                 write2xlsx(datalist, timestamp)
