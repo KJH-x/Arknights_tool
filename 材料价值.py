@@ -13,7 +13,8 @@ import zlib
 
 menu_msg = "\
 [1]: Refresh reference data and calculate\n\
-choose (default 1):"
+[2]: Exit\n\
+Choose :"
 
 mirror_url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 
@@ -128,48 +129,64 @@ def write2xlsx(data: list[list[str]], CRC32: str) -> None:
                 row=rowY+1, column=colX+1,
                 value=str(data[rowY][colX])
             )
-    data_book.save(".\\detail.xlsx")
+    while 1:
+        try:
+            data_book.save(".\\detail.xlsx")
+            break
+        except PermissionError:
+            input("The table sheet might be opened by another program.\nClose it and type enter to retry data write")
+    return
 
 
-while 1:
-    select = re.match("[0-9]{1}", input(menu_msg))
-    if select:
-        timestamp = ""
-        match int(select.group()):
-            case 1:
-                os.popen("python .\\refresh_reference.py")
-                with open(".\\material_value.json", 'r', encoding='utf8')as ref_file:
-                    reference = json.load(ref_file)
-                try:
-                    clipboard = pyperclip.paste()
-                    data = json.loads(clipboard)
-                    timestamp = f"{(zlib.crc32(clipboard.encode('utf8')) & 0xffffffff):08X}"
+def textCRC(context: str) -> str:
+    return f"{(zlib.crc32(context.encode('utf8')) & 0xffffffff):08X}"
 
-                except JSONDecodeError:
-                    print("Cannot decode clipboard")
-                    while 1:
-                        try:
-                            storage_json = input("Select a json file.")
-                            text = ""
-                            with open(storage_json, 'r') as json_content:
-                                data = json.load(json_content)
-                                text = json_content.read()
-                            timestamp = f"{(zlib.crc32(text.encode('utf8')) & 0xffffffff):08X}"
-                            break
-                        except FileNotFoundError:
-                            pass
-                convert_ref()
-                convert_src()
-                value_GT = calculate_value()
-                print(
-                    f'The Total value of data is {value_GT:.3f}\n',
-                    f'Equivalent to {value_GT/135:.3f} stone.'
-                )
-                replenish()
-                write2xlsx(datalist, timestamp)
-                print()
-            case _:
-                print("error")
-    else:
-        print("Not support syntax, check input.")
-        pass
+
+try:
+    while 1:
+        select = re.match("[0-9]{1}", input(menu_msg))
+        if select:
+            timestamp = ""
+            match int(select.group()):
+                case 1:
+                    os.popen("python .\\refresh_reference.py")
+                    with open(".\\material_value.json", 'r', encoding='utf8')as ref_file:
+                        reference = json.load(ref_file)
+                    try:
+                        import pyperclip
+                        clipboard = pyperclip.paste()
+                        data = json.loads(clipboard)
+                        timestamp = textCRC(clipboard)
+
+                    except JSONDecodeError:
+                        print("Cannot decode clipboard")
+                        while 1:
+                            try:
+                                storage_json = input("Select a json file.")
+                                text = ""
+                                with open(storage_json, 'r', encoding='utf8') as json_content:
+                                    data = json.load(json_content)
+                                    text = json_content.read()
+                                timestamp = textCRC(text)
+                                break
+                            except FileNotFoundError:
+                                pass
+                    convert_ref()
+                    convert_src()
+                    value_GT = calculate_value()
+                    print(
+                        f'The Total value of data is {value_GT:.3f}\n',
+                        f'Equivalent to {value_GT/135:.3f} stone.'
+                    )
+                    replenish()
+                    write2xlsx(datalist, timestamp)
+                    print()
+                case 2:
+                    exit()
+                case _:
+                    print("error")
+        else:
+            print("Not support syntax, check input.")
+            pass
+except KeyboardInterrupt:
+    exit()
