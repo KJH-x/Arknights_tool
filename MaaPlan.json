@@ -1,5 +1,5 @@
 {
-    "sequence": [
+    "Sequence": [
         "StartUp",
         "Fight",
         "Recruit",
@@ -8,6 +8,11 @@
         "Mall",
         "Award"
     ],
+    "StartUp": {
+        "enable": "True",
+        "client_type": "Official",
+        "start_game_enabled": "True"
+    },
     "Fight": [
         {
             "enable": "True",

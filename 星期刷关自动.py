@@ -1,31 +1,30 @@
-import datetime
+from datetime import datetime
 import json
-import os
 import time
 import sys
+import os
 import re
-import json
 sys.path.append(
     "C:\\_Paths\\MAA\\Isolate1\\MAA-v4.8.0-beta.2-win-x64\\Python"
 )
-from asst.updater import Updater
-from asst.utils import Message, Version, InstanceOptionType
 from asst.asst import Asst
+from asst.utils import Message, Version, InstanceOptionType
+from asst.updater import Updater
 
 
 @Asst.CallBackType
 def my_callback(msg, details, arg):
-    repot_time = datetime.datetime.now().strftime("%H:%M:%S.%f")
+    repot_time = datetime.now().strftime(TLF)
     m = Message(msg)
     d = json.loads(details.decode('utf-8'))
     msg_print = re.sub('Message.', '', str(m))
-    
+
     try:
         match msg_print:
             case 'SubTaskStart' | 'SubTaskCompleted':
                 print(f"[{repot_time}]回报信息:子任务:{re.sub('SubTask','',msg_print)}")
-                print(f"  - 父任务序号:{d['taskid']:2d}  - ",end='')
-                
+                print(f"  - 父任务序号:{d['taskid']:2d}  - ", end='')
+
                 if 'task' in d['details']:
                     print(f"当前任务：{d['details']['task']}")
                 else:
@@ -47,7 +46,7 @@ def my_callback(msg, details, arg):
 
             case 'AllTasksCompleted':
                 print(f"[{repot_time}]全部任务完成，退出")
-                
+
             case 'SubTaskError':
                 if 'first' in d and d['first']:
                     print(f"[{repot_time}]回报信息:子任务错误{d['first'][0]}")
@@ -63,7 +62,7 @@ def my_callback(msg, details, arg):
 
 
 def fight_task_selector() -> int:
-    wd = datetime.datetime.now().weekday()
+    wd = datetime.now().weekday()
     return [0, 1, 0, 1, 0, 1, 1][wd]
 
 
@@ -73,9 +72,12 @@ def fight_task_selector() -> int:
 #   - [MON,TUE,WEN,THU,FRI,SAT,SUN]
 #   CE-6: (1 for open)
 #   - [  0,  1,  0,  1,  0,  1,  1]
+TLF = "%H:%M:%S.%f"
+
 os.chdir(sys.path[0])
-with open(".\\MaaPlan.json",'r',encoding='utf8') as plan:
-    TASKS=json.load(plan)
+
+with open(".\\MaaPlan.json", 'r', encoding='utf8') as plan:
+    TASKS = json.load(plan)
 with open(".\\MaaConnect.json", 'r', encoding='utf8') as plan:
     PATH = json.load(plan)
 
@@ -84,52 +86,55 @@ if __name__ == "__main__":
         Updater(PATH["Maa_core"], Version.Beta).update()
         Asst.load(path=PATH["Maa_core"])
         asst = Asst(callback=my_callback)
-        
+
     except TimeoutError:
         Asst.load(path=PATH["Maa_core"])
         asst = Asst(callback=my_callback)
-        
+
     except KeyboardInterrupt:
         exit()
-        
+
     try:
         asst.set_instance_option(InstanceOptionType.touch_type, 'maatouch')
         asst.set_instance_option(InstanceOptionType.deployment_with_pause, '1')
-        
-        retry=0
+
+        retry = 0
         while 1:
             if asst.connect(PATH["Adb"], PATH["Address"]):
-                print('连接成功')
+                print(f"[{datetime.now().strftime(TLF)}]连接成功")
                 del retry
                 break
             else:
-                retry+=1
-                print(f'连接失败，尝试重连{retry:2d}')
+                retry += 1
+                print(
+                    f"[{datetime.now().strftime(TLF)}]连接失败，尝试重连{retry:2d}")
                 pass
 
-        FIGHT_MODE = fight_task_selector()
-        
-        asst.append_task('StartUp')
-        asst.append_task('Fight', TASKS["Fight"][FIGHT_MODE])
-        asst.append_task('Recruit', TASKS['Recruit'])
-        asst.append_task('Infrast', TASKS['Infrast'])
-        asst.append_task('Visit', TASKS['Visit'])
-        asst.append_task('Mall', TASKS['Mall'])
-        asst.append_task('Award', TASKS['Award'])
-        
+        TASKS["Fight"] = TASKS["Fight"][fight_task_selector()]
+
+        print(f"[{datetime.now().strftime(TLF)}]正在加载任务列表:")
+        for task_name in TASKS["Sequence"]:
+            print(
+                f"  - {task_name:10s}:{asst.append_task(task_name,TASKS[task_name]):2d}"
+            )
+
+        print(
+            f"[{datetime.now().strftime(TLF)}]当前客户端版本：{asst.get_version()}，正在启动"
+        )
+
         del TASKS, PATH
         asst.start()
 
         while asst.running():
             time.sleep(0)
-            
+        asst.stop()
         input()
-        
+
     except KeyboardInterrupt:
         asst.stop()
         input()
         exit()
-        
+
     except Exception as ex:
         print("意外错误:", ex)
         asst.stop()

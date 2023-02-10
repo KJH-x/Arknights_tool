@@ -12,6 +12,6 @@ Tools set for arknigts gaming
 {
     "Maa_core": "Maa本体所在文件夹绝对路径，字符串",
     "Adb": "模拟器adb绝对路径，字符串",
-    "Address": "127.0.0.1:模拟器adb地址，字符串",
+    "Address": "127.0.0.1:模拟器adb地址，字符串"
 }
 ```
