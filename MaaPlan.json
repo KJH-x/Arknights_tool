@@ -1,0 +1,107 @@
+{
+    "sequence": [
+        "StartUp",
+        "Fight",
+        "Recruit",
+        "Infrast",
+        "Visit",
+        "Mall",
+        "Award"
+    ],
+    "Fight": [
+        {
+            "enable": "True",
+            "DrGrandet": "False",
+            "stage": "1-7",
+            "medicine": 2,
+            "stone": 0,
+            "server": "CN",
+            "client_type": "Official",
+            "report_to_penguin": "True",
+            "penguin_id": "34004401"
+        },
+        {
+            "enable": "True",
+            "DrGrandet": "False",
+            "stage": "CE-6",
+            "medicine": 2,
+            "stone": 0,
+            "server": "CN",
+            "client_type": "Official",
+            "report_to_penguin": "True",
+            "penguin_id": "34004401"
+        }
+    ],
+    "Recruit": {
+        "enable": "True",
+        "refresh": "True",
+        "times": 1,
+        "expedite": "True",
+        "select": [
+            3,
+            4
+        ],
+        "confirm": [
+            3,
+            4
+        ],
+        "skip_robot": "True",
+        "recruitment_time": {
+            "3": 540,
+            "4": 540
+        },
+        "report_to_penguin": "True",
+        "penguin_id": "34004401"
+    },
+    "Infrast": {
+        "enable": "True",
+        "mode": 0,
+        "drones": "CombatRecord",
+        "threshold": 0.3,
+        "facility": [
+            "Mfg",
+            "Trade",
+            "Reception",
+            "Office",
+            "Control",
+            "Power",
+            "Dorm"
+        ],
+        "dorm_notstationed_enabled": "False",
+        "dorm_trust_enabled": "True"
+    },
+    "Visit": {
+        "enable": "True"
+    },
+    "Mall": {
+        "enable": "True",
+        "shopping": "True",
+        "force_shopping_if_credit_full": "True",
+        "buy_first": [
+            "招聘许可",
+            "龙门币",
+            "技巧概要·卷2",
+            "糖",
+            "装置",
+            "酮凝集",
+            "异铁",
+            "聚酸酯",
+            "固源岩"
+        ],
+        "blacklist": [
+            "加急许可",
+            "赤金",
+            "源岩",
+            "酯原料",
+            "异铁碎片",
+            "双酮",
+            "破损装置",
+            "代糖",
+            "碳",
+            "家具"
+        ]
+    },
+    "Award": {
+        "enable": "True"
+    }
+}
