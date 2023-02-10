@@ -5,9 +5,9 @@ import sys
 sys.path.insert(
     0, "C:\\_Paths\\MAA\\Isolate1\\MAA-v4.8.0-beta.2-win-x64\\Python"
 )
-from asst.updater import Updater
-from asst.utils import Message, Version, InstanceOptionType
 from asst.asst import Asst
+from asst.utils import Message, Version, InstanceOptionType
+from asst.updater import Updater
 
 
 @Asst.CallBackType
@@ -83,10 +83,13 @@ PATH = {
 }
 
 if __name__ == "__main__":
-
-    Updater(PATH["Maa_core"], Version.Beta).update()
-    Asst.load(path=PATH["Maa_core"])
-    asst = Asst(callback=my_callback)
+    try:
+        Updater(PATH["Maa_core"], Version.Beta).update()
+        Asst.load(path=PATH["Maa_core"])
+        asst = Asst(callback=my_callback)
+    except TimeoutError:
+        Asst.load(path=PATH["Maa_core"])
+        asst = Asst(callback=my_callback)
 
     asst.set_instance_option(InstanceOptionType.touch_type, 'maatouch')
     asst.set_instance_option(InstanceOptionType.deployment_with_pause, '1')
@@ -96,6 +99,7 @@ if __name__ == "__main__":
     else:
         input('连接失败，回车退出')
         exit()
+
     FIGHT_MODE = fight_task_selector()
     asst.append_task('StartUp')
     asst.append_task('Fight', TASKS["Fight"][FIGHT_MODE])
