@@ -18,7 +18,7 @@
             "enable": "True",
             "DrGrandet": "False",
             "stage": "1-7",
-            "medicine": 2,
+            "medicine": 0,
             "stone": 0,
             "server": "CN",
             "client_type": "Official",

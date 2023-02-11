@@ -4,6 +4,7 @@ import time
 import sys
 import os
 import re
+from urllib.error import URLError
 sys.path.append(
     "C:\\_Paths\\MAA\\Isolate1\\MAA-v4.8.0-beta.2-win-x64\\Python"
 )
@@ -22,7 +23,9 @@ def my_callback(msg, details, arg):
     try:
         match msg_print:
             case 'SubTaskStart' | 'SubTaskCompleted':
-                print(f"[{repot_time}]回报信息:子任务:{re.sub('SubTask','',msg_print)}")
+                print(
+                    f"[{repot_time}]信息:子任务:{映射[re.sub('SubTask','',msg_print)]}"
+                )
                 print(f"  - 父任务序号:{d['taskid']:2d}  - ", end='')
 
                 if 'task' in d['details']:
@@ -33,25 +36,27 @@ def my_callback(msg, details, arg):
                     print(f"  - 额外参数:{arg}")
 
             case 'ConnectionInfo':
-                print(f"[{repot_time}]回报信息:模拟器连接:行为:{d['what']}")
+                print(f"[{repot_time}]信息:模拟器连接:行为:{d['what']}")
                 if d['why']:
-                    print(f"[{repot_time}]回报信息:模拟器连接:原因:{d['why']}")
+                    print(f"[{repot_time}]信息:模拟器连接:原因:{d['why']}")
 
             case 'TaskChainStart' | 'TaskChainCompleted' | 'TaskChainStopped':
-                print(f"[{repot_time}]回报信息:任务链:{re.sub('TaskChain','',msg_print)}")
+                print(
+                    f"[{repot_time}]信息:任务链:{映射[re.sub('TaskChain','',msg_print)]}"
+                )
                 print(f"  - 任务链名:{d['taskchain']}")
 
             case 'SubTaskExtraInfo':
-                print(f"[{repot_time}]回报信息:子任务信息:已忽略")
+                print(f"[{repot_time}]信息:子任务信息:已忽略")
 
             case 'AllTasksCompleted':
                 print(f"[{repot_time}]全部任务完成，退出")
 
             case 'SubTaskError':
                 if 'first' in d and d['first']:
-                    print(f"[{repot_time}]回报信息:子任务错误{d['first'][0]}")
+                    print(f"[{repot_time}]信息:子任务错误{d['first'][0]}")
                 else:
-                    print(f"[{repot_time}]回报信息:子任务错误")
+                    print(f"[{repot_time}]信息:子任务错误")
             case _:
                 print(f"[Cannot comprehense]:\n{m}\n{d}\n{arg}")
 
@@ -74,6 +79,12 @@ def fight_task_selector() -> int:
 #   - [  0,  1,  0,  1,  0,  1,  1]
 TLF = "%H:%M:%S.%f"
 
+映射 = {
+    "Start": "开始",
+    "Completed": "完成",
+    "Stopped": "停止"
+}
+
 os.chdir(sys.path[0])
 
 with open(".\\MaaPlan.json", 'r', encoding='utf8') as plan:
@@ -84,16 +95,17 @@ with open(".\\MaaConnect.json", 'r', encoding='utf8') as plan:
 if __name__ == "__main__":
     try:
         Updater(PATH["Maa_core"], Version.Beta).update()
-        Asst.load(path=PATH["Maa_core"])
-        asst = Asst(callback=my_callback)
 
-    except TimeoutError:
-        Asst.load(path=PATH["Maa_core"])
-        asst = Asst(callback=my_callback)
-
+    except TimeoutError or URLError:
+        pass
+    except Exception as ex:
+        input(ex)
     except KeyboardInterrupt:
         exit()
 
+    Asst.load(path=PATH["Maa_core"])
+    asst = Asst(callback=my_callback)
+    
     try:
         asst.set_instance_option(InstanceOptionType.touch_type, 'maatouch')
         asst.set_instance_option(InstanceOptionType.deployment_with_pause, '1')
