@@ -68,7 +68,6 @@ def my_callback(msg, details, arg):
 
 def fight_task_selector() -> int:
     wd = (datetime.now()-timedelta(hours=4)).weekday()
-    datetime.strptime("3:59:00","%H:%M:%S")
     return [0, 1, 0, 1, 0, 1, 1][wd]
 
 
