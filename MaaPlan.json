@@ -9,39 +9,39 @@
         "Award"
     ],
     "StartUp": {
-        "enable": "True",
+        "enable": true,
         "client_type": "Official",
-        "start_game_enabled": "True"
+        "start_game_enabled": true
     },
     "Fight": [
         {
-            "enable": "True",
-            "DrGrandet": "False",
+            "enable": true,
+            "DrGrandet": false,
             "stage": "1-7",
             "medicine": 0,
             "stone": 0,
             "server": "CN",
             "client_type": "Official",
-            "report_to_penguin": "True",
+            "report_to_penguin": true,
             "penguin_id": "34004401"
         },
         {
-            "enable": "True",
-            "DrGrandet": "False",
+            "enable": true,
+            "DrGrandet": false,
             "stage": "CE-6",
             "medicine": 2,
             "stone": 0,
             "server": "CN",
             "client_type": "Official",
-            "report_to_penguin": "True",
+            "report_to_penguin": true,
             "penguin_id": "34004401"
         }
     ],
     "Recruit": {
-        "enable": "True",
-        "refresh": "True",
+        "enable": true,
+        "refresh": true,
         "times": 1,
-        "expedite": "True",
+        "expedite": true,
         "select": [
             3,
             4
@@ -50,16 +50,16 @@
             3,
             4
         ],
-        "skip_robot": "True",
+        "skip_robot": true,
         "recruitment_time": {
             "3": 540,
             "4": 540
         },
-        "report_to_penguin": "True",
+        "report_to_penguin": true,
         "penguin_id": "34004401"
     },
     "Infrast": {
-        "enable": "True",
+        "enable": true,
         "mode": 0,
         "drones": "CombatRecord",
         "threshold": 0.3,
@@ -72,16 +72,16 @@
             "Power",
             "Dorm"
         ],
-        "dorm_notstationed_enabled": "False",
-        "dorm_trust_enabled": "True"
+        "dorm_notstationed_enabled": false,
+        "dorm_trust_enabled": true
     },
     "Visit": {
-        "enable": "True"
+        "enable": true
     },
     "Mall": {
-        "enable": "True",
-        "shopping": "True",
-        "force_shopping_if_credit_full": "True",
+        "enable": true,
+        "shopping": true,
+        "force_shopping_if_credit_full": true,
         "buy_first": [
             "招聘许可",
             "龙门币",
@@ -107,6 +107,6 @@
         ]
     },
     "Award": {
-        "enable": "True"
+        "enable": true
     }
 }

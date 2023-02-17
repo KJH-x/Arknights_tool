@@ -5,8 +5,18 @@ import sys
 import os
 import re
 from urllib.error import URLError
+
+
+os.chdir(sys.path[0])
+
+with open(".\\MaaPlan.json", 'r', encoding='utf8') as plan:
+    TASKS = json.load(plan)
+with open(".\\MaaConnect.json", 'r', encoding='utf8') as connect:
+    PATH = json.load(connect)
+
+
 sys.path.append(
-    "C:\\_Paths\\MAA\\Isolate1\\MAA-v4.8.0-beta.2-win-x64\\Python"
+    (PATH['Maa_core']+"\\Python")
 )
 from asst.asst import Asst
 from asst.utils import Message, Version, InstanceOptionType
@@ -85,12 +95,6 @@ TLF = "%H:%M:%S.%f"
     "Stopped": "停止"
 }
 
-os.chdir(sys.path[0])
-
-with open(".\\MaaPlan.json", 'r', encoding='utf8') as plan:
-    TASKS = json.load(plan)
-with open(".\\MaaConnect.json", 'r', encoding='utf8') as plan:
-    PATH = json.load(plan)
 
 if __name__ == "__main__":
     try:
