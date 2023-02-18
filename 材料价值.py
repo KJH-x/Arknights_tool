@@ -182,8 +182,8 @@ try:
                     write2xlsx(datalist, timestamp)
                     print()
                 case 2:
-                    exit()
-                case _:
+                    exit()  
+                case _: 
                     print("error")
         else:
             print("Not support syntax, check input.")
