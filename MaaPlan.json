@@ -108,5 +108,6 @@
     },
     "Award": {
         "enable": true
-    }
+    },
+    "ShowDetail":false
 }

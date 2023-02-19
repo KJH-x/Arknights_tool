@@ -27,7 +27,7 @@ from asst.updater import Updater
 def my_callback(msg, details, arg):
     repot_time = datetime.now().strftime(TLF)
     m = Message(msg)
-    d = json.loads(details.decode('utf-8'))
+    d = json.loads(bytes(details).decode('utf-8'))
     msg_print = re.sub('Message.', '', str(m))
 
     try:
@@ -57,13 +57,18 @@ def my_callback(msg, details, arg):
                 print(f"  - 任务链名:{d['taskchain']}")
 
             case 'SubTaskExtraInfo':
-                print(f"[{repot_time}]信息:子任务信息:已忽略")
+                if show_detail:
+                    print(f"[{repot_time}]信息:子任务信息:\n{d}")
+                else:
+                    print(f"[{repot_time}]信息:子任务信息:已忽略")
 
             case 'AllTasksCompleted':
                 print(f"[{repot_time}]全部任务完成，退出")
 
             case 'SubTaskError':
-                if 'first' in d and d['first']:
+                if show_detail:
+                    print(f"[{repot_time}]信息:子任务错误:\n{d}")
+                elif 'first' in d and d['first']:
                     print(f"[{repot_time}]信息:子任务错误{d['first'][0]}")
                 else:
                     print(f"[{repot_time}]信息:子任务错误")
@@ -97,6 +102,7 @@ TLF = "%H:%M:%S.%f"
 
 
 if __name__ == "__main__":
+    show_detail=TASKS["ShowDetail"]
     try:
         Updater(PATH["Maa_core"], Version.Beta).update()
 
@@ -143,16 +149,16 @@ if __name__ == "__main__":
 
         while asst.running():
             time.sleep(0)
-        asst.stop()
+        print(f"Asst尝试退出：{asst.stop()}")
         input()
 
     except KeyboardInterrupt:
-        asst.stop()
+        print(f"Asst尝试退出：{asst.stop()}")
         input()
         exit()
 
     except Exception as ex:
         print("意外错误:", ex)
-        asst.stop()
+        print(f"Asst尝试退出：{asst.stop()}")
         input()
         exit()
