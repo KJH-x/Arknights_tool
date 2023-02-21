@@ -25,7 +25,6 @@ from asst.updater import Updater
 
 @Asst.CallBackType
 def my_callback(msg, details, arg):
-    repot_time = datetime.now().strftime(TLF)
     m = Message(msg)
     d = json.loads(bytes(details).decode('utf-8'))
     msg_print = re.sub('Message.', '', str(m))
@@ -33,9 +32,7 @@ def my_callback(msg, details, arg):
     try:
         match msg_print:
             case 'SubTaskStart' | 'SubTaskCompleted':
-                print(
-                    f"[{repot_time}]信息:子任务:{映射[re.sub('SubTask','',msg_print)]}"
-                )
+                log_print(f"信息:子任务:{映射[re.sub('SubTask','',msg_print)]}")
                 print(f"  - 父任务序号:{d['taskid']:2d}  - ", end='')
 
                 if 'task' in d['details']:
@@ -46,38 +43,37 @@ def my_callback(msg, details, arg):
                     print(f"  - 额外参数:{arg}")
 
             case 'ConnectionInfo':
-                print(f"[{repot_time}]信息:模拟器连接:行为:{d['what']}")
+                log_print(f"信息:模拟器连接:行为:{d['what']}")
                 if d['why']:
-                    print(f"[{repot_time}]信息:模拟器连接:原因:{d['why']}")
+                    log_print(f"信息:模拟器连接:原因:{d['why']}")
 
             case 'TaskChainStart' | 'TaskChainCompleted' | 'TaskChainStopped':
-                print(
-                    f"[{repot_time}]信息:任务链:{映射[re.sub('TaskChain','',msg_print)]}"
-                )
+                log_print(f"信息:任务链:{映射[re.sub('TaskChain','',msg_print)]}")
                 print(f"  - 任务链名:{d['taskchain']}")
 
             case 'SubTaskExtraInfo':
                 if show_detail:
-                    print(f"[{repot_time}]信息:子任务信息:\n{d}")
+                    log_print(f"信息:子任务信息:\n{d}")
                 else:
-                    print(f"[{repot_time}]信息:子任务信息:已忽略")
+                    log_print(f"信息:子任务信息:已忽略")
 
             case 'AllTasksCompleted':
-                print(f"[{repot_time}]全部任务完成，退出")
+                log_print(f"全部任务完成，退出")
 
             case 'SubTaskError':
                 if show_detail:
-                    print(f"[{repot_time}]信息:子任务错误:\n{d}")
+                    log_print(f"信息:子任务错误:\n{d}")
                 elif 'first' in d and d['first']:
-                    print(f"[{repot_time}]信息:子任务错误{d['first'][0]}")
+                    log_print(f"信息:子任务错误{d['first'][0]}")
                 else:
-                    print(f"[{repot_time}]信息:子任务错误")
+                    log_print(f"信息:子任务错误")
+
             case _:
-                print(f"[Cannot comprehense]:\n{m}\n{d}\n{arg}")
+                log_print(f"[Cannot comprehense]:\n{m}\n{d}\n{arg}")
 
     except KeyError:
-        print("回应理解错误：")
-        print(f"[Cannot comprehense]:\n{m}\n{d}\n{arg}")
+        log_print("回应理解错误：")
+        log_print(f"[Cannot comprehense]:\n{m}\n{d}\n{arg}")
     return
 
 
@@ -86,13 +82,18 @@ def fight_task_selector() -> int:
     return [0, 1, 0, 1, 0, 1, 1][wd]
 
 
+def report_time() -> str:
+    return datetime.now().strftime("%H:%M:%S.%f")
+
+def log_print(Msg:str)->None:
+    print(f"{report_time()} {Msg}")
+
 # TASKS
 #   - FIGHT
 #   - [  0,  1,  2,  3,  4,  5,  6]
 #   - [MON,TUE,WEN,THU,FRI,SAT,SUN]
 #   CE-6: (1 for open)
 #   - [  0,  1,  0,  1,  0,  1,  1]
-TLF = "%H:%M:%S.%f"
 
 映射 = {
     "Start": "开始",
@@ -102,7 +103,7 @@ TLF = "%H:%M:%S.%f"
 
 
 if __name__ == "__main__":
-    show_detail=TASKS["ShowDetail"]
+    show_detail = TASKS["ShowDetail"]
     try:
         Updater(PATH["Maa_core"], Version.Beta).update()
 
@@ -115,7 +116,7 @@ if __name__ == "__main__":
 
     Asst.load(path=PATH["Maa_core"])
     asst = Asst(callback=my_callback)
-    
+
     try:
         asst.set_instance_option(InstanceOptionType.touch_type, 'maatouch')
         asst.set_instance_option(InstanceOptionType.deployment_with_pause, '1')
@@ -123,42 +124,44 @@ if __name__ == "__main__":
         retry = 0
         while 1:
             if asst.connect(PATH["Adb"], PATH["Address"]):
-                print(f"[{datetime.now().strftime(TLF)}]连接成功")
+                log_print(f"连接成功")
                 del retry
                 break
             else:
                 retry += 1
-                print(
-                    f"[{datetime.now().strftime(TLF)}]连接失败，尝试重连{retry:2d}")
+                log_print(f"连接失败，尝试重连{retry:2d}")
                 pass
 
         TASKS["Fight"] = TASKS["Fight"][fight_task_selector()]
 
-        print(f"[{datetime.now().strftime(TLF)}]正在加载任务列表:")
+        log_print(f"正在加载任务列表:")
         for task_name in TASKS["Sequence"]:
             print(
                 f"  - {task_name:10s}:{asst.append_task(task_name,TASKS[task_name]):2d}"
             )
 
-        print(
-            f"[{datetime.now().strftime(TLF)}]当前客户端版本：{asst.get_version()}，正在启动"
-        )
+        if 'Fight' in TASKS["Sequence"]:
+            log_print(
+                f"战斗关卡: {TASKS['Fight']['stage']} 嗑药: {TASKS['Fight']['medicine']}"
+            )
+
+        log_print(f"当前客户端版本：{asst.get_version()}，正在启动")
 
         del TASKS, PATH
         asst.start()
 
         while asst.running():
             time.sleep(0)
-        print(f"Asst尝试退出：{asst.stop()}")
+        log_print(f"Asst尝试退出:{asst.stop()}")
         input()
 
     except KeyboardInterrupt:
-        print(f"Asst尝试退出：{asst.stop()}")
+        log_print(f"Asst尝试退出:{asst.stop()}")
         input()
         exit()
 
     except Exception as ex:
         print("意外错误:", ex)
-        print(f"Asst尝试退出：{asst.stop()}")
+        log_print(f"Asst尝试退出:{asst.stop()}")
         input()
         exit()
