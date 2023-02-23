@@ -37,7 +37,7 @@ while 1:
             )
             check_time -= 1
         else:
-            print("Allow retry times exceeded, exiting in 3s...")
+            print("Allowed retry times exceeded, exiting in 3s...")
             import time
             time.sleep(3)
             exit()
