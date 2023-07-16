@@ -33,6 +33,7 @@ date_suffix = datetime.strftime(datetime.now(), "%Y-%m-%d ")
 # time1 = "9:12:34"
 # time2 = "4:14:37"
 
+print("\n作者KJH-x，保留解释权利，脚本给出时间仅供测试，不承担后果\n")
 print("\n  [注意] 输入时间时可以不输入冒号 \n")
 time1 = ":".join(finishTime(input("[输入] 输入其中一个倒计时: ")))
 print(f"[验算] 记录到的第一个时间: {time1}")
