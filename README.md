@@ -7,7 +7,7 @@ Tools set for arknigts gaming
 图片来源见图片内容 @bilibili[风云de寒冰](https://space.bilibili.com/251015631)
 仅html文件为本人编排，特此声明。（压缩包为网页及图片的打包）
 
-## MWP:Maa周管理
+## MWP:Maa周管理(已废弃|暂停更新)
 
 需要在MWP目录自行创建MaaConnect.json
 内容为：
@@ -19,3 +19,7 @@ Tools set for arknigts gaming
     "Address": "127.0.0.1:模拟器adb地址，字符串"
 }
 ```
+
+## Prts 资源提取(文本提取部分将不再更新)
+
+提取图片资源（慢速爬虫），链接无法保证更新到最新。
