@@ -1,0 +1,1139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+
+
+/* A Theme Css for Typora. V1.0.0 Created by KJH-x */
+:root {
+    --side-bar-bg-color: #212121;
+    --control-text-color: #aaa;
+    --active-file-bg-color: #383838;
+    --control-text-hover-color: #ddd;
+    --item-hover-bg-color: #404040;
+    --text-color: #d9d6cd;
+    --blur-text-color: #80808080;
+    --bg-color: #000000;
+    --select-text-bg-color: #663f3f !important;
+    --monospace: "JetBrains Mono", "思源宋体 CN", "宋体", monospace !important;
+    --window-border: 1px solid #404040;
+    --rawblock-edit-panel-bd: #212121;
+    --mermaid-theme: dark;
+    --mermaid-font-family: "JetBrains Mono", "思源宋体 CN", "宋体", monospace !important;
+    --mermaid-sequence-numbers: off;
+    /* or "on", see https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequencenumbers*/
+    --mermaid-flowchart-curve: basis
+        /* or "basis", see https://github.com/typora/typora-issues/issues/1632*/
+    ;
+    --mermaid--gantt-left-padding: 100;
+    /* see https://github.com/typora/typora-issues/issues/1665*/
+    --heading-char-color: #aaa;
+    --meta-content-color: #6794bc;
+    --primary-color: #d86666;
+    --color-H1: #d6bb88;
+    --color-H2: #e1cba2;
+    --color-default: #dbdbdb;
+    --color-math: #ef6509;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+::-webkit-scrollbar-thumb {
+    background: #42424280 !important;
+}
+
+.menu-item-container a.menu-style-btn {
+    background: #424242;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "TimesNewRoman", "思源宋体 CN", "宋体", "Open Sans", "Clear Sans", "Helvetica Neue",
+        Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    line-height: 1.75;
+    scroll-behavior: smooth;
+}
+
+/* code type */
+.CodeMirror pre {
+    font-size: 1.5em;
+}
+
+#typora-quick-open {
+    border: none !important;
+    background-color: #212121 !important;
+}
+
+#write {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+#write>ul:first-child,
+#write>ol:first-child {
+    margin-top: 30px;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: #242424;
+}
+
+/*table,
+input {
+  border: 1px solid #aaa !important;
+}*/
+
+#write a {
+    color: #d86666;
+    text-decoration: none !important;
+    border-bottom: 1px solid #d8666680;
+}
+
+.md-comment {
+    color: var(--text-color);
+    opacity: 0.5;
+    font-family: var(--monospace);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+
+h1 tt,
+h1 code {
+    font-size: inherit;
+    color: var(--color-H1);
+}
+
+h2 tt,
+h2 code {
+    font-size: inherit;
+    color: var(--color-H2);
+}
+
+h3 tt,
+h3 code {
+    font-size: inherit;
+    color: var(--color-default);
+}
+
+h4 tt,
+h4 code {
+    font-size: inherit;
+    color: var(--color-default);
+}
+
+h5 tt,
+h5 code {
+    font-size: inherit;
+    color: var(--color-default);
+}
+
+h6 tt,
+h6 code {
+    font-size: inherit;
+    color: var(--color-default);
+}
+
+h1 {
+    padding-bottom: 0.3em;
+    font-size: 3em;
+    line-height: 1.2;
+    border-bottom: 1px solid #202020;
+    color: var(--color-H1);
+}
+
+h2 {
+    padding-bottom: 0.3em;
+    font-size: 2.5em;
+    line-height: 1;
+    border-bottom: 1px solid #202020;
+    color: var(--color-H2);
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1.2;
+    color: var(--color-default);
+}
+
+h4 {
+    font-size: 2em;
+    color: var(--color-default);
+}
+
+h5 {
+    font-size: 2em;
+    color: var(--color-default);
+}
+
+h6 {
+    font-size: 2em;
+    color: var(--color-default);
+}
+
+p,
+dl,
+table {
+    font-size: 1.5em;
+    margin: 0.8em 0;
+    text-align: left;
+}
+
+ul,
+ol,
+blockquote {
+    font-size: 1em;
+    margin: 0.8em 0;
+    text-align: left;
+}
+
+li.md-list-item::marker {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 32px 0;
+    background-color: #212121;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+
+ul,
+ol {
+    padding-left: 10px;
+}
+
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+
+blockquote {
+    border-left: 4px solid #aaaaaa80;
+    margin-left: 2px;
+    padding: 0 15px;
+    color: #aaa;
+}
+
+blockquote blockquote {
+    padding-right: 0;
+}
+
+table {
+    padding: 0;
+    word-break: initial;
+    background-color: var(--bg-color);
+}
+
+table tr {
+    border-top: 1px solid #212121;
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(2n),
+thead {
+    background-color: #212121;
+}
+
+table tr th {
+    font-weight: bold;
+    border: 1px solid #383838;
+    border-bottom: 0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr td {
+    border: 1px solid #383838;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+strong,
+b {
+    color: #f0f0f0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(26, 26, 26, 0.3);
+    border-top: 1px solid #202020;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #424242;
+    background-color: #42424280;
+    border-radius: 3px;
+    padding: 2px 4px 1px 4px;
+    font-size: 0.85em;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.md-task-list-item>input {
+    margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+    background-color: #212121;
+}
+
+#write pre.md-meta-block {
+    padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #212121;
+    border: 0;
+    border-radius: 3px;
+    color: #aaa;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+    size: 2em;
+    bottom: 0.375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+.md-math-container,
+.md-mathjax-preview {
+    font-size: 2em;
+    font-style: var(--color-math);
+}
+
+.md-math-container,
+.md-mathjax-preview {
+    font-size: 1.5em;
+    font-style: var(--color-math);
+}
+
+.md-inline-math {
+    color: var(--color-math);
+}
+
+#write>h3.md-focus:before {
+    left: -1.5625rem;
+    top: 0.375rem;
+}
+
+#write>h4.md-focus:before {
+    left: -1.5625rem;
+    top: 0.285714286rem;
+}
+
+#write>h5.md-focus:before {
+    left: -1.5625rem;
+    top: 0.285714286rem;
+}
+
+#write>h6.md-focus:before {
+    left: -1.5625rem;
+    top: 0.285714286rem;
+}
+
+.md-image>.md-meta {
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: .5;
+}
+
+.md-toc {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #dddddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #fafafa;
+    border-color: #fefefe #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer.ty-footer {
+    height: 25px !important;
+    border-top: 1px solid #292a2d;
+    background: #292a2d !important;
+}
+
+.footer-item {
+    line-height: 25px !important;
+}
+
+#outline-btn {
+    margin-top: -2px !important;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+    background: #484848 !important;
+}
+
+.sidebar-content-content {
+    font-family: "TimesNewRoman", "思源宋体 CN", "宋体", "Open Sans", "Clear Sans", "Helvetica Neue",
+        Helvetica, Arial, sans-serif !important;
+}
+
+.outline-content {
+    padding: 3px 10px !important;
+    text-align: left !important;
+}
+
+.outline-item.outline-item-active {
+    margin-left: -28px;
+    margin-right: -28px;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    background-color: #424242;
+    background-color: #424242;
+    border-color: #424242;
+    background-color: #424242;
+}
+
+.sidebar-footer {
+    height: 25px;
+    border-top: 1px solid #292a2d;
+    background: #292a2d;
+}
+
+.sidebar-footer-item {
+    line-height: 25px;
+    padding-top: 0px !important;
+}
+
+.file-node-icon {
+    margin-right: 6px;
+}
+
+.file-node-open-state {
+    margin-right: 6px;
+}
+
+.dropdown-menu {
+    background-color: #2a2a2a !important;
+}
+
+.dropdown-menu .divider {
+    border-color: #424242 !important;
+}
+
+/* focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) img {
+    opacity: 20%;
+}
+
+.on-focus-mode .task-list-item:not(.md-focus-container)>input {
+    opacity: 20%;
+}
+
+.on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
+.on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
+    color: #80808080 !important;
+}
+
+.on-focus-mode li[cid]:not(.md-focus-container) {
+    color: #80808080 !important;
+}
+
+/*.on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
+  color: #80808080!important;
+}*/
+.on-focus-mode .md-focus,
+.on-focus-mode .md-focus-container {
+    color: #d0d0d0;
+}
+
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) code,
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) tt {
+    border: 1px solid #212121;
+    background-color: #212121;
+}
+
+/* focus mode end */
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+    font-family: "JetBrains Mono", "思源宋体 CN", "宋体", "Open Sans", "Clear Sans", "Helvetica Neue",
+        Helvetica, Arial, sans-serif;
+}
+
+.megamenu-content {
+    background: #242424 !important;
+}
+
+.megamenu-opened header {
+    background-color: #242424;
+    background-image: none;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state {
+    visibility: visible;
+}
+
+span.file-list-item-file-name-part {
+    color: #f0f0f0;
+}
+
+.file-list-item-summary {
+    height: 3rem;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 16px;
+    opacity: .7 !important;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #e6f0fe;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+/* code mirror */
+
+.CodeMirror-gutter-filler,
+.CodeMirror-scrollbar-filler {
+    background-color: #212121;
+}
+
+.CodeMirror-gutters {
+    border-right: 1px solid #484848;
+}
+
+.CodeMirror-linenumber {
+    color: #808080;
+}
+
+.cm-s-inner .cm-keyword {
+    color: rgb(189, 97, 201);
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+    color: rgb(131, 115, 236);
+}
+
+.cm-s-inner .cm-number {
+    color: rgb(73, 190, 143);
+}
+
+.cm-s-inner .cm-def {
+    color: rgb(123, 123, 255);
+}
+
+.cm-s-inner .cm-variable {
+    color: rgb(199, 199, 199);
+}
+
+.cm-s-inner .cm-variable-2 {
+    color: rgb(131, 166, 201);
+}
+
+.cm-s-inner .cm-variable-3 {
+    color: rgb(153, 197, 181);
+}
+
+.cm-s-inner .cm-string {
+    color: rgb(194, 104, 104);
+}
+
+.cm-s-inner .cm-property {
+    color: rgb(199, 199, 199);
+}
+
+.cm-s-inner .cm-operator {
+    color: #b67e7e;
+}
+
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+    color: rgb(216, 158, 99);
+}
+
+.cm-s-inner .cm-string-2 {
+    color: rgb(223, 152, 116);
+}
+
+.cm-s-inner .cm-meta {
+    color: rgb(158, 158, 158);
+}
+
+.cm-s-inner .cm-qualifier {
+    color: rgb(145, 145, 145);
+}
+
+.cm-s-inner .cm-builtin {
+    color: rgb(169, 145, 226);
+}
+
+.cm-s-inner .cm-bracket {
+    color: rgb(214, 214, 166);
+}
+
+.cm-s-inner .cm-tag {
+    color: rgb(162, 207, 154);
+}
+
+.cm-s-inner .cm-attribute {
+    color: rgb(169, 169, 216);
+}
+
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+    color: rgb(161, 161, 255);
+}
+
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+    color: rgb(90, 158, 90);
+}
+
+.cm-s-inner .cm-hr,
+.cm-s-inner.cm-hr {
+    color: rgb(184, 184, 184);
+}
+
+.cm-s-inner .cm-link,
+.cm-s-inner.cm-link {
+    color: rgb(134, 134, 197);
+}
+
+.cm-negative {
+    color: rgb(218, 126, 126);
+}
+
+.cm-positive {
+    color: rgb(118, 189, 118);
+}
+
+.cm-header,
+.cm-strong {
+    font-weight: 700;
+}
+
+.cm-del {
+    text-decoration: line-through;
+}
+
+.cm-em {
+    font-style: italic;
+}
+
+.cm-link {
+    text-decoration: underline;
+}
+
+.cm-error {
+    color: rgb(255, 75, 75);
+}
+
+.cm-invalidchar {
+    color: rgb(255, 75, 75);
+}
+
+.cm-constant {
+    color: #50a5e2;
+}
+
+.cm-defined {
+    color: #eccb66;
+}
+
+div.CodeMirror span.CodeMirror-matchingbracket {
+    color: rgb(139, 230, 139);
+}
+
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+    color: rgb(241, 99, 99);
+}
+
+.cm-searching {
+    background: #ffa;
+    background: rgba(255, 255, 0, 0.4);
+}
+
+.cm-tw-syntaxerror {
+    color: rgb(199, 199, 199);
+    background-color: #900;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 3px solid #e4629a;
+}
+
+#typora-source .CodeMirror-gutter-wrapper {
+    font-family: var(--monospace) !important;
+}
+
+.cm-s-typora-default .CodeMirror-activeline-background {
+    left: -99999px;
+    right: -99999px;
+    background: #80808020;
+}
+
+.cm-s-typora-default .cm-code,
+.cm-s-typora-default .cm-comment {
+    color: #8997d4;
+    font-family: monospace;
+    font-family: var(--monospace);
+}
+
+.cm-s-typora-default .cm-string {
+    color: #84a97e;
+}
+
+.cm-s-typora-default .cm-tag {
+    color: #c36260;
+}
+
+/* unibody */
+
+.megamenu-opened header {
+    background-color: var(--bg-color) !important;
+}
+
+.megamenu-menu {
+    background-color: var(--side-bar-bg-color) !important;
+}
+
+#megamenu-back-btn {
+    border-color: transparent;
+    color: #a94442;
+}
+
+.megamenu-content {
+    background: var(--bg-color) !important;
+}
+
+.long-btn {
+    border: 1px solid #9292928f;
+}
+
+table
+
+/*,
+input */
+    {
+    border: 1px solid #9292928f !important;
+}
+
+#recent-file-panel-action-btn {
+    background-color: var(--bg-color) !important;
+    border: 1px solid #9292928f !important;
+}
+
+#top-titlebar .toolbar-icon.btn.hover,
+#top-titlebar .toolbar-icon.btn:hover {
+    background-color: #212121;
+}
+
+#top-titlebar {
+    font-family: var(--monospace);
+}
+
+mjx-container[jax="SVG"]>svg {
+    color: var(--color-math);
+}
+.md-inline-math script {
+    color: #27d9dc;
+}
+
+
+</style><title>index</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h2 id='生息演算2沙洲遗闻-全关卡预览'><span>生息演算#2「沙洲遗闻」-全关卡预览</span></h2><blockquote><p><span>来源：</span><a href='https://www.bilibili.com/read/cv30623741'><span>CV30623741</span></a>
+<span>作者：</span><a href='https://space.bilibili.com/251015631'><span>风云de寒冰</span></a></p><p><span>本页面整理：</span><a href='https://github.com/KJH-x'><span>KJH-x</span></a></p></blockquote><p><span>提示：单击标题前往对应的地图，按 </span><kbd><span>HOME</span></kbd><span> 键回到此处</span></p><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><strong><span>资源区</span></strong></th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th></tr></thead><tbody><tr><td style='text-align:center;' ><a herf="#丰饶灌木林"><span>丰饶灌木林</span></a></td><td style='text-align:center;' ><a herf="#崎岖乱石岗"><span>崎岖乱石岗</span></a></td><td style='text-align:center;' ><a herf="#熔铁之心"><span>熔铁之心</span></a></td><td style='text-align:center;' ><a herf="#寻觅澄亮"><span>寻觅澄亮</span></a></td><td style='text-align:center;' ><a herf="#惊叫洞穴"><span>惊叫洞穴</span></a></td></tr><tr><td style='text-align:center;' ><a herf="#“迎宾走廊”"><span>“迎宾走廊”</span></a></td><td style='text-align:center;' ><a herf="#“金库”"><span>“金库”</span></a></td><td style='text-align:center;' ><a herf="#藏宝湾"><span>藏宝湾</span></a></td><td style='text-align:center;' ><a herf="#矿牢爬行"><span>矿牢爬行</span></a></td><td style='text-align:center;' ><a herf="#峰回歧路"><span>峰回歧路</span></a></td></tr><tr><td style='text-align:center;' ><a herf="#树林之主"><span>树林之主</span></a></td><td style='text-align:center;' ><a herf="#参差林木"><span>参差林木</span></a></td><td style='text-align:center;' ><a herf="#伐木征税"><span>伐木征税</span></a></td><td style='text-align:center;' ><a herf="#射程以内"><span>射程以内</span></a></td><td style='text-align:center;' ><a herf="#林中寻宝"><span>林中寻宝</span></a></td></tr><tr><td style='text-align:center;' ><a herf="#试验场"><span>试验场</span></a></td><td style='text-align:center;' ><a herf="#遗智还家"><span>遗智还家</span></a></td><td style='text-align:center;' ><a herf="#守卫自然"><span>守卫自然</span></a></td><td style='text-align:center;' ><a herf="#取舍"><span>取舍</span></a></td><td style='text-align:center;' ><a herf="#十字路口"><span>十字路口</span></a></td></tr><tr><td style='text-align:center;' ><a herf="#矿脉守卫"><span>矿脉守卫</span></a></td><td style='text-align:center;' ><a herf="#乱石岗"><span>乱石岗</span></a></td><td style='text-align:center;' ><a herf="#见证所"><span>见证所</span></a></td><td style='text-align:center;' ><a herf="#固守险境"><span>固守险境</span></a></td><td style='text-align:center;' ><a herf="#部落之争"><span>部落之争</span></a></td></tr></tbody></table></figure><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><span>捕猎区</span></th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th></tr></thead><tbody><tr><td style='text-align:center;' ><a href="#聚羽之地"><span>聚羽之地</span></a></td><td style='text-align:center;' ><a href="#浅草荒原"><span>浅草荒原</span></a></td><td style='text-align:center;' ><a href="#岛中蟹穴"><span>岛中蟹穴</span></a></td><td style='text-align:center;' ><a href="#迷失沼滩"><span>迷失沼滩</span></a></td><td style='text-align:center;' ><a href="#献祭之所"><span>献祭之所</span></a></td></tr><tr><td style='text-align:center;' ><a href="#岩壳蟹群"><span>岩壳蟹群</span></a></td><td style='text-align:center;' ><a href="#源石虫入侵"><span>源石虫入侵</span></a></td><td style='text-align:center;' ><a href="#原始奔腾"><span>原始奔腾</span></a></td><td style='text-align:center;' ><a href="#饮水为饵"><span>饮水为饵</span></a></td><td style='text-align:center;' ><a href="#直奔深渊"><span>直奔深渊</span></a></td></tr><tr><td style='text-align:center;' ><a href="#夺路而逃"><span>夺路而逃</span></a></td><td style='text-align:center;' ><a href="#无形界限"><span>无形界限</span></a></td><td style='text-align:center;' ><a href="#驯化"><span>驯化</span></a></td><td style='text-align:center;' ><a href="#方形竞技场"><span>方形竞技场</span></a></td><td style='text-align:center;' ><a href="#大迁徙"><span>大迁徙</span></a></td></tr></tbody></table></figure><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><span>无主地</span></th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th></tr></thead><tbody><tr><td style='text-align:center;' ><a href="#翠梦遗址"><span>翠梦遗址</span></a></td><td style='text-align:center;' ><a href="#火圈狂舞"><span>火圈狂舞</span></a></td><td style='text-align:center;' ><a href="#宿命终结"><span>宿命终结</span></a></td><td style='text-align:center;' ><a href="#清泉之下"><span>清泉之下</span></a></td><td style='text-align:center;' ><a href="#晶生玲珑"><span>晶生玲珑</span></a></td></tr><tr><td style='text-align:center;' ><a href="#深岩裂谷"><span>深岩裂谷</span></a></td><td style='text-align:center;' ><a href="#失落的“长生军”"><span>失落的“长生军”</span></a></td><td style='text-align:center;' ><a href="#失落的巨翼兽"><span>失落的巨翼兽</span></a></td><td style='text-align:center;' ><a href="#大地病征"><span>大地病征</span></a></td><td style='text-align:center;' >&nbsp;</td></tr></tbody></table></figure><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><span>要无主地塞</span></th><th style='text-align:center;' ><strong><span>关隘</span></strong></th><th style='text-align:center;' ><strong><span>奇遇</span></strong></th><th style='text-align:center;' ><strong><span>哨站</span></strong></th></tr></thead><tbody><tr><td style='text-align:center;' ><a href="#征税的选择"><span>征税的选择</span></a></td><td style='text-align:center;' ><a href="#炎岩关"><span>炎岩关</span></a></td><td style='text-align:center;' ><a href="#风啸峡谷"><span>风啸峡谷</span></a></td><td style='text-align:center;' ><a href="#广袤迎敌之处"><span>广袤迎敌之处</span></a></td></tr><tr><td style='text-align:center;' ><a href="#不速之客"><span>不速之客</span></a></td><td style='text-align:center;' ><a href="#翠影关"><span>翠影关</span></a></td><td style='text-align:center;' ><a href="#砾沙平原"><span>砾沙平原</span></a></td><td style='text-align:center;' ><a href="#峥嵘迎敌之处"><span>峥嵘迎敌之处</span></a></td></tr><tr><td style='text-align:center;' ><a href="#战争本能"><span>战争本能</span></a></td><td style='text-align:center;' ><a href="#千仞关"><span>千仞关</span></a></td><td style='text-align:center;' ><a href="#崎岖窄路"><span>崎岖窄路</span></a></td><td style='text-align:center;' ><a href="#荒弃迎敌之处"><span>荒弃迎敌之处</span></a></td></tr></tbody></table></figure><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><strong><span>荒废城镇</span></strong></th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th></tr></thead><tbody><tr><td style='text-align:center;' ><a href="#乌胡米什"><span>乌胡米什</span></a></td><td style='text-align:center;' ><a href="#布卢塔巴图"><span>布卢塔巴图</span></a></td><td style='text-align:center;' ><a href="#那穆图巴辛"><span>那穆图巴辛</span></a></td><td style='text-align:center;' ><a href="#别塔卜-阿帕卡里"><span>别塔卜-阿帕卡里</span></a></td><td style='text-align:center;' ><a href="#战士的视野"><span>战士的视野</span></a></td></tr></tbody></table></figure><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><span>荒废城镇</span></th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th></tr></thead><tbody><tr><td style='text-align:center;' ><a href="#战士的视野"><span>战士的视野</span></a></td><td style='text-align:center;' ><a href="#佣兵的所属"><span>佣兵的所属</span></a></td><td style='text-align:center;' ><a href="#丢失的订单"><span>丢失的订单</span></a></td><td style='text-align:center;' ><a href="#不尽烈火"><span>不尽烈火</span></a></td><td style='text-align:center;' ><a href="#被限制的怒火"><span>被限制的怒火</span></a></td></tr><tr><td style='text-align:center;' ><a href="#囚笼"><span>囚笼</span></a></td><td style='text-align:center;' ><a href="#苦难河床"><span>苦难河床</span></a></td><td style='text-align:center;' ><a href="#寻觅道路"><span>寻觅道路</span></a></td><td style='text-align:center;' ><a href="#遭遇战"><span>遭遇战</span></a></td><td style='text-align:center;' >&nbsp;</td></tr></tbody></table></figure><figure class='table-figure'><table><thead><tr><th style='text-align:center;' ><span>其他</span></th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th><th style='text-align:center;' >&nbsp;</th></tr></thead><tbody><tr><td style='text-align:center;' ><a href="#狩猎训练"><span>狩猎训练</span></a></td><td style='text-align:center;' ><a href="#采掘训练"><span>采掘训练</span></a></td><td style='text-align:center;' ><a href="#工具训练"><span>工具训练</span></a></td><td style='text-align:center;' ><a href="#众人会聚之地"><span>众人会聚之地</span></a></td><td style='text-align:center;' ><a href="#前进营地"><span>前进营地</span></a></td><td style='text-align:center;' ><a href="#驻扎"><span>驻扎</span></a></td></tr></tbody></table></figure><h2 id='1-资源区'><span>(1) 资源区</span></h2><section id="丰饶灌木林"><img src=".assets\(1) 资源区\资源区_01_丰饶灌木林.png" alt="丰饶灌木林"></section>
+<section id="崎岖乱石岗"><img src=".assets\(1) 资源区\资源区_02_崎岖乱石岗.png" alt="崎岖乱石岗"></section>
+<section id="熔铁之心"><img src=".assets\(1) 资源区\资源区_03_熔铁之心.png" alt="熔铁之心"></section>
+<section id="寻觅澄亮"><img src=".assets\(1) 资源区\资源区_04_寻觅澄亮.png" alt="寻觅澄亮"></section>
+<section id="惊叫洞穴"><img src=".assets\(1) 资源区\资源区_05_惊叫洞穴.png" alt="惊叫洞穴"></section>
+<section id="“迎宾走廊”"><img src=".assets\(1) 资源区\资源区_06_“迎宾走廊”.png" alt="“迎宾走廊”"></section>
+<section id="“金库”"><img src=".assets\(1) 资源区\资源区_07_“金库”.png" alt="“金库”"></section>
+<section id="藏宝湾"><img src=".assets\(1) 资源区\资源区_08_藏宝湾.png" alt="藏宝湾"></section>
+<section id="矿牢爬行"><img src=".assets\(1) 资源区\资源区_16_矿牢爬行.png" alt="矿牢爬行"></section>
+<section id="峰回歧路"><img src=".assets\(1) 资源区\资源区_17_峰回歧路.png" alt="峰回歧路"></section>
+<section id="树林之主"><img src=".assets\(1) 资源区\资源区_34_树林之主.png" alt="树林之主"></section>
+<section id="参差林木"><img src=".assets\(1) 资源区\资源区_35_参差林木.png" alt="参差林木"></section>
+<section id="伐木征税"><img src=".assets\(1) 资源区\资源区_36_伐木征税.png" alt="伐木征税"></section>
+<section id="射程以内"><img src=".assets\(1) 资源区\资源区_37_射程以内.png" alt="射程以内"></section>
+<section id="林中寻宝"><img src=".assets\(1) 资源区\资源区_38_林中寻宝.png" alt="林中寻宝"></section>
+<section id="试验场"><img src=".assets\(1) 资源区\资源区_39_试验场.png" alt="试验场"></section>
+<section id="遗智还家"><img src=".assets\(1) 资源区\资源区_40_遗智还家.png" alt="遗智还家"></section>
+<section id="守卫自然"><img src=".assets\(1) 资源区\资源区_41_守卫自然.png" alt="守卫自然"></section>
+<section id="取舍"><img src=".assets\(1) 资源区\资源区_42_取舍.png" alt="取舍"></section>
+<section id="十字路口"><img src=".assets\(1) 资源区\资源区_43_十字路口.png" alt="十字路口"></section>
+<section id="矿脉守卫"><img src=".assets\(1) 资源区\资源区_44_矿脉守卫.png" alt="矿脉守卫"></section>
+<section id="乱石岗"><img src=".assets\(1) 资源区\资源区_45_乱石岗.png" alt="乱石岗"></section>
+<section id="见证所"><img src=".assets\(1) 资源区\资源区_46_见证所.png" alt="见证所"></section>
+<section id="固守险境"><img src=".assets\(1) 资源区\资源区_48_固守险境.png" alt="固守险境"></section>
+<section id="部落之争"><img src=".assets\(1) 资源区\资源区_49_部落之争.png" alt="部落之争"></section><h2 id='2-捕猎区'><span>(2) 捕猎区</span></h2><section id="聚羽之地"><img src=".assets\(2) 捕猎区\捕猎区_09_聚羽之地.png" alt="聚羽之地"></section>
+<section id="浅草荒原"><img src=".assets\(2) 捕猎区\捕猎区_10_浅草荒原.png" alt="浅草荒原"></section>
+<section id="岛中蟹穴"><img src=".assets\(2) 捕猎区\捕猎区_11_岛中蟹穴.png" alt="岛中蟹穴"></section>
+<section id="迷失沼滩"><img src=".assets\(2) 捕猎区\捕猎区_12_迷失沼滩.png" alt="迷失沼滩"></section>
+<section id="献祭之所"><img src=".assets\(2) 捕猎区\捕猎区_13_献祭之所.png" alt="献祭之所"></section>
+<section id="岩壳蟹群"><img src=".assets\(2) 捕猎区\捕猎区_47_岩壳蟹群.png" alt="岩壳蟹群"></section>
+<section id="源石虫入侵"><img src=".assets\(2) 捕猎区\捕猎区_50_源石虫入侵.png" alt="源石虫入侵"></section>
+<section id="原始奔腾"><img src=".assets\(2) 捕猎区\捕猎区_51_原始奔腾.png" alt="原始奔腾"></section>
+<section id="饮水为饵"><img src=".assets\(2) 捕猎区\捕猎区_52_饮水为饵.png" alt="饮水为饵"></section>
+<section id="直奔深渊"><img src=".assets\(2) 捕猎区\捕猎区_53_直奔深渊.png" alt="直奔深渊"></section>
+<section id="夺路而逃"><img src=".assets\(2) 捕猎区\捕猎区_54_夺路而逃.png" alt="夺路而逃"></section>
+<section id="无形界限"><img src=".assets\(2) 捕猎区\捕猎区_55_无形界限.png" alt="无形界限"></section>
+<section id="驯化"><img src=".assets\(2) 捕猎区\捕猎区_56_驯化.png" alt="驯化"></section>
+<section id="方形竞技场"><img src=".assets\(2) 捕猎区\捕猎区_57_方形竞技场.png" alt="方形竞技场"></section>
+<section id="大迁徙"><img src=".assets\(2) 捕猎区\捕猎区_58_大迁徙.png" alt="大迁徙"></section><h2 id='3-无主地'><span>(3) 无主地</span></h2><section id="翠梦遗址"><img src=".assets\(3) 无主地\无主地_18_翠梦遗址.png" alt="翠梦遗址"></section>
+<section id="火圈狂舞"><img src=".assets\(3) 无主地\无主地_19_火圈狂舞.png" alt="火圈狂舞"></section>
+<section id="宿命终结"><img src=".assets\(3) 无主地\无主地_20_宿命终结.png" alt="宿命终结"></section>
+<section id="清泉之下"><img src=".assets\(3) 无主地\无主地_21_清泉之下.png" alt="清泉之下"></section>
+<section id="晶生玲珑"><img src=".assets\(3) 无主地\无主地_22_晶生玲珑.png" alt="晶生玲珑"></section>
+<section id="深岩裂谷"><img src=".assets\(3) 无主地\无主地_23_深岩裂谷.png" alt="深岩裂谷"></section>
+<section id="失落的“长生军”"><img src=".assets\(3) 无主地\无主地_63_失落的“长生军”.png" alt="失落的“长生军”"></section>
+<section id="失落的巨翼兽"><img src=".assets\(3) 无主地\无主地_64_失落的巨翼兽.png" alt="失落的巨翼兽"></section>
+<section id="大地病征"><img src=".assets\(3) 无主地\无主地_65_大地病征.png" alt="大地病征"></section><h2 id='4-要无主地塞'><span>(4) 要无主地塞</span></h2><section id="征税的选择"><img src=".assets\(4) 要塞\要塞_59_征税的选择.png" alt="征税的选择"></section>
+<section id="不速之客"><img src=".assets\(4) 要塞\要塞_61_不速之客.png" alt="不速之客"></section>
+<section id="战争本能"><img src=".assets\(4) 要塞\要塞_62_战争本能.png" alt="战争本能"></section><h2 id='5-关隘'><span>(5) 关隘</span></h2><section id="炎岩关"><img src=".assets\(5) 关隘\关隘_14_炎岩关.png" alt="炎岩关"></section>
+<section id="翠影关"><img src=".assets\(5) 关隘\关隘_15_翠影关.png" alt="翠影关"></section>
+<section id="千仞关"><img src=".assets\(5) 关隘\关隘_60_千仞关.png" alt="千仞关"></section><h2 id='6-荒废城镇'><span>(6) 荒废城镇</span></h2><section id="乌胡米什"><img src=".assets\(6) 荒废城镇\荒废城镇_28_乌胡米什.png" alt="乌胡米什"></section>
+<section id="布卢塔巴图"><img src=".assets\(6) 荒废城镇\荒废城镇_29_布卢塔巴图.png" alt="布卢塔巴图"></section>
+<section id="那穆图巴辛"><img src=".assets\(6) 荒废城镇\荒废城镇_30_那穆图巴辛.png" alt="那穆图巴辛"></section>
+<section id="别塔卜-阿帕卡里"><img src=".assets\(6) 荒废城镇\荒废城镇_31_别塔卜-阿帕卡里.png" alt="别塔卜"></section><h2 id='7-冲突区'><span>(7) 冲突区</span></h2><section id="战士的视野"><img src=".assets\(7) 冲突区\冲突区_69_战士的视野.png" alt="战士的视野"></section>
+<section id="佣兵的所属"><img src=".assets\(7) 冲突区\冲突区_70_佣兵的所属.png" alt="佣兵的所属"></section>
+<section id="丢失的订单"><img src=".assets\(7) 冲突区\冲突区_71_丢失的订单.png" alt="丢失的订单"></section>
+<section id="不尽烈火"><img src=".assets\(7) 冲突区\冲突区_72_不尽烈火.png" alt="不尽烈火"></section>
+<section id="被限制的怒火"><img src=".assets\(7) 冲突区\冲突区_73_被限制的怒火.png" alt="被限制的怒火"></section>
+<section id="囚笼"><img src=".assets\(7) 冲突区\冲突区_74_囚笼.png" alt="囚笼"></section>
+<section id="苦难河床"><img src=".assets\(7) 冲突区\冲突区_75_苦难河床.png" alt="苦难河床"></section>
+<section id="寻觅道路"><img src=".assets\(7) 冲突区\冲突区_76_寻觅道路.png" alt="寻觅道路"></section>
+<section id="遭遇战"><img src=".assets\(7) 冲突区\冲突区_77_遭遇战.png" alt="遭遇战"></section><h2 id='8-奇遇'><span>(8) 奇遇</span></h2><section id="风啸峡谷"><img src=".assets\(8) 奇遇\奇遇_66_风啸峡谷.png" alt="风啸峡谷"></section>
+<section id="砾沙平原"><img src=".assets\(8) 奇遇\奇遇_67_砾沙平原.png" alt="砾沙平原"></section>
+<section id="崎岖窄路"><img src=".assets\(8) 奇遇\奇遇_68_崎岖窄路.png" alt="崎岖窄路"></section><h2 id='9-哨站'><span>(9) 哨站</span></h2><section id="广袤迎敌之处"><img src=".assets\(9) 哨站\哨站_24_广袤迎敌之处.png" alt="广袤迎敌之处"></section>
+<section id="峥嵘迎敌之处"><img src=".assets\(9) 哨站\哨站_25_峥嵘迎敌之处.png" alt="峥嵘迎敌之处"></section>
+<section id="荒弃迎敌之处"><img src=".assets\(9) 哨站\哨站_26_荒弃迎敌之处.png" alt="荒弃迎敌之处"></section><h2 id='10-其他'><span>(10) 其他</span></h2><section id="狩猎训练"><img src=".assets\(10) 其他\其他_tr01_狩猎训练.png" alt="狩猎训练"></section>
+<section id="采掘训练"><img src=".assets\(10) 其他\其他_tr02_采掘训练.png" alt="采掘训练"></section>
+<section id="工具训练"><img src=".assets\(10) 其他\其他_tr03_工具训练.png" alt="工具训练"></section>
+<section id="众人会聚之地"><img src=".assets\(10) 其他\后舍_33_众人会聚之地.png" alt="众人会聚之地"></section>
+<section id="前进营地"><img src=".assets\(10) 其他\旷野房车_32_前进营地.png" alt="前进营地"></section>
+<section id="驻扎地"><img src=".assets\(10) 其他\驻扎地_27_驻扎地.png" alt="驻扎地"></section></div></div>
+</body>
+</html>
