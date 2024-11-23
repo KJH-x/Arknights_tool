@@ -1,0 +1,2914 @@
+[
+    {
+        "char_002_amiya": {
+            "name_zh": "阿米娅",
+            "name_pinyin": "amy",
+            "name_en": "Amiya",
+            "short_code": "R001"
+        }
+    },
+    {
+        "char_003_kalts": {
+            "name_zh": "凯尔希",
+            "name_pinyin": "kex",
+            "name_en": "Kal'tsit",
+            "short_code": "B003"
+        }
+    },
+    {
+        "char_009_12fce": {
+            "name_zh": "12F",
+            "name_pinyin": "12F",
+            "name_en": "12F",
+            "short_code": "R303"
+        }
+    },
+    {
+        "char_010_chen": {
+            "name_zh": "陈",
+            "name_pinyin": "c",
+            "name_en": "Ch'en",
+            "short_code": "LM04"
+        }
+    },
+    {
+        "char_017_huang": {
+            "name_zh": "煌",
+            "name_pinyin": "h",
+            "name_en": "Blaze",
+            "short_code": "RE41"
+        }
+    },
+    {
+        "char_1001_amiya2": {
+            "name_zh": "阿米娅(近卫)",
+            "name_pinyin": "amyjw",
+            "name_en": "Amiya",
+            "short_code": "R001"
+        }
+    },
+    {
+        "char_101_sora": {
+            "name_zh": "空",
+            "name_pinyin": "k",
+            "name_en": "Sora",
+            "short_code": "PL05"
+        }
+    },
+    {
+        "char_1011_lava2": {
+            "name_zh": "炎狱炎熔",
+            "name_pinyin": "yyyr",
+            "name_en": "Lava the Purgatory",
+            "short_code": "RF01"
+        }
+    },
+    {
+        "char_1012_skadi2": {
+            "name_zh": "浊心斯卡蒂",
+            "name_pinyin": "zxskd",
+            "name_en": "Skadi the Corrupting Heart",
+            "short_code": "CR01"
+        }
+    },
+    {
+        "char_1013_chen2": {
+            "name_zh": "假日威龙陈",
+            "name_pinyin": "jrwlc",
+            "name_en": "Ch'en the Holungday",
+            "short_code": "R112"
+        }
+    },
+    {
+        "char_1014_nearl2": {
+            "name_zh": "耀骑士临光",
+            "name_pinyin": "yqslg",
+            "name_en": "Nearl the Radiant Knight",
+            "short_code": "KZ01"
+        }
+    },
+    {
+        "char_1016_agoat2": {
+            "name_zh": "纯烬艾雅法拉",
+            "name_pinyin": "cjayfl",
+            "name_en": "Eyjafjalla the Hvít Aska",
+            "short_code": "LN10"
+        }
+    },
+    {
+        "char_1019_siege2": {
+            "name_zh": "维娜·维多利亚",
+            "name_pinyin": "wnwdly",
+            "name_en": "Vina Victoria",
+            "short_code": "VC00"
+        }
+    },
+    {
+        "char_102_texas": {
+            "name_zh": "德克萨斯",
+            "name_pinyin": "dkss",
+            "name_en": "Texas",
+            "short_code": "PL02"
+        }
+    },
+    {
+        "char_1020_reed2": {
+            "name_zh": "焰影苇草",
+            "name_pinyin": "yywc",
+            "name_en": "Reed the Flame Shadow",
+            "short_code": "DB02"
+        }
+    },
+    {
+        "char_1021_kroos2": {
+            "name_zh": "寒芒克洛丝",
+            "name_pinyin": "hmkls",
+            "name_en": "Kroos the Keen Glint",
+            "short_code": "RF02"
+        }
+    },
+    {
+        "char_1023_ghost2": {
+            "name_zh": "归溟幽灵鲨",
+            "name_pinyin": "gmyls",
+            "name_en": "Specter the Unchained",
+            "short_code": "CR02"
+        }
+    },
+    {
+        "char_1024_hbisc2": {
+            "name_zh": "濯尘芙蓉",
+            "name_pinyin": "zcfr",
+            "name_en": "Hibiscus the Purifier",
+            "short_code": "RF03"
+        }
+    },
+    {
+        "char_1026_gvial2": {
+            "name_zh": "百炼嘉维尔",
+            "name_pinyin": "bljwe",
+            "name_en": "Gavial the Invincible",
+            "short_code": "RF22"
+        }
+    },
+    {
+        "char_1027_greyy2": {
+            "name_zh": "承曦格雷伊",
+            "name_pinyin": "cxgly",
+            "name_en": "Greyy the Lightningbearer",
+            "short_code": "RF23"
+        }
+    },
+    {
+        "char_1028_texas2": {
+            "name_zh": "缄默德克萨斯",
+            "name_pinyin": "jmdkss",
+            "name_en": "Texas the Omertosa",
+            "short_code": "PL07"
+        }
+    },
+    {
+        "char_1029_yato2": {
+            "name_zh": "麒麟R夜刀",
+            "name_pinyin": "qlRyd",
+            "name_en": "Kirin R Yato",
+            "short_code": "MH02"
+        }
+    },
+    {
+        "char_103_angel": {
+            "name_zh": "能天使",
+            "name_pinyin": "nts",
+            "name_en": "Exusiai",
+            "short_code": "PL03"
+        }
+    },
+    {
+        "char_1030_noirc2": {
+            "name_zh": "火龙S黑角",
+            "name_pinyin": "hlShj",
+            "name_en": "Rathalos S Noir Corne",
+            "short_code": "MH03"
+        }
+    },
+    {
+        "char_1031_slent2": {
+            "name_zh": "淬羽赫默",
+            "name_pinyin": "cyhm",
+            "name_en": "Silence the Paradigmatic",
+            "short_code": "RL10"
+        }
+    },
+    {
+        "char_1032_excu2": {
+            "name_zh": "圣约送葬人",
+            "name_pinyin": "syszr",
+            "name_en": "Executor the Ex Foedere",
+            "short_code": "LT40"
+        }
+    },
+    {
+        "char_1033_swire2": {
+            "name_zh": "琳琅诗怀雅",
+            "name_pinyin": "llshy",
+            "name_en": "Swire the Elegant Wit",
+            "short_code": "LM22"
+        }
+    },
+    {
+        "char_1034_jesca2": {
+            "name_zh": "涤火杰西卡",
+            "name_pinyin": "dhjxk",
+            "name_en": "Jessica the Liberated",
+            "short_code": "BS30"
+        }
+    },
+    {
+        "char_1035_wisdel": {
+            "name_zh": "维什戴尔",
+            "name_pinyin": "wsde",
+            "name_en": "Wiš'adel",
+            "short_code": "B00W"
+        }
+    },
+    {
+        "char_1036_fang2": {
+            "name_zh": "历阵锐枪芬",
+            "name_pinyin": "lzrqf",
+            "name_en": "Fang the Fire-sharpened",
+            "short_code": "RF04"
+        }
+    },
+    {
+        "char_1037_amiya3": {
+            "name_zh": "阿米娅(医疗)",
+            "name_pinyin": "amyyl",
+            "name_en": "Amiya",
+            "short_code": "R001"
+        }
+    },
+    {
+        "char_1038_whitw2": {
+            "name_zh": "荒芜拉普兰德",
+            "name_pinyin": "hwlpld",
+            "name_en": "Lappland the Decadenza",
+            "short_code": "SR04"
+        }
+    },
+    {
+        "char_106_franka": {
+            "name_zh": "芙兰卡",
+            "name_pinyin": "flk",
+            "name_en": "Franka",
+            "short_code": "BS01"
+        }
+    },
+    {
+        "char_107_liskam": {
+            "name_zh": "雷蛇",
+            "name_pinyin": "ls",
+            "name_en": "Liskarm",
+            "short_code": "BS02"
+        }
+    },
+    {
+        "char_108_silent": {
+            "name_zh": "赫默",
+            "name_pinyin": "hm",
+            "name_en": "Silence",
+            "short_code": "RL01"
+        }
+    },
+    {
+        "char_109_fmout": {
+            "name_zh": "远山",
+            "name_pinyin": "ys",
+            "name_en": "Gitano",
+            "short_code": "SI01"
+        }
+    },
+    {
+        "char_110_deepcl": {
+            "name_zh": "深海色",
+            "name_pinyin": "shs",
+            "name_en": "Deepcolor",
+            "short_code": "AA04"
+        }
+    },
+    {
+        "char_112_siege": {
+            "name_zh": "推进之王",
+            "name_pinyin": "tjzw",
+            "name_en": "Siege",
+            "short_code": "GG01"
+        }
+    },
+    {
+        "char_113_cqbw": {
+            "name_zh": "W",
+            "name_pinyin": "W",
+            "name_en": "W",
+            "short_code": "B214"
+        }
+    },
+    {
+        "char_115_headbr": {
+            "name_zh": "凛冬",
+            "name_pinyin": "ld",
+            "name_en": "Zima",
+            "short_code": "USS1"
+        }
+    },
+    {
+        "char_117_myrrh": {
+            "name_zh": "末药",
+            "name_pinyin": "my",
+            "name_en": "Myrrh",
+            "short_code": "R104"
+        }
+    },
+    {
+        "char_118_yuki": {
+            "name_zh": "白雪",
+            "name_pinyin": "bx",
+            "name_en": "Shirayuki",
+            "short_code": "LM10"
+        }
+    },
+    {
+        "char_120_hibisc": {
+            "name_zh": "芙蓉",
+            "name_pinyin": "fr",
+            "name_en": "Hibiscus",
+            "short_code": "PA13"
+        }
+    },
+    {
+        "char_121_lava": {
+            "name_zh": "炎熔",
+            "name_pinyin": "yr",
+            "name_en": "Lava",
+            "short_code": "PA15"
+        }
+    },
+    {
+        "char_122_beagle": {
+            "name_zh": "米格鲁",
+            "name_pinyin": "mgl",
+            "name_en": "Beagle",
+            "short_code": "PA14"
+        }
+    },
+    {
+        "char_123_fang": {
+            "name_zh": "芬",
+            "name_pinyin": "f",
+            "name_en": "Fang",
+            "short_code": "PA11"
+        }
+    },
+    {
+        "char_124_kroos": {
+            "name_zh": "克洛丝",
+            "name_pinyin": "kls",
+            "name_en": "Kroos",
+            "short_code": "PA12"
+        }
+    },
+    {
+        "char_126_shotst": {
+            "name_zh": "流星",
+            "name_pinyin": "lx",
+            "name_en": "Meteor",
+            "short_code": "ST02"
+        }
+    },
+    {
+        "char_127_estell": {
+            "name_zh": "艾丝黛尔",
+            "name_pinyin": "asde",
+            "name_en": "Estelle",
+            "short_code": "IU04"
+        }
+    },
+    {
+        "char_128_plosis": {
+            "name_zh": "白面鸮",
+            "name_pinyin": "bmx",
+            "name_en": "Ptilopsis",
+            "short_code": "RL04"
+        }
+    },
+    {
+        "char_129_bluep": {
+            "name_zh": "蓝毒",
+            "name_pinyin": "ld",
+            "name_en": "Blue Poison",
+            "short_code": "AA03"
+        }
+    },
+    {
+        "char_130_doberm": {
+            "name_zh": "杜宾",
+            "name_pinyin": "db",
+            "name_en": "Dobermann",
+            "short_code": "R100"
+        }
+    },
+    {
+        "char_131_flameb": {
+            "name_zh": "炎客",
+            "name_pinyin": "yk",
+            "name_en": "Flamebringer",
+            "short_code": "R137"
+        }
+    },
+    {
+        "char_133_mm": {
+            "name_zh": "梅",
+            "name_pinyin": "m",
+            "name_en": "May",
+            "short_code": "VC01"
+        }
+    },
+    {
+        "char_134_ifrit": {
+            "name_zh": "伊芙利特",
+            "name_pinyin": "yflt",
+            "name_en": "Ifrit",
+            "short_code": "RL03"
+        }
+    },
+    {
+        "char_135_halo": {
+            "name_zh": "星源",
+            "name_pinyin": "xy",
+            "name_en": "Astgenne",
+            "short_code": "RL08"
+        }
+    },
+    {
+        "char_136_hsguma": {
+            "name_zh": "星熊",
+            "name_pinyin": "xx",
+            "name_en": "Hoshiguma",
+            "short_code": "LM05"
+        }
+    },
+    {
+        "char_137_brownb": {
+            "name_zh": "猎蜂",
+            "name_pinyin": "lf",
+            "name_en": "Beehunter",
+            "short_code": "US10"
+        }
+    },
+    {
+        "char_140_whitew": {
+            "name_zh": "拉普兰德",
+            "name_pinyin": "lpld",
+            "name_en": "Lappland",
+            "short_code": "SR01"
+        }
+    },
+    {
+        "char_141_nights": {
+            "name_zh": "夜烟",
+            "name_pinyin": "yy",
+            "name_en": "Haze",
+            "short_code": "VC02"
+        }
+    },
+    {
+        "char_143_ghost": {
+            "name_zh": "幽灵鲨",
+            "name_pinyin": "yls",
+            "name_en": "Specter",
+            "short_code": "AA02"
+        }
+    },
+    {
+        "char_144_red": {
+            "name_zh": "红",
+            "name_pinyin": "h",
+            "name_en": "Projekt Red",
+            "short_code": "SW01"
+        }
+    },
+    {
+        "char_145_prove": {
+            "name_zh": "普罗旺斯",
+            "name_pinyin": "plws",
+            "name_en": "Provence",
+            "short_code": "SR03"
+        }
+    },
+    {
+        "char_147_shining": {
+            "name_zh": "闪灵",
+            "name_pinyin": "sl",
+            "name_en": "Shining",
+            "short_code": "FO01"
+        }
+    },
+    {
+        "char_148_nearl": {
+            "name_zh": "临光",
+            "name_pinyin": "lg",
+            "name_en": "Nearl",
+            "short_code": "FO02"
+        }
+    },
+    {
+        "char_149_scave": {
+            "name_zh": "清道夫",
+            "name_pinyin": "qdf",
+            "name_en": "Scavenger",
+            "short_code": "SW02"
+        }
+    },
+    {
+        "char_150_snakek": {
+            "name_zh": "蛇屠箱",
+            "name_pinyin": "stx",
+            "name_en": "Cuora",
+            "short_code": "IU05"
+        }
+    },
+    {
+        "char_1502_crosly": {
+            "name_zh": "弑君者",
+            "name_pinyin": "sjz",
+            "name_en": "Crownslayer",
+            "short_code": "R315"
+        }
+    },
+    {
+        "char_1505_frstar": {
+            "name_zh": "霜星",
+            "name_pinyin": "sx",
+            "name_en": "FrostNova",
+            "short_code": "FN"
+        }
+    },
+    {
+        "char_151_myrtle": {
+            "name_zh": "桃金娘",
+            "name_pinyin": "tjn",
+            "name_en": "Myrtle",
+            "short_code": "R108"
+        }
+    },
+    {
+        "char_154_morgan": {
+            "name_zh": "摩根",
+            "name_pinyin": "mg",
+            "name_en": "Morgan",
+            "short_code": "GG02"
+        }
+    },
+    {
+        "char_155_tiger": {
+            "name_zh": "因陀罗",
+            "name_pinyin": "ytl",
+            "name_en": "Indra",
+            "short_code": "GG03"
+        }
+    },
+    {
+        "char_157_dagda": {
+            "name_zh": "达格达",
+            "name_pinyin": "dgd",
+            "name_en": "Dagda",
+            "short_code": "GG04"
+        }
+    },
+    {
+        "char_158_milu": {
+            "name_zh": "守林人",
+            "name_pinyin": "slr",
+            "name_en": "Firewatch",
+            "short_code": "ST01"
+        }
+    },
+    {
+        "char_159_peacok": {
+            "name_zh": "断罪者",
+            "name_pinyin": "dzz",
+            "name_en": "Conviction",
+            "short_code": "MN01"
+        }
+    },
+    {
+        "char_163_hpsts": {
+            "name_zh": "火神",
+            "name_pinyin": "hs",
+            "name_en": "Vulcan",
+            "short_code": "MN02"
+        }
+    },
+    {
+        "char_164_nightm": {
+            "name_zh": "夜魔",
+            "name_pinyin": "ym",
+            "name_en": "Nightmare",
+            "short_code": "VC03"
+        }
+    },
+    {
+        "char_166_skfire": {
+            "name_zh": "天火",
+            "name_pinyin": "th",
+            "name_en": "Skyfire",
+            "short_code": "SK01"
+        }
+    },
+    {
+        "char_171_bldsk": {
+            "name_zh": "华法琳",
+            "name_pinyin": "hfl",
+            "name_en": "Warfarin",
+            "short_code": "R106"
+        }
+    },
+    {
+        "char_172_svrash": {
+            "name_zh": "银灰",
+            "name_pinyin": "yh",
+            "name_en": "SilverAsh",
+            "short_code": "JC01"
+        }
+    },
+    {
+        "char_173_slchan": {
+            "name_zh": "崖心",
+            "name_pinyin": "yx",
+            "name_en": "Cliffheart",
+            "short_code": "JC06"
+        }
+    },
+    {
+        "char_174_slbell": {
+            "name_zh": "初雪",
+            "name_pinyin": "cx",
+            "name_en": "Pramanix",
+            "short_code": "JC05"
+        }
+    },
+    {
+        "char_179_cgbird": {
+            "name_zh": "夜莺",
+            "name_pinyin": "yy",
+            "name_en": "Nightingale",
+            "short_code": "FO03"
+        }
+    },
+    {
+        "char_180_amgoat": {
+            "name_zh": "艾雅法拉",
+            "name_pinyin": "ayfl",
+            "name_en": "Eyjafjalla",
+            "short_code": "LN02"
+        }
+    },
+    {
+        "char_181_flower": {
+            "name_zh": "调香师",
+            "name_pinyin": "dxs",
+            "name_en": "Perfumer",
+            "short_code": "MN03"
+        }
+    },
+    {
+        "char_183_skgoat": {
+            "name_zh": "地灵",
+            "name_pinyin": "dl",
+            "name_en": "Earthspirit",
+            "short_code": "LN01"
+        }
+    },
+    {
+        "char_185_frncat": {
+            "name_zh": "慕斯",
+            "name_pinyin": "ms",
+            "name_en": "Mousse",
+            "short_code": "VC04"
+        }
+    },
+    {
+        "char_187_ccheal": {
+            "name_zh": "嘉维尔",
+            "name_pinyin": "jwe",
+            "name_en": "Gavial",
+            "short_code": "IU07"
+        }
+    },
+    {
+        "char_188_helage": {
+            "name_zh": "赫拉格",
+            "name_pinyin": "hlg",
+            "name_en": "Hellagur",
+            "short_code": "AZ01"
+        }
+    },
+    {
+        "char_190_clour": {
+            "name_zh": "红云",
+            "name_pinyin": "hy",
+            "name_en": "Vermeil",
+            "short_code": "R122"
+        }
+    },
+    {
+        "char_192_falco": {
+            "name_zh": "翎羽",
+            "name_pinyin": "ly",
+            "name_en": "Plume",
+            "short_code": "LT05"
+        }
+    },
+    {
+        "char_193_frostl": {
+            "name_zh": "霜叶",
+            "name_pinyin": "sy",
+            "name_en": "Frostleaf",
+            "short_code": "R123"
+        }
+    },
+    {
+        "char_194_leto": {
+            "name_zh": "烈夏",
+            "name_pinyin": "lx",
+            "name_en": "Лето",
+            "short_code": "USS5"
+        }
+    },
+    {
+        "char_195_glassb": {
+            "name_zh": "真理",
+            "name_pinyin": "zl",
+            "name_en": "Istina",
+            "short_code": "USS2"
+        }
+    },
+    {
+        "char_196_sunbr": {
+            "name_zh": "古米",
+            "name_pinyin": "gm",
+            "name_en": "Gummy",
+            "short_code": "USS3"
+        }
+    },
+    {
+        "char_197_poca": {
+            "name_zh": "早露",
+            "name_pinyin": "zl",
+            "name_en": "Rosa",
+            "short_code": "USS4"
+        }
+    },
+    {
+        "char_198_blackd": {
+            "name_zh": "讯使",
+            "name_pinyin": "xs",
+            "name_en": "Courier",
+            "short_code": "JC04"
+        }
+    },
+    {
+        "char_199_yak": {
+            "name_zh": "角峰",
+            "name_pinyin": "jf",
+            "name_en": "Matterhorn",
+            "short_code": "JC03"
+        }
+    },
+    {
+        "char_201_moeshd": {
+            "name_zh": "可颂",
+            "name_pinyin": "ks",
+            "name_en": "Croissant",
+            "short_code": "PL04"
+        }
+    },
+    {
+        "char_2012_typhon": {
+            "name_zh": "提丰",
+            "name_pinyin": "tf",
+            "name_en": "Typhon",
+            "short_code": "SI07"
+        }
+    },
+    {
+        "char_2013_cerber": {
+            "name_zh": "刻俄柏",
+            "name_pinyin": "keb",
+            "name_en": "Ceobe",
+            "short_code": "R155"
+        }
+    },
+    {
+        "char_2014_nian": {
+            "name_zh": "年",
+            "name_pinyin": "n",
+            "name_en": "Nian",
+            "short_code": "NM01"
+        }
+    },
+    {
+        "char_2015_dusk": {
+            "name_zh": "夕",
+            "name_pinyin": "x",
+            "name_en": "Dusk",
+            "short_code": "NM02"
+        }
+    },
+    {
+        "char_202_demkni": {
+            "name_zh": "塞雷娅",
+            "name_pinyin": "sly",
+            "name_en": "Saria",
+            "short_code": "RL02"
+        }
+    },
+    {
+        "char_2023_ling": {
+            "name_zh": "令",
+            "name_pinyin": "l",
+            "name_en": "Ling",
+            "short_code": "NM03"
+        }
+    },
+    {
+        "char_2024_chyue": {
+            "name_zh": "重岳",
+            "name_pinyin": "zy",
+            "name_en": "Chongyue",
+            "short_code": "NM04"
+        }
+    },
+    {
+        "char_2025_shu": {
+            "name_zh": "黍",
+            "name_pinyin": "s",
+            "name_en": "Shu",
+            "short_code": "NM05"
+        }
+    },
+    {
+        "char_204_platnm": {
+            "name_zh": "白金",
+            "name_pinyin": "bj",
+            "name_en": "Platinum",
+            "short_code": "KZ03"
+        }
+    },
+    {
+        "char_206_gnosis": {
+            "name_zh": "灵知",
+            "name_pinyin": "lz",
+            "name_en": "Gnosis",
+            "short_code": "JC02"
+        }
+    },
+    {
+        "char_208_melan": {
+            "name_zh": "玫兰莎",
+            "name_pinyin": "mls",
+            "name_en": "Melantha",
+            "short_code": "PA41"
+        }
+    },
+    {
+        "char_209_ardign": {
+            "name_zh": "卡缇",
+            "name_pinyin": "kt",
+            "name_en": "Cardigan",
+            "short_code": "PA45"
+        }
+    },
+    {
+        "char_210_stward": {
+            "name_zh": "史都华德",
+            "name_pinyin": "sdhd",
+            "name_en": "Steward",
+            "short_code": "PA42"
+        }
+    },
+    {
+        "char_211_adnach": {
+            "name_zh": "安德切尔",
+            "name_pinyin": "adqe",
+            "name_en": "Adnachiel",
+            "short_code": "PA44"
+        }
+    },
+    {
+        "char_212_ansel": {
+            "name_zh": "安赛尔",
+            "name_pinyin": "ase",
+            "name_en": "Ansel",
+            "short_code": "PA43"
+        }
+    },
+    {
+        "char_213_mostma": {
+            "name_zh": "莫斯提马",
+            "name_pinyin": "mstm",
+            "name_en": "Mostima",
+            "short_code": "LT77"
+        }
+    },
+    {
+        "char_214_kafka": {
+            "name_zh": "卡夫卡",
+            "name_pinyin": "kfk",
+            "name_en": "Kafka",
+            "short_code": "CB06"
+        }
+    },
+    {
+        "char_215_mantic": {
+            "name_zh": "狮蝎",
+            "name_pinyin": "sx",
+            "name_en": "Manticore",
+            "short_code": "SG01"
+        }
+    },
+    {
+        "char_218_cuttle": {
+            "name_zh": "安哲拉",
+            "name_pinyin": "azl",
+            "name_en": "Andreana",
+            "short_code": "II04"
+        }
+    },
+    {
+        "char_219_meteo": {
+            "name_zh": "陨星",
+            "name_pinyin": "yx",
+            "name_en": "Meteorite",
+            "short_code": "ST03"
+        }
+    },
+    {
+        "char_220_grani": {
+            "name_zh": "格拉尼",
+            "name_pinyin": "gln",
+            "name_en": "Grani",
+            "short_code": "VC05"
+        }
+    },
+    {
+        "char_222_bpipe": {
+            "name_zh": "风笛",
+            "name_pinyin": "fd",
+            "name_en": "Bagpipe",
+            "short_code": "RV02"
+        }
+    },
+    {
+        "char_225_haak": {
+            "name_zh": "阿",
+            "name_pinyin": "a",
+            "name_en": "Aak",
+            "short_code": "LM20"
+        }
+    },
+    {
+        "char_226_hmau": {
+            "name_zh": "吽",
+            "name_pinyin": "h",
+            "name_en": "Hung",
+            "short_code": "LM19"
+        }
+    },
+    {
+        "char_230_savage": {
+            "name_zh": "暴行",
+            "name_pinyin": "bx",
+            "name_en": "Savage",
+            "short_code": "RB01"
+        }
+    },
+    {
+        "char_235_jesica": {
+            "name_zh": "杰西卡",
+            "name_pinyin": "jxk",
+            "name_en": "Jessica",
+            "short_code": "BS03"
+        }
+    },
+    {
+        "char_236_rope": {
+            "name_zh": "暗索",
+            "name_pinyin": "as",
+            "name_en": "Rope",
+            "short_code": "RB02"
+        }
+    },
+    {
+        "char_237_gravel": {
+            "name_zh": "砾",
+            "name_pinyin": "l",
+            "name_en": "Gravel",
+            "short_code": "KZ04"
+        }
+    },
+    {
+        "char_240_wyvern": {
+            "name_zh": "香草",
+            "name_pinyin": "xc",
+            "name_en": "Vanilla",
+            "short_code": "BS04"
+        }
+    },
+    {
+        "char_241_panda": {
+            "name_zh": "食铁兽",
+            "name_pinyin": "sts",
+            "name_en": "FEater",
+            "short_code": "YD01"
+        }
+    },
+    {
+        "char_242_otter": {
+            "name_zh": "梅尔",
+            "name_pinyin": "me",
+            "name_en": "Mayer",
+            "short_code": "RL05"
+        }
+    },
+    {
+        "char_243_waaifu": {
+            "name_zh": "槐琥",
+            "name_pinyin": "hh",
+            "name_en": "Waai Fu",
+            "short_code": "LM12"
+        }
+    },
+    {
+        "char_245_cello": {
+            "name_zh": "塑心",
+            "name_pinyin": "sx",
+            "name_en": "Virtuosa",
+            "short_code": "LT22"
+        }
+    },
+    {
+        "char_248_mgllan": {
+            "name_zh": "麦哲伦",
+            "name_pinyin": "mzl",
+            "name_en": "Magallan",
+            "short_code": "RL06"
+        }
+    },
+    {
+        "char_249_mlyss": {
+            "name_zh": "缪尔赛思",
+            "name_pinyin": "mess",
+            "name_en": "Muelsyse",
+            "short_code": "RL09"
+        }
+    },
+    {
+        "char_250_phatom": {
+            "name_zh": "傀影",
+            "name_pinyin": "gy",
+            "name_en": "Phantom",
+            "short_code": "R109"
+        }
+    },
+    {
+        "char_252_bibeak": {
+            "name_zh": "柏喙",
+            "name_pinyin": "bh",
+            "name_en": "Bibeak",
+            "short_code": "R138"
+        }
+    },
+    {
+        "char_253_greyy": {
+            "name_zh": "格雷伊",
+            "name_pinyin": "gly",
+            "name_en": "Greyy",
+            "short_code": "R119"
+        }
+    },
+    {
+        "char_254_vodfox": {
+            "name_zh": "巫恋",
+            "name_pinyin": "wl",
+            "name_en": "Shamare",
+            "short_code": "R148"
+        }
+    },
+    {
+        "char_258_podego": {
+            "name_zh": "波登可",
+            "name_pinyin": "bdk",
+            "name_en": "Podenco",
+            "short_code": "R157"
+        }
+    },
+    {
+        "char_260_durnar": {
+            "name_zh": "坚雷",
+            "name_pinyin": "jl",
+            "name_en": "Dur-nar",
+            "short_code": "R124"
+        }
+    },
+    {
+        "char_261_sddrag": {
+            "name_zh": "苇草",
+            "name_pinyin": "wc",
+            "name_en": "Reed",
+            "short_code": "HT03"
+        }
+    },
+    {
+        "char_263_skadi": {
+            "name_zh": "斯卡蒂",
+            "name_pinyin": "skd",
+            "name_en": "Skadi",
+            "short_code": "AA01"
+        }
+    },
+    {
+        "char_264_f12yin": {
+            "name_zh": "山",
+            "name_pinyin": "s",
+            "name_en": "Mountain",
+            "short_code": "CB05"
+        }
+    },
+    {
+        "char_265_sophia": {
+            "name_zh": "鞭刃",
+            "name_pinyin": "br",
+            "name_en": "Whislash",
+            "short_code": "KZ07"
+        }
+    },
+    {
+        "char_271_spikes": {
+            "name_zh": "芳汀",
+            "name_pinyin": "ft",
+            "name_en": "Arene",
+            "short_code": "LT06"
+        }
+    },
+    {
+        "char_272_strong": {
+            "name_zh": "孑",
+            "name_pinyin": "j",
+            "name_en": "Jaye",
+            "short_code": "LM14"
+        }
+    },
+    {
+        "char_274_astesi": {
+            "name_zh": "星极",
+            "name_pinyin": "xj",
+            "name_en": "Astesia",
+            "short_code": "RR01"
+        }
+    },
+    {
+        "char_275_breeze": {
+            "name_zh": "微风",
+            "name_pinyin": "wf",
+            "name_en": "Breeze",
+            "short_code": "R132"
+        }
+    },
+    {
+        "char_277_sqrrel": {
+            "name_zh": "阿消",
+            "name_pinyin": "ax",
+            "name_en": "Shaw",
+            "short_code": "LM11"
+        }
+    },
+    {
+        "char_278_orchid": {
+            "name_zh": "梓兰",
+            "name_pinyin": "zl",
+            "name_en": "Orchid",
+            "short_code": "PA61"
+        }
+    },
+    {
+        "char_279_excu": {
+            "name_zh": "送葬人",
+            "name_pinyin": "szr",
+            "name_en": "Executor",
+            "short_code": "LT01"
+        }
+    },
+    {
+        "char_281_popka": {
+            "name_zh": "泡普卡",
+            "name_pinyin": "ppk",
+            "name_en": "Popukar",
+            "short_code": "PA65"
+        }
+    },
+    {
+        "char_282_catap": {
+            "name_zh": "空爆",
+            "name_pinyin": "kb",
+            "name_en": "Catapult",
+            "short_code": "PA63"
+        }
+    },
+    {
+        "char_283_midn": {
+            "name_zh": "月见夜",
+            "name_pinyin": "yjy",
+            "name_en": "Midnight",
+            "short_code": "PA62"
+        }
+    },
+    {
+        "char_284_spot": {
+            "name_zh": "斑点",
+            "name_pinyin": "bd",
+            "name_en": "Spot",
+            "short_code": "PA64"
+        }
+    },
+    {
+        "char_285_medic2": {
+            "name_zh": "Lancet-2",
+            "name_pinyin": "Lancet2",
+            "name_en": "Lancet-2",
+            "short_code": "RCX2"
+        }
+    },
+    {
+        "char_286_cast3": {
+            "name_zh": "Castle-3",
+            "name_pinyin": "Castle3",
+            "name_en": "Castle-3",
+            "short_code": "RCX3"
+        }
+    },
+    {
+        "char_289_gyuki": {
+            "name_zh": "缠丸",
+            "name_pinyin": "cw",
+            "name_en": "Matoimaru",
+            "short_code": "HK01"
+        }
+    },
+    {
+        "char_290_vigna": {
+            "name_zh": "红豆",
+            "name_pinyin": "hd",
+            "name_en": "Vigna",
+            "short_code": "R105"
+        }
+    },
+    {
+        "char_291_aglina": {
+            "name_zh": "安洁莉娜",
+            "name_pinyin": "ajln",
+            "name_en": "Angelina",
+            "short_code": "SR02"
+        }
+    },
+    {
+        "char_293_thorns": {
+            "name_zh": "棘刺",
+            "name_pinyin": "jc",
+            "name_en": "Thorns",
+            "short_code": "II01"
+        }
+    },
+    {
+        "char_294_ayer": {
+            "name_zh": "断崖",
+            "name_pinyin": "dy",
+            "name_en": "Ayerscarpe",
+            "short_code": "RB04"
+        }
+    },
+    {
+        "char_297_hamoni": {
+            "name_zh": "和弦",
+            "name_pinyin": "hx",
+            "name_en": "Harmonie",
+            "short_code": "DB03"
+        }
+    },
+    {
+        "char_298_susuro": {
+            "name_zh": "苏苏洛",
+            "name_pinyin": "ssl",
+            "name_en": "Sussurro",
+            "short_code": "R107"
+        }
+    },
+    {
+        "char_300_phenxi": {
+            "name_zh": "菲亚梅塔",
+            "name_pinyin": "fymt",
+            "name_en": "Fiammetta",
+            "short_code": "LT11"
+        }
+    },
+    {
+        "char_301_cutter": {
+            "name_zh": "刻刀",
+            "name_pinyin": "kd",
+            "name_en": "Cutter",
+            "short_code": "R144"
+        }
+    },
+    {
+        "char_302_glaze": {
+            "name_zh": "安比尔",
+            "name_pinyin": "abe",
+            "name_en": "Ambriel",
+            "short_code": "LT02"
+        }
+    },
+    {
+        "char_304_zebra": {
+            "name_zh": "暴雨",
+            "name_pinyin": "by",
+            "name_en": "Heavyrain",
+            "short_code": "R164"
+        }
+    },
+    {
+        "char_306_leizi": {
+            "name_zh": "惊蛰",
+            "name_pinyin": "jz",
+            "name_en": "Leizi",
+            "short_code": "YD05"
+        }
+    },
+    {
+        "char_308_swire": {
+            "name_zh": "诗怀雅",
+            "name_pinyin": "shy",
+            "name_en": "Swire",
+            "short_code": "LM08"
+        }
+    },
+    {
+        "char_311_mudrok": {
+            "name_zh": "泥岩",
+            "name_pinyin": "ny",
+            "name_en": "Mudrock",
+            "short_code": "R159"
+        }
+    },
+    {
+        "char_322_lmlee": {
+            "name_zh": "老鲤",
+            "name_pinyin": "ll",
+            "name_en": "Lee",
+            "short_code": "LM18"
+        }
+    },
+    {
+        "char_325_bison": {
+            "name_zh": "拜松",
+            "name_pinyin": "bs",
+            "name_en": "Bison",
+            "short_code": "LM15"
+        }
+    },
+    {
+        "char_326_glacus": {
+            "name_zh": "格劳克斯",
+            "name_pinyin": "glks",
+            "name_en": "Glaucus",
+            "short_code": "R128"
+        }
+    },
+    {
+        "char_328_cammou": {
+            "name_zh": "卡达",
+            "name_pinyin": "kd",
+            "name_en": "Click",
+            "short_code": "R140"
+        }
+    },
+    {
+        "char_332_archet": {
+            "name_zh": "空弦",
+            "name_pinyin": "kx",
+            "name_en": "Archetto",
+            "short_code": "LT08"
+        }
+    },
+    {
+        "char_333_sidero": {
+            "name_zh": "铸铁",
+            "name_pinyin": "zt",
+            "name_en": "Sideroca",
+            "short_code": "R126"
+        }
+    },
+    {
+        "char_336_folivo": {
+            "name_zh": "稀音",
+            "name_pinyin": "xy",
+            "name_en": "Scene",
+            "short_code": "R162"
+        }
+    },
+    {
+        "char_337_utage": {
+            "name_zh": "宴",
+            "name_pinyin": "y",
+            "name_en": "Utage",
+            "short_code": "HK03"
+        }
+    },
+    {
+        "char_338_iris": {
+            "name_zh": "爱丽丝",
+            "name_pinyin": "als",
+            "name_en": "Iris",
+            "short_code": "VC12"
+        }
+    },
+    {
+        "char_340_shwaz": {
+            "name_zh": "黑",
+            "name_pinyin": "h",
+            "name_en": "Schwarz",
+            "short_code": "SS02"
+        }
+    },
+    {
+        "char_341_sntlla": {
+            "name_zh": "寒檀",
+            "name_pinyin": "ht",
+            "name_en": "Santalla",
+            "short_code": "SI02"
+        }
+    },
+    {
+        "char_343_tknogi": {
+            "name_zh": "月禾",
+            "name_pinyin": "yh",
+            "name_en": "Tsukinogi",
+            "short_code": "R129"
+        }
+    },
+    {
+        "char_344_beewax": {
+            "name_zh": "蜜蜡",
+            "name_pinyin": "ml",
+            "name_en": "Beeswax",
+            "short_code": "R147"
+        }
+    },
+    {
+        "char_345_folnic": {
+            "name_zh": "亚叶",
+            "name_pinyin": "yy",
+            "name_en": "Folinic",
+            "short_code": "R133"
+        }
+    },
+    {
+        "char_346_aosta": {
+            "name_zh": "奥斯塔",
+            "name_pinyin": "ast",
+            "name_en": "Aosta",
+            "short_code": "SR28"
+        }
+    },
+    {
+        "char_347_jaksel": {
+            "name_zh": "杰克",
+            "name_pinyin": "jk",
+            "name_en": "Jackie",
+            "short_code": "R166"
+        }
+    },
+    {
+        "char_348_ceylon": {
+            "name_zh": "锡兰",
+            "name_pinyin": "xl",
+            "name_en": "Ceylon",
+            "short_code": "SS01"
+        }
+    },
+    {
+        "char_349_chiave": {
+            "name_zh": "贾维",
+            "name_pinyin": "jw",
+            "name_en": "Chiave",
+            "short_code": "SR26"
+        }
+    },
+    {
+        "char_350_surtr": {
+            "name_zh": "史尔特尔",
+            "name_pinyin": "sete",
+            "name_en": "Surtr",
+            "short_code": "R111"
+        }
+    },
+    {
+        "char_355_ethan": {
+            "name_zh": "伊桑",
+            "name_pinyin": "ys",
+            "name_en": "Ethan",
+            "short_code": "R130"
+        }
+    },
+    {
+        "char_356_broca": {
+            "name_zh": "布洛卡",
+            "name_pinyin": "blk",
+            "name_en": "Broca",
+            "short_code": "SR27"
+        }
+    },
+    {
+        "char_358_lisa": {
+            "name_zh": "铃兰",
+            "name_pinyin": "ll",
+            "name_en": "Suzuran",
+            "short_code": "R172"
+        }
+    },
+    {
+        "char_362_saga": {
+            "name_zh": "嵯峨",
+            "name_pinyin": "ce",
+            "name_en": "Saga",
+            "short_code": "HK13"
+        }
+    },
+    {
+        "char_363_toddi": {
+            "name_zh": "熔泉",
+            "name_pinyin": "rq",
+            "name_en": "Toddifons",
+            "short_code": "VC11"
+        }
+    },
+    {
+        "char_365_aprl": {
+            "name_zh": "四月",
+            "name_pinyin": "sy",
+            "name_en": "April",
+            "short_code": "RB07"
+        }
+    },
+    {
+        "char_366_acdrop": {
+            "name_zh": "酸糖",
+            "name_pinyin": "st",
+            "name_en": "Aciddrop",
+            "short_code": "R139"
+        }
+    },
+    {
+        "char_367_swllow": {
+            "name_zh": "灰喉",
+            "name_pinyin": "hh",
+            "name_en": "GreyThroat",
+            "short_code": "R110"
+        }
+    },
+    {
+        "char_369_bena": {
+            "name_zh": "贝娜",
+            "name_pinyin": "bn",
+            "name_en": "Bena",
+            "short_code": "VC14"
+        }
+    },
+    {
+        "char_373_lionhd": {
+            "name_zh": "莱恩哈特",
+            "name_pinyin": "leht",
+            "name_en": "Leonhardt",
+            "short_code": "RB03"
+        }
+    },
+    {
+        "char_376_therex": {
+            "name_zh": "THRM-EX",
+            "name_pinyin": "THRMEX",
+            "name_en": "THRM-EX",
+            "short_code": "RCX4"
+        }
+    },
+    {
+        "char_377_gdglow": {
+            "name_zh": "澄闪",
+            "name_pinyin": "cs",
+            "name_en": "Goldenglow",
+            "short_code": "VC09"
+        }
+    },
+    {
+        "char_378_asbest": {
+            "name_zh": "石棉",
+            "name_pinyin": "sm",
+            "name_en": "Asbestos",
+            "short_code": "RB05"
+        }
+    },
+    {
+        "char_379_sesa": {
+            "name_zh": "慑砂",
+            "name_pinyin": "ss",
+            "name_en": "Sesa",
+            "short_code": "R158"
+        }
+    },
+    {
+        "char_381_bubble": {
+            "name_zh": "泡泡",
+            "name_pinyin": "pp",
+            "name_en": "Bubble",
+            "short_code": "R146"
+        }
+    },
+    {
+        "char_383_snsant": {
+            "name_zh": "雪雉",
+            "name_pinyin": "xz",
+            "name_en": "Snowsant",
+            "short_code": "LM16"
+        }
+    },
+    {
+        "char_385_finlpp": {
+            "name_zh": "清流",
+            "name_pinyin": "ql",
+            "name_en": "Purestream",
+            "short_code": "R160"
+        }
+    },
+    {
+        "char_388_mint": {
+            "name_zh": "薄绿",
+            "name_pinyin": "bl",
+            "name_en": "Mint",
+            "short_code": "VC08"
+        }
+    },
+    {
+        "char_391_rosmon": {
+            "name_zh": "迷迭香",
+            "name_pinyin": "mdx",
+            "name_en": "Rosmontis",
+            "short_code": "RE45"
+        }
+    },
+    {
+        "char_400_weedy": {
+            "name_zh": "温蒂",
+            "name_pinyin": "wd",
+            "name_en": "Weedy",
+            "short_code": "R117"
+        }
+    },
+    {
+        "char_4000_jnight": {
+            "name_zh": "正义骑士号",
+            "name_pinyin": "zyqsh",
+            "name_en": "Justice Knight",
+            "short_code": "KZ15"
+        }
+    },
+    {
+        "char_4004_pudd": {
+            "name_zh": "布丁",
+            "name_pinyin": "bd",
+            "name_en": "Pudding",
+            "short_code": "CB03"
+        }
+    },
+    {
+        "char_4006_melnte": {
+            "name_zh": "玫拉",
+            "name_pinyin": "ml",
+            "name_en": "Melanite",
+            "short_code": "CB22"
+        }
+    },
+    {
+        "char_4009_irene": {
+            "name_zh": "艾丽妮",
+            "name_pinyin": "aln",
+            "name_en": "Irene",
+            "short_code": "II07"
+        }
+    },
+    {
+        "char_401_elysm": {
+            "name_zh": "极境",
+            "name_pinyin": "jj",
+            "name_en": "Elysium",
+            "short_code": "R131"
+        }
+    },
+    {
+        "char_4011_lessng": {
+            "name_zh": "止颂",
+            "name_pinyin": "zs",
+            "name_en": "Lessing",
+            "short_code": "LN07"
+        }
+    },
+    {
+        "char_4013_kjera": {
+            "name_zh": "耶拉",
+            "name_pinyin": "yl",
+            "name_en": "Kjera",
+            "short_code": "JC00"
+        }
+    },
+    {
+        "char_4014_lunacu": {
+            "name_zh": "子月",
+            "name_pinyin": "zy",
+            "name_en": "Lunacub",
+            "short_code": "SR37"
+        }
+    },
+    {
+        "char_4015_spuria": {
+            "name_zh": "空构",
+            "name_pinyin": "kg",
+            "name_en": "Spuria",
+            "short_code": "LT12"
+        }
+    },
+    {
+        "char_4016_kazema": {
+            "name_zh": "风丸",
+            "name_pinyin": "fw",
+            "name_en": "Kazemaru",
+            "short_code": "HK09"
+        }
+    },
+    {
+        "char_4017_puzzle": {
+            "name_zh": "谜图",
+            "name_pinyin": "mt",
+            "name_en": "Puzzle",
+            "short_code": "VC21"
+        }
+    },
+    {
+        "char_4019_ncdeer": {
+            "name_zh": "九色鹿",
+            "name_pinyin": "jsl",
+            "name_en": "Nine-Colored Deer",
+            "short_code": "YD09"
+        }
+    },
+    {
+        "char_402_tuye": {
+            "name_zh": "图耶",
+            "name_pinyin": "ty",
+            "name_en": "Tuye",
+            "short_code": "SG08"
+        }
+    },
+    {
+        "char_4023_rfalcn": {
+            "name_zh": "红隼",
+            "name_pinyin": "hs",
+            "name_en": "Kestrel",
+            "short_code": "SG12"
+        }
+    },
+    {
+        "char_4025_aprot2": {
+            "name_zh": "暮落",
+            "name_pinyin": "ml",
+            "name_en": "Shalem",
+            "short_code": "VC07"
+        }
+    },
+    {
+        "char_4026_vulpis": {
+            "name_zh": "忍冬",
+            "name_pinyin": "rd",
+            "name_en": "Vulpisfoglia",
+            "short_code": "SR40"
+        }
+    },
+    {
+        "char_4027_heyak": {
+            "name_zh": "霍尔海雅",
+            "name_pinyin": "hehy",
+            "name_en": "Ho'olheyak",
+            "short_code": "CB88"
+        }
+    },
+    {
+        "char_4032_provs": {
+            "name_zh": "但书",
+            "name_pinyin": "ds",
+            "name_en": "Proviso",
+            "short_code": "KZ10"
+        }
+    },
+    {
+        "char_4036_forcer": {
+            "name_zh": "见行者",
+            "name_pinyin": "jxz",
+            "name_en": "Enforcer",
+            "short_code": "LT10"
+        }
+    },
+    {
+        "char_4039_horn": {
+            "name_zh": "号角",
+            "name_pinyin": "hj",
+            "name_en": "Horn",
+            "short_code": "VC16"
+        }
+    },
+    {
+        "char_4040_rockr": {
+            "name_zh": "洛洛",
+            "name_pinyin": "ll",
+            "name_en": "Rockrock",
+            "short_code": "VC18"
+        }
+    },
+    {
+        "char_4041_chnut": {
+            "name_zh": "褐果",
+            "name_pinyin": "hg",
+            "name_en": "Chestnut",
+            "short_code": "R134"
+        }
+    },
+    {
+        "char_4042_lumen": {
+            "name_zh": "流明",
+            "name_pinyin": "lm",
+            "name_en": "Lumen",
+            "short_code": "II09"
+        }
+    },
+    {
+        "char_4043_erato": {
+            "name_zh": "埃拉托",
+            "name_pinyin": "alt",
+            "name_en": "Erato",
+            "short_code": "MN07"
+        }
+    },
+    {
+        "char_4045_heidi": {
+            "name_zh": "海蒂",
+            "name_pinyin": "hd",
+            "name_en": "Heidi",
+            "short_code": "VC19"
+        }
+    },
+    {
+        "char_4046_ebnhlz": {
+            "name_zh": "黑键",
+            "name_pinyin": "hj",
+            "name_en": "Ebenholz",
+            "short_code": "LN05"
+        }
+    },
+    {
+        "char_4047_pianst": {
+            "name_zh": "车尔尼",
+            "name_pinyin": "cen",
+            "name_en": "Czerny",
+            "short_code": "LN06"
+        }
+    },
+    {
+        "char_4048_doroth": {
+            "name_zh": "多萝西",
+            "name_pinyin": "dlx",
+            "name_en": "Dorothy",
+            "short_code": "RL07"
+        }
+    },
+    {
+        "char_405_absin": {
+            "name_zh": "苦艾",
+            "name_pinyin": "ka",
+            "name_en": "Absinthe",
+            "short_code": "US11"
+        }
+    },
+    {
+        "char_4054_malist": {
+            "name_zh": "至简",
+            "name_pinyin": "zj",
+            "name_en": "Minimalist",
+            "short_code": "SG09"
+        }
+    },
+    {
+        "char_4055_bgsnow": {
+            "name_zh": "鸿雪",
+            "name_pinyin": "hx",
+            "name_en": "Позёмка",
+            "short_code": "R145"
+        }
+    },
+    {
+        "char_4058_pepe": {
+            "name_zh": "佩佩",
+            "name_pinyin": "pp",
+            "name_en": "Pepe",
+            "short_code": "SG14"
+        }
+    },
+    {
+        "char_4062_totter": {
+            "name_zh": "铅踝",
+            "name_pinyin": "qh",
+            "name_en": "Totter",
+            "short_code": "SG11"
+        }
+    },
+    {
+        "char_4063_quartz": {
+            "name_zh": "石英",
+            "name_pinyin": "sy",
+            "name_en": "Quartz",
+            "short_code": "CB18"
+        }
+    },
+    {
+        "char_4064_mlynar": {
+            "name_zh": "玛恩纳",
+            "name_pinyin": "men",
+            "name_en": "Młynar",
+            "short_code": "KZ08"
+        }
+    },
+    {
+        "char_4065_judge": {
+            "name_zh": "斥罪",
+            "name_pinyin": "cz",
+            "name_en": "Penance",
+            "short_code": "SR35"
+        }
+    },
+    {
+        "char_4066_highmo": {
+            "name_zh": "海沫",
+            "name_pinyin": "hm",
+            "name_en": "Highmore",
+            "short_code": "II10"
+        }
+    },
+    {
+        "char_4067_lolxh": {
+            "name_zh": "罗小黑",
+            "name_pinyin": "lxh",
+            "name_en": "Luo Xiaohei",
+            "short_code": "R161"
+        }
+    },
+    {
+        "char_4071_peper": {
+            "name_zh": "明椒",
+            "name_pinyin": "mj",
+            "name_en": "Paprika",
+            "short_code": "R175"
+        }
+    },
+    {
+        "char_4072_ironmn": {
+            "name_zh": "白铁",
+            "name_pinyin": "bt",
+            "name_en": "Stainless",
+            "short_code": "VC17"
+        }
+    },
+    {
+        "char_4077_palico": {
+            "name_zh": "泰拉大陆调查团",
+            "name_pinyin": "tldldct",
+            "name_en": "Terra Research Commission",
+            "short_code": "MH01"
+        }
+    },
+    {
+        "char_4078_bdhkgt": {
+            "name_zh": "截云",
+            "name_pinyin": "jy",
+            "name_en": "Jieyun",
+            "short_code": "YD15"
+        }
+    },
+    {
+        "char_4079_haini": {
+            "name_zh": "海霓",
+            "name_pinyin": "hn",
+            "name_en": "Lucilla",
+            "short_code": "AE05"
+        }
+    },
+    {
+        "char_4080_lin": {
+            "name_zh": "林",
+            "name_pinyin": "l",
+            "name_en": "Lin",
+            "short_code": "LM21"
+        }
+    },
+    {
+        "char_4081_warmy": {
+            "name_zh": "温米",
+            "name_pinyin": "wm",
+            "name_en": "Warmy",
+            "short_code": "RB14"
+        }
+    },
+    {
+        "char_4082_qiubai": {
+            "name_zh": "仇白",
+            "name_pinyin": "cb",
+            "name_en": "Qiubai",
+            "short_code": "YD20"
+        }
+    },
+    {
+        "char_4083_chimes": {
+            "name_zh": "铎铃",
+            "name_pinyin": "dl",
+            "name_en": "Wind Chimes",
+            "short_code": "YD17"
+        }
+    },
+    {
+        "char_4087_ines": {
+            "name_zh": "伊内丝",
+            "name_pinyin": "yns",
+            "name_en": "Ines",
+            "short_code": "B215"
+        }
+    },
+    {
+        "char_4088_hodrer": {
+            "name_zh": "赫德雷",
+            "name_pinyin": "hdl",
+            "name_en": "Hoederer",
+            "short_code": "B216"
+        }
+    },
+    {
+        "char_4091_ulika": {
+            "name_zh": "U-Official",
+            "name_pinyin": "UOfficial",
+            "name_en": "U-Official",
+            "short_code": "U007"
+        }
+    },
+    {
+        "char_4093_frston": {
+            "name_zh": "Friston-3",
+            "name_pinyin": "Friston3",
+            "name_en": "Friston-3",
+            "short_code": "RCX5"
+        }
+    },
+    {
+        "char_4098_vvana": {
+            "name_zh": "薇薇安娜",
+            "name_pinyin": "wwan",
+            "name_en": "Viviana",
+            "short_code": "LN11"
+        }
+    },
+    {
+        "char_4100_caper": {
+            "name_zh": "跃跃",
+            "name_pinyin": "yy",
+            "name_en": "Caper",
+            "short_code": "BV32"
+        }
+    },
+    {
+        "char_4102_threye": {
+            "name_zh": "凛视",
+            "name_pinyin": "ls",
+            "name_en": "Valarqvin",
+            "short_code": "SI06"
+        }
+    },
+    {
+        "char_4104_coldst": {
+            "name_zh": "冰酿",
+            "name_pinyin": "bn",
+            "name_en": "Coldshot",
+            "short_code": "CB28"
+        }
+    },
+    {
+        "char_4105_almond": {
+            "name_zh": "杏仁",
+            "name_pinyin": "xr",
+            "name_en": "Almond",
+            "short_code": "BS05"
+        }
+    },
+    {
+        "char_4106_bryota": {
+            "name_zh": "苍苔",
+            "name_pinyin": "ct",
+            "name_en": "Bryophyta",
+            "short_code": "SS03"
+        }
+    },
+    {
+        "char_4107_vrdant": {
+            "name_zh": "维荻",
+            "name_pinyin": "wd",
+            "name_en": "Verdant",
+            "short_code": "VC25"
+        }
+    },
+    {
+        "char_4109_baslin": {
+            "name_zh": "深律",
+            "name_pinyin": "sl",
+            "name_en": "Bassline",
+            "short_code": "LN13"
+        }
+    },
+    {
+        "char_411_tomimi": {
+            "name_zh": "特米米",
+            "name_pinyin": "tmm",
+            "name_en": "Tomimi",
+            "short_code": "SG05"
+        }
+    },
+    {
+        "char_4110_delphn": {
+            "name_zh": "戴菲恩",
+            "name_pinyin": "dfe",
+            "name_en": "Delphine",
+            "short_code": "VC23"
+        }
+    },
+    {
+        "char_4114_harold": {
+            "name_zh": "哈洛德",
+            "name_pinyin": "hld",
+            "name_en": "Harold",
+            "short_code": "VC27"
+        }
+    },
+    {
+        "char_4116_blkkgt": {
+            "name_zh": "锏",
+            "name_pinyin": "j",
+            "name_en": "Degenbrecher",
+            "short_code": "JC07"
+        }
+    },
+    {
+        "char_4117_ray": {
+            "name_zh": "莱伊",
+            "name_pinyin": "ly",
+            "name_en": "Ray",
+            "short_code": "RB15"
+        }
+    },
+    {
+        "char_4119_wanqin": {
+            "name_zh": "万顷",
+            "name_pinyin": "wq",
+            "name_en": "Wanqing",
+            "short_code": "YD13"
+        }
+    },
+    {
+        "char_4121_zuole": {
+            "name_zh": "左乐",
+            "name_pinyin": "zl",
+            "name_en": "Zuo Le",
+            "short_code": "YD06"
+        }
+    },
+    {
+        "char_4122_grabds": {
+            "name_zh": "小满",
+            "name_pinyin": "xm",
+            "name_en": "Grain Buds",
+            "short_code": "YD14"
+        }
+    },
+    {
+        "char_4123_ela": {
+            "name_zh": "艾拉",
+            "name_pinyin": "al",
+            "name_en": "Ela",
+            "short_code": "RS05"
+        }
+    },
+    {
+        "char_4124_iana": {
+            "name_zh": "双月",
+            "name_pinyin": "sy",
+            "name_en": "Iana",
+            "short_code": "RS07"
+        }
+    },
+    {
+        "char_4125_rdoc": {
+            "name_zh": "医生",
+            "name_pinyin": "ys",
+            "name_en": "Doc",
+            "short_code": "RS06"
+        }
+    },
+    {
+        "char_4126_fuze": {
+            "name_zh": "导火索",
+            "name_pinyin": "dhs",
+            "name_en": "Fuze",
+            "short_code": "RS08"
+        }
+    },
+    {
+        "char_4130_luton": {
+            "name_zh": "露托",
+            "name_pinyin": "lt",
+            "name_en": "Lutonada",
+            "short_code": "BV33"
+        }
+    },
+    {
+        "char_4131_odda": {
+            "name_zh": "奥达",
+            "name_pinyin": "ad",
+            "name_en": "Odda",
+            "short_code": "R167"
+        }
+    },
+    {
+        "char_4132_ascln": {
+            "name_zh": "阿斯卡纶",
+            "name_pinyin": "askl",
+            "name_en": "Ascalon",
+            "short_code": "SW00"
+        }
+    },
+    {
+        "char_4133_logos": {
+            "name_zh": "逻各斯",
+            "name_pinyin": "lgs",
+            "name_en": "Logos",
+            "short_code": "RE03"
+        }
+    },
+    {
+        "char_4134_cetsyr": {
+            "name_zh": "魔王",
+            "name_pinyin": "mw",
+            "name_en": "Civilight Eterna",
+            "short_code": "DWDB"
+        }
+    },
+    {
+        "char_4136_phonor": {
+            "name_zh": "PhonoR-0",
+            "name_pinyin": "P",
+            "name_en": "PhonoR-0",
+            "short_code": "RCX6"
+        }
+    },
+    {
+        "char_4137_udflow": {
+            "name_zh": "深巡",
+            "name_pinyin": "sx",
+            "name_en": "Underflow",
+            "short_code": "AE03"
+        }
+    },
+    {
+        "char_4138_narant": {
+            "name_zh": "娜仁图亚",
+            "name_pinyin": "nrty",
+            "name_en": "Narantuya",
+            "short_code": "SG17"
+        }
+    },
+    {
+        "char_4139_papyrs": {
+            "name_zh": "莎草",
+            "name_pinyin": "sc",
+            "name_en": "Papyrus",
+            "short_code": "SG19"
+        }
+    },
+    {
+        "char_4140_lasher": {
+            "name_zh": "衡沙",
+            "name_pinyin": "hs",
+            "name_en": "Sand Reckoner",
+            "short_code": "SG23"
+        }
+    },
+    {
+        "char_4141_marcil": {
+            "name_zh": "玛露西尔",
+            "name_pinyin": "mlxe",
+            "name_en": "Marcille",
+            "short_code": "DD02"
+        }
+    },
+    {
+        "char_4142_laios": {
+            "name_zh": "莱欧斯",
+            "name_pinyin": "los",
+            "name_en": "Laios",
+            "short_code": "DD01"
+        }
+    },
+    {
+        "char_4143_sensi": {
+            "name_zh": "森西",
+            "name_pinyin": "sx",
+            "name_en": "Senshi",
+            "short_code": "DD04"
+        }
+    },
+    {
+        "char_4144_chilc": {
+            "name_zh": "齐尔查克",
+            "name_pinyin": "qeck",
+            "name_en": "Chilchuck",
+            "short_code": "DD03"
+        }
+    },
+    {
+        "char_4145_ulpia": {
+            "name_zh": "乌尔比安",
+            "name_pinyin": "weba",
+            "name_en": "Ulpianus",
+            "short_code": "AA00"
+        }
+    },
+    {
+        "char_4146_nymph": {
+            "name_zh": "妮芙",
+            "name_pinyin": "nf",
+            "name_en": "Nymph",
+            "short_code": "R182"
+        }
+    },
+    {
+        "char_4147_mitm": {
+            "name_zh": "渡桥",
+            "name_pinyin": "dq",
+            "name_en": "Mitm",
+            "short_code": "R184"
+        }
+    },
+    {
+        "char_4148_philae": {
+            "name_zh": "菲莱",
+            "name_pinyin": "fl",
+            "name_en": "Philae",
+            "short_code": "SG10"
+        }
+    },
+    {
+        "char_415_flint": {
+            "name_zh": "燧石",
+            "name_pinyin": "ss",
+            "name_en": "Flint",
+            "short_code": "SG06"
+        }
+    },
+    {
+        "char_4151_tinman": {
+            "name_zh": "锡人",
+            "name_pinyin": "xr",
+            "name_en": "Tin Man",
+            "short_code": "CB30"
+        }
+    },
+    {
+        "char_4155_talr": {
+            "name_zh": "裁度",
+            "name_pinyin": "cd",
+            "name_en": "Figurino",
+            "short_code": "SR41"
+        }
+    },
+    {
+        "char_416_zumama": {
+            "name_zh": "森蚺",
+            "name_pinyin": "sr",
+            "name_en": "Eunectes",
+            "short_code": "SG03"
+        }
+    },
+    {
+        "char_4162_cathy": {
+            "name_zh": "凯瑟琳",
+            "name_pinyin": "ksl",
+            "name_en": "Catherine",
+            "short_code": "VC20"
+        }
+    },
+    {
+        "char_4165_ctrail": {
+            "name_zh": "云迹",
+            "name_pinyin": "yj",
+            "name_en": "Contrail",
+            "short_code": "CB33"
+        }
+    },
+    {
+        "char_420_flamtl": {
+            "name_zh": "焰尾",
+            "name_pinyin": "yw",
+            "name_en": "Flametail",
+            "short_code": "KZ11"
+        }
+    },
+    {
+        "char_421_crow": {
+            "name_zh": "羽毛笔",
+            "name_pinyin": "ymb",
+            "name_en": "La Pluma",
+            "short_code": "BV13"
+        }
+    },
+    {
+        "char_422_aurora": {
+            "name_zh": "极光",
+            "name_pinyin": "jg",
+            "name_en": "Aurora",
+            "short_code": "JC09"
+        }
+    },
+    {
+        "char_423_blemsh": {
+            "name_zh": "瑕光",
+            "name_pinyin": "xg",
+            "name_en": "Blemishine",
+            "short_code": "KZ09"
+        }
+    },
+    {
+        "char_426_billro": {
+            "name_zh": "卡涅利安",
+            "name_pinyin": "knla",
+            "name_en": "Carnelian",
+            "short_code": "LN04"
+        }
+    },
+    {
+        "char_427_vigil": {
+            "name_zh": "伺夜",
+            "name_pinyin": "cy",
+            "name_en": "Vigil",
+            "short_code": "SR36"
+        }
+    },
+    {
+        "char_430_fartth": {
+            "name_zh": "远牙",
+            "name_pinyin": "yy",
+            "name_en": "Fartooth",
+            "short_code": "KZ13"
+        }
+    },
+    {
+        "char_431_ashlok": {
+            "name_zh": "灰毫",
+            "name_pinyin": "hh",
+            "name_en": "Ashlock",
+            "short_code": "KZ12"
+        }
+    },
+    {
+        "char_433_windft": {
+            "name_zh": "掠风",
+            "name_pinyin": "lf",
+            "name_en": "Windflit",
+            "short_code": "CB19"
+        }
+    },
+    {
+        "char_436_whispr": {
+            "name_zh": "絮雨",
+            "name_pinyin": "xy",
+            "name_en": "Whisperain",
+            "short_code": "R163"
+        }
+    },
+    {
+        "char_437_mizuki": {
+            "name_zh": "水月",
+            "name_pinyin": "sy",
+            "name_en": "Mizuki",
+            "short_code": "HK07"
+        }
+    },
+    {
+        "char_440_pinecn": {
+            "name_zh": "松果",
+            "name_pinyin": "sg",
+            "name_en": "Pinecone",
+            "short_code": "CB09"
+        }
+    },
+    {
+        "char_446_aroma": {
+            "name_zh": "阿罗玛",
+            "name_pinyin": "alm",
+            "name_en": "Aroma",
+            "short_code": "SR39"
+        }
+    },
+    {
+        "char_449_glider": {
+            "name_zh": "蜜莓",
+            "name_pinyin": "mm",
+            "name_en": "Honeyberry",
+            "short_code": "RB06"
+        }
+    },
+    {
+        "char_451_robin": {
+            "name_zh": "罗宾",
+            "name_pinyin": "lb",
+            "name_en": "Robin",
+            "short_code": "CB08"
+        }
+    },
+    {
+        "char_452_bstalk": {
+            "name_zh": "豆苗",
+            "name_pinyin": "dm",
+            "name_en": "Beanstalk",
+            "short_code": "CB16"
+        }
+    },
+    {
+        "char_455_nothin": {
+            "name_zh": "乌有",
+            "name_pinyin": "wy",
+            "name_en": "Mr.Nothing",
+            "short_code": "YD11"
+        }
+    },
+    {
+        "char_456_ash": {
+            "name_zh": "灰烬",
+            "name_pinyin": "hj",
+            "name_en": "Ash",
+            "short_code": "RS01"
+        }
+    },
+    {
+        "char_457_blitz": {
+            "name_zh": "闪击",
+            "name_pinyin": "sj",
+            "name_en": "Blitz",
+            "short_code": "RS02"
+        }
+    },
+    {
+        "char_458_rfrost": {
+            "name_zh": "霜华",
+            "name_pinyin": "sh",
+            "name_en": "Frost",
+            "short_code": "RS03"
+        }
+    },
+    {
+        "char_459_tachak": {
+            "name_zh": "战车",
+            "name_pinyin": "zc",
+            "name_en": "Tachanka",
+            "short_code": "RS04"
+        }
+    },
+    {
+        "char_464_cement": {
+            "name_zh": "洋灰",
+            "name_pinyin": "yh",
+            "name_en": "Cement",
+            "short_code": "RB11"
+        }
+    },
+    {
+        "char_466_qanik": {
+            "name_zh": "雪绒",
+            "name_pinyin": "xr",
+            "name_en": "Qanipalaat",
+            "short_code": "SI03"
+        }
+    },
+    {
+        "char_469_indigo": {
+            "name_zh": "深靛",
+            "name_pinyin": "sd",
+            "name_en": "Indigo",
+            "short_code": "II05"
+        }
+    },
+    {
+        "char_472_pasngr": {
+            "name_zh": "异客",
+            "name_pinyin": "yk",
+            "name_en": "Passenger",
+            "short_code": "SG07"
+        }
+    },
+    {
+        "char_473_mberry": {
+            "name_zh": "桑葚",
+            "name_pinyin": "ss",
+            "name_en": "Mulberry",
+            "short_code": "YD03"
+        }
+    },
+    {
+        "char_474_glady": {
+            "name_zh": "歌蕾蒂娅",
+            "name_pinyin": "gldy",
+            "name_en": "Gladiia",
+            "short_code": "AA05"
+        }
+    },
+    {
+        "char_475_akafyu": {
+            "name_zh": "赤冬",
+            "name_pinyin": "cd",
+            "name_en": "Akafuyu",
+            "short_code": "HK04"
+        }
+    },
+    {
+        "char_476_blkngt": {
+            "name_zh": "夜半",
+            "name_pinyin": "yb",
+            "name_en": "Blacknight",
+            "short_code": "RB12"
+        }
+    },
+    {
+        "char_478_kirara": {
+            "name_zh": "绮良",
+            "name_pinyin": "ql",
+            "name_en": "Kirara",
+            "short_code": "HK05"
+        }
+    },
+    {
+        "char_479_sleach": {
+            "name_zh": "琴柳",
+            "name_pinyin": "ql",
+            "name_en": "Saileach",
+            "short_code": "VC10"
+        }
+    },
+    {
+        "char_484_robrta": {
+            "name_zh": "罗比菈塔",
+            "name_pinyin": "lblt",
+            "name_en": "Roberta",
+            "short_code": "CB11"
+        }
+    },
+    {
+        "char_485_pallas": {
+            "name_zh": "帕拉斯",
+            "name_pinyin": "pls",
+            "name_en": "Pallas",
+            "short_code": "MN04"
+        }
+    },
+    {
+        "char_486_takila": {
+            "name_zh": "龙舌兰",
+            "name_pinyin": "lsl",
+            "name_en": "Tequila",
+            "short_code": "BV12"
+        }
+    },
+    {
+        "char_487_bobb": {
+            "name_zh": "波卜",
+            "name_pinyin": "bb",
+            "name_en": "Bobbing",
+            "short_code": "CB32"
+        }
+    },
+    {
+        "char_488_buildr": {
+            "name_zh": "青枳",
+            "name_pinyin": "qz",
+            "name_en": "Poncirus",
+            "short_code": "SS04"
+        }
+    },
+    {
+        "char_489_serum": {
+            "name_zh": "蚀清",
+            "name_pinyin": "sq",
+            "name_en": "Corroserum",
+            "short_code": "CB12"
+        }
+    },
+    {
+        "char_491_humus": {
+            "name_zh": "休谟斯",
+            "name_pinyin": "xms",
+            "name_en": "Humus",
+            "short_code": "R171"
+        }
+    },
+    {
+        "char_492_quercu": {
+            "name_zh": "夏栎",
+            "name_pinyin": "xl",
+            "name_en": "Quercus",
+            "short_code": "R121"
+        }
+    },
+    {
+        "char_493_firwhl": {
+            "name_zh": "火哨",
+            "name_pinyin": "hs",
+            "name_en": "Firewhistle",
+            "short_code": "RB09"
+        }
+    },
+    {
+        "char_494_vendla": {
+            "name_zh": "刺玫",
+            "name_pinyin": "cm",
+            "name_en": "Vendela",
+            "short_code": "VC24"
+        }
+    },
+    {
+        "char_496_wildmn": {
+            "name_zh": "野鬃",
+            "name_pinyin": "yz",
+            "name_en": "Wild Mane",
+            "short_code": "KZ14"
+        }
+    },
+    {
+        "char_497_ctable": {
+            "name_zh": "晓歌",
+            "name_pinyin": "xg",
+            "name_en": "Cantabile",
+            "short_code": "R143"
+        }
+    },
+    {
+        "char_498_inside": {
+            "name_zh": "隐现",
+            "name_pinyin": "yx",
+            "name_en": "Insider",
+            "short_code": "LT13"
+        }
+    },
+    {
+        "char_499_kaitou": {
+            "name_zh": "折光",
+            "name_pinyin": "zg",
+            "name_en": "Diamante",
+            "short_code": "LN21"
+        }
+    },
+    {
+        "char_500_noirc": {
+            "name_zh": "黑角",
+            "name_pinyin": "hj",
+            "name_en": "Noir Corne",
+            "short_code": "A43"
+        }
+    },
+    {
+        "char_501_durin": {
+            "name_zh": "杜林",
+            "name_pinyin": "dl",
+            "name_en": "Durin",
+            "short_code": "A44"
+        }
+    },
+    {
+        "char_502_nblade": {
+            "name_zh": "夜刀",
+            "name_pinyin": "yd",
+            "name_en": "Yato",
+            "short_code": "A41"
+        }
+    },
+    {
+        "char_503_rang": {
+            "name_zh": "巡林者",
+            "name_pinyin": "xlz",
+            "name_en": "Rangers",
+            "short_code": "A42"
+        }
+    },
+    {
+        "char_504_rguard": {
+            "name_zh": "预备干员-近战",
+            "name_pinyin": "ybgyjz",
+            "name_en": "Reserve Operator - Melee",
+            "short_code": ""
+        }
+    },
+    {
+        "char_505_rcast": {
+            "name_zh": "预备干员-术师",
+            "name_pinyin": "ybgyss",
+            "name_en": "Reserve Operator - Caster",
+            "short_code": ""
+        }
+    },
+    {
+        "char_506_rmedic": {
+            "name_zh": "预备干员-后勤",
+            "name_pinyin": "ybgyhq",
+            "name_en": "Reserve Operator - Logistics",
+            "short_code": ""
+        }
+    },
+    {
+        "char_507_rsnipe": {
+            "name_zh": "预备干员-狙击",
+            "name_pinyin": "ybgyjj",
+            "name_en": "Reserve Operator - Sniper",
+            "short_code": ""
+        }
+    },
+    {
+        "char_508_aguard": {
+            "name_zh": "Sharp",
+            "name_pinyin": "Sharp",
+            "name_en": "Sharp",
+            "short_code": ""
+        }
+    },
+    {
+        "char_509_acast": {
+            "name_zh": "Pith",
+            "name_pinyin": "Pith",
+            "name_en": "Pith",
+            "short_code": ""
+        }
+    },
+    {
+        "char_510_amedic": {
+            "name_zh": "Touch",
+            "name_pinyin": "Touch",
+            "name_en": "Touch",
+            "short_code": ""
+        }
+    },
+    {
+        "char_511_asnipe": {
+            "name_zh": "Stormeye",
+            "name_pinyin": "Stormeye",
+            "name_en": "Stormeye",
+            "short_code": ""
+        }
+    },
+    {
+        "char_513_apionr": {
+            "name_zh": "郁金香",
+            "name_pinyin": "Tulip",
+            "name_en": "Tulip",
+            "short_code": ""
+        }
+    },
+    {
+        "char_514_rdfend": {
+            "name_zh": "预备干员-重装",
+            "name_pinyin": "ybgyzz",
+            "name_en": "Reserve Operator - Defender",
+            "short_code": ""
+        }
+    }
+]
