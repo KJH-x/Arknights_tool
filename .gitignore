@@ -1,4 +1,8 @@
 MaaConnect.json
 /Operators/resource
-/Operators/data
-/Operators/downloaded_goods_images
+Operators/Char-avatar-op-rec
+*.xlsx
+*.7z
+*.zip
+Operators/泰拉寻旅
+.old

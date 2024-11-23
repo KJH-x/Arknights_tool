@@ -1,0 +1,7143 @@
+[
+  {
+    "name": "阿米娅",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "战术咏唱·γ型",
+      "精神爆发",
+      "奇美拉"
+    ]
+  },
+  {
+    "name": "凯尔希",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 6,
+    "skill": [
+      "指令：结构加固",
+      "指令：战术协同",
+      "指令：熔毁"
+    ]
+  },
+  {
+    "name": "12F",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "2-3",
+      "2-3"
+    ],
+    "rarity": 2,
+    "skill": []
+  },
+  {
+    "name": "陈",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "鞘击",
+      "赤霄·拔刀",
+      "赤霄·绝影"
+    ]
+  },
+  {
+    "name": "煌",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "强力击·γ型",
+      "链锯延伸模块",
+      "沸腾爆裂"
+    ]
+  },
+  {
+    "name": "阿米娅-WARRIOR",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "炎狱炎熔",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "焰淬匕首",
+      "狱火之环"
+    ]
+  },
+  {
+    "name": "浊心斯卡蒂",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "同归殊途之吟",
+      "同葬无光之愿",
+      "\"潮涌，潮枯\""
+    ]
+  },
+  {
+    "name": "假日威龙陈",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-4",
+      "2-5",
+      "2-5"
+    ],
+    "rarity": 6,
+    "skill": [
+      "高压冲击",
+      "“堇青之夜”",
+      "“假日风暴”"
+    ]
+  },
+  {
+    "name": "耀骑士临光",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "“耀阳”"
+    ],
+    "skill": [
+      "灿焰长刃",
+      "逐夜烁光",
+      "耀阳颔首"
+    ]
+  },
+  {
+    "name": "纯烬艾雅法拉",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-17",
+      "3-17"
+    ],
+    "rarity": 6,
+    "skill": [
+      "无声润物",
+      "云霭荫佑",
+      "火山回响"
+    ]
+  },
+  {
+    "name": "空",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "睡眠之歌",
+      "战斗之歌"
+    ]
+  },
+  {
+    "name": "焰影苇草",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "迅捷打击·γ型",
+      "枯荣共息",
+      "生命火种"
+    ]
+  },
+  {
+    "name": "寒芒克洛丝",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "无痕",
+      "封喉"
+    ]
+  },
+  {
+    "name": "归溟幽灵鲨",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "生存的技巧",
+      "生存的渴望",
+      "生存的重压"
+    ]
+  },
+  {
+    "name": "濯尘芙蓉",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "抚业之触"
+    ]
+  },
+  {
+    "name": "百炼嘉维尔",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "精准痛击",
+      "链锯强袭",
+      "丛林之魂"
+    ]
+  },
+  {
+    "name": "承曦格雷伊",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迅捷打击·γ型",
+      "晨曦信标"
+    ]
+  },
+  {
+    "name": "缄默德克萨斯",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "细雨无声",
+      "阵雨连绵",
+      "剑雨滂沱"
+    ]
+  },
+  {
+    "name": "麒麟X夜刀",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "鬼人化",
+      "乱舞",
+      "空中回旋乱舞"
+    ]
+  },
+  {
+    "name": "德克萨斯",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "冲锋号令·γ型",
+      "剑雨"
+    ]
+  },
+  {
+    "name": "火龙S黑角",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "居合拔刀气刃斩",
+      "气刃兜割"
+    ]
+  },
+  {
+    "name": "淬羽赫默",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "夜灯"
+    ],
+    "skill": [
+      "进取之心",
+      "俯瞰视界",
+      "无畏者协议"
+    ]
+  },
+  {
+    "name": "圣约送葬人",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-3",
+      "1-3",
+      "1-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "遗嘱执行",
+      "近身铳斗",
+      "圣约决裁"
+    ]
+  },
+  {
+    "name": "琳琅诗怀雅",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "香槟炸弹"
+    ],
+    "skill": [
+      "仗义疏财",
+      "“见面礼”",
+      "千金一掷"
+    ]
+  },
+  {
+    "name": "能天使",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "冲锋模式",
+      "扫射模式",
+      "过载模式"
+    ]
+  },
+  {
+    "name": "芙兰卡",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迅捷打击·γ型",
+      "极致锋度"
+    ]
+  },
+  {
+    "name": "雷蛇",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "充能防御",
+      "反击电弧"
+    ]
+  },
+  {
+    "name": "赫默",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "tokens": [
+      "医疗探机"
+    ],
+    "skill": [
+      "治疗强化·γ型",
+      "医疗无人机"
+    ]
+  },
+  {
+    "name": "远山",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 4,
+    "skill": [
+      "战术咏唱·β型",
+      "命运"
+    ]
+  },
+  {
+    "name": "深海色",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "光影之触",
+      "视觉陷阱"
+    ]
+  },
+  {
+    "name": "推进之王",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "冲锋号令·γ型",
+      "跃空锤",
+      "碎颅击"
+    ]
+  },
+  {
+    "name": "W",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "此面向敌"
+    ],
+    "skill": [
+      "红桃K",
+      "惊吓盒子",
+      "D12"
+    ]
+  },
+  {
+    "name": "凛冬",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "冲锋号令·γ型",
+      "乌萨斯战吼"
+    ]
+  },
+  {
+    "name": "末药",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "二重治疗",
+      "医疗力场"
+    ]
+  },
+  {
+    "name": "白雪",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 4,
+    "skill": [
+      "敌飙",
+      "凝武"
+    ]
+  },
+  {
+    "name": "芙蓉",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "治疗强化·α型"
+    ]
+  },
+  {
+    "name": "炎熔",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "2-3"
+    ],
+    "rarity": 3,
+    "skill": [
+      "战术咏唱·α型"
+    ]
+  },
+  {
+    "name": "米格鲁",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "防御力强化·α型"
+    ]
+  },
+  {
+    "name": "芬",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "冲锋号令·α型"
+    ]
+  },
+  {
+    "name": "克洛丝",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "二连射·自动"
+    ]
+  },
+  {
+    "name": "流星",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "碎甲击",
+      "碎甲击·扩散"
+    ]
+  },
+  {
+    "name": "艾丝黛尔",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "舍身突击"
+    ]
+  },
+  {
+    "name": "白面鸮",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "y-1",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "治疗强化·γ型",
+      "脑啡肽"
+    ]
+  },
+  {
+    "name": "蓝毒",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "二重射击·自动",
+      "毒液散射"
+    ]
+  },
+  {
+    "name": "杜宾",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 4,
+    "skill": [
+      "强力击·β型",
+      "鞭策"
+    ]
+  },
+  {
+    "name": "炎客",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "歃血",
+      "刃鬼"
+    ]
+  },
+  {
+    "name": "梅",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "麻痹弹",
+      "束缚电击"
+    ]
+  },
+  {
+    "name": "伊芙利特",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "4-1",
+      "5-1",
+      "5-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "狂热",
+      "炎爆",
+      "灼地"
+    ]
+  },
+  {
+    "name": "星源",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "双端导流",
+      "星束交汇"
+    ]
+  },
+  {
+    "name": "星熊",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "战意",
+      "荆棘",
+      "力之锯"
+    ]
+  },
+  {
+    "name": "猎蜂",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "高机动",
+      "急速拳"
+    ]
+  },
+  {
+    "name": "拉普兰德",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 5,
+    "skill": [
+      "日晷",
+      "狼魂"
+    ]
+  },
+  {
+    "name": "夜烟",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "赤色之瞳"
+    ]
+  },
+  {
+    "name": "幽灵鲨",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "肉斩骨断"
+    ]
+  },
+  {
+    "name": "红",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "处决模式",
+      "狼群"
+    ]
+  },
+  {
+    "name": "普罗旺斯",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "狼眼",
+      "杀戮嗅觉"
+    ]
+  },
+  {
+    "name": "闪灵",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "信条",
+      "自动掩护",
+      "教条力场"
+    ]
+  },
+  {
+    "name": "临光",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "急救",
+      "急救模式"
+    ]
+  },
+  {
+    "name": "清道夫",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "冲锋号令·β型",
+      "冲锋号令·攻击"
+    ]
+  },
+  {
+    "name": "蛇屠箱",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "防御力强化·β型",
+      "壳状防御"
+    ]
+  },
+  {
+    "name": "桃金娘",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "支援号令·β型",
+      "治愈之翼"
+    ]
+  },
+  {
+    "name": "摩根",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "街头好手",
+      "无畏招架"
+    ]
+  },
+  {
+    "name": "因陀罗",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "碎甲拳",
+      "裂魂"
+    ]
+  },
+  {
+    "name": "达格达",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "反制技巧",
+      "精准捕杀"
+    ]
+  },
+  {
+    "name": "守林人",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 5,
+    "skill": [
+      "环境伪装",
+      "战术电台"
+    ]
+  },
+  {
+    "name": "断罪者",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "断罪",
+      "创世纪"
+    ]
+  },
+  {
+    "name": "火神",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "坚守模式",
+      "武力模式"
+    ]
+  },
+  {
+    "name": "夜魔",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "灵魂汲取",
+      "夜魇魔影"
+    ]
+  },
+  {
+    "name": "天火",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "天坠之火"
+    ]
+  },
+  {
+    "name": "华法琳",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "紧急包扎",
+      "不稳定血浆"
+    ]
+  },
+  {
+    "name": "银灰",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 6,
+    "skill": [
+      "强力击·γ型",
+      "雪境生存法则",
+      "真银斩"
+    ]
+  },
+  {
+    "name": "崖心",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "2-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "锁链勾爪",
+      "束缚链"
+    ]
+  },
+  {
+    "name": "初雪",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "传音回响",
+      "自然震慑"
+    ]
+  },
+  {
+    "name": "夜莺",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "y-1",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "治疗强化·γ型",
+      "法术护盾",
+      "圣域"
+    ]
+  },
+  {
+    "name": "艾雅法拉",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "二重咏唱",
+      "点燃",
+      "火山"
+    ]
+  },
+  {
+    "name": "调香师",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "y-1",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 4,
+    "skill": [
+      "治疗强化·β型",
+      "精调"
+    ]
+  },
+  {
+    "name": "地灵",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "流沙化"
+    ]
+  },
+  {
+    "name": "慕斯",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "挠伤",
+      "炸毛"
+    ]
+  },
+  {
+    "name": "嘉维尔",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "活力再生",
+      "活力再生·广域"
+    ]
+  },
+  {
+    "name": "赫拉格",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "新月",
+      "弦月",
+      "满月"
+    ]
+  },
+  {
+    "name": "红云",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "双弦开弓"
+    ]
+  },
+  {
+    "name": "翎羽",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "迅捷打击·α型"
+    ]
+  },
+  {
+    "name": "霜叶",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 4,
+    "skill": [
+      "寒霜枪刃",
+      "凝冰枪刃"
+    ]
+  },
+  {
+    "name": "真理",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "专心致志",
+      "文学风暴"
+    ]
+  },
+  {
+    "name": "古米",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "备用军粮",
+      "食粮烹制"
+    ]
+  },
+  {
+    "name": "早露",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "4-4",
+      "4-3",
+      "4-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "攻击力强化·γ型",
+      "分裂射击",
+      "雪崩击"
+    ]
+  },
+  {
+    "name": "讯使",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "冲锋号令·β型",
+      "冲锋号令·防御"
+    ]
+  },
+  {
+    "name": "角峰",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "体能强化",
+      "抗寒体质"
+    ]
+  },
+  {
+    "name": "提丰",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "4-4",
+      "4-3",
+      "4-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "迅捷打击·γ型",
+      "冰原秩序",
+      "“永恒狩猎”"
+    ]
+  },
+  {
+    "name": "刻俄柏",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "“很冰的斧”",
+      "“很热的刀”",
+      "“很重的枪”"
+    ]
+  },
+  {
+    "name": "年",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "锡灼",
+      "铜印",
+      "铁御"
+    ]
+  },
+  {
+    "name": "夕",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "“小自在”"
+    ],
+    "skill": [
+      "工笔入化",
+      "泼墨淋漓",
+      "写意胜形"
+    ]
+  },
+  {
+    "name": "可颂",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "自动防御",
+      "磁爆锤"
+    ]
+  },
+  {
+    "name": "令",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "“清平”",
+      "“逍遥”",
+      "“弦惊”"
+    ],
+    "skill": [
+      "重进酒",
+      "笑鸣瑟",
+      "宁作吾"
+    ]
+  },
+  {
+    "name": "重岳",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "冲盈",
+      "拂尘",
+      "我无"
+    ]
+  },
+  {
+    "name": "塞雷娅",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "急救",
+      "药物配置",
+      "钙质化"
+    ]
+  },
+  {
+    "name": "白金",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "天马视域"
+    ]
+  },
+  {
+    "name": "灵知",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 6,
+    "skill": [
+      "高速思考",
+      "零度爆发",
+      "失温症"
+    ]
+  },
+  {
+    "name": "玫兰莎",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "攻击力强化·α型"
+    ]
+  },
+  {
+    "name": "卡缇",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "生命回复·α型"
+    ]
+  },
+  {
+    "name": "史都华德",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-6"
+    ],
+    "rarity": 3,
+    "skill": [
+      "强力击·α型"
+    ]
+  },
+  {
+    "name": "安德切尔",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "攻击力强化·α型"
+    ]
+  },
+  {
+    "name": "安赛尔",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "治疗范围强化"
+    ]
+  },
+  {
+    "name": "莫斯提马",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 6,
+    "skill": [
+      "攻击力强化·γ型",
+      "荒时之锁",
+      "序时之匙"
+    ]
+  },
+  {
+    "name": "卡夫卡",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "怪异魔方",
+      "诡异剪刀"
+    ]
+  },
+  {
+    "name": "狮蝎",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "y-1",
+      "y-1",
+      "y-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "蝎毒",
+      "蓄力毒尾击"
+    ]
+  },
+  {
+    "name": "安哲拉",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "阻滞射击战术"
+    ]
+  },
+  {
+    "name": "陨星",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 5,
+    "skill": [
+      "霰射弹头",
+      "高爆弹头"
+    ]
+  },
+  {
+    "name": "格拉尼",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "防御力强化·γ型",
+      "永不后退！"
+    ]
+  },
+  {
+    "name": "风笛",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "迅捷打击·γ型",
+      "高效冲击",
+      "闭膛连发"
+    ]
+  },
+  {
+    "name": "阿",
+    "position": "RANGED",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "快速射击",
+      "爆发剂·γ型",
+      "爆发剂·榴莲味"
+    ]
+  },
+  {
+    "name": "吽",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "反制治疗",
+      "反制医疗模式"
+    ]
+  },
+  {
+    "name": "暴行",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "强力击·β型",
+      "微差爆破"
+    ]
+  },
+  {
+    "name": "杰西卡",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "强力击·β型",
+      "掩护烟幕"
+    ]
+  },
+  {
+    "name": "暗索",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "2-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 4,
+    "skill": [
+      "勾爪发射",
+      "复式勾爪"
+    ]
+  },
+  {
+    "name": "砾",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "影袭",
+      "鼠群"
+    ]
+  },
+  {
+    "name": "香草",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "冲锋号令·援军"
+    ]
+  },
+  {
+    "name": "食铁兽",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "铁意六合",
+      "崩拳式"
+    ]
+  },
+  {
+    "name": "梅尔",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迷惑装置",
+      "爆破回收"
+    ]
+  },
+  {
+    "name": "槐琥",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "寸劲",
+      "七武掠阵踢"
+    ]
+  },
+  {
+    "name": "麦哲伦",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "龙腾.F",
+      "龙腾.L",
+      "龙腾.A"
+    ],
+    "skill": [
+      "高效制冷模块",
+      "激光开采模块",
+      "武装打击模块"
+    ]
+  },
+  {
+    "name": "缪尔赛思",
+    "position": "RANGED",
+    "profession": "PIONEER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "渐进性润化",
+      "生态耦合",
+      "浅层非熵适应"
+    ]
+  },
+  {
+    "name": "傀影",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "暗夜魅影",
+      "血色乐章",
+      "夜幕突袭"
+    ]
+  },
+  {
+    "name": "柏喙",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "飞针剑羽",
+      "异刃斩"
+    ]
+  },
+  {
+    "name": "格雷伊",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 4,
+    "skill": [
+      "战术咏唱·β型",
+      "静电释放"
+    ]
+  },
+  {
+    "name": "巫恋",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 5,
+    "tokens": [
+      "诅咒娃娃"
+    ],
+    "skill": [
+      "病入膏肓",
+      "诅咒娃娃"
+    ]
+  },
+  {
+    "name": "波登可",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 4,
+    "skill": [
+      "花香疗法",
+      "孢子扩散"
+    ]
+  },
+  {
+    "name": "坚雷",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "起盾回击"
+    ]
+  },
+  {
+    "name": "苇草",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迅捷打击·γ型",
+      "生灵火花"
+    ]
+  },
+  {
+    "name": "斯卡蒂",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "迅捷打击·γ型",
+      "跃浪击",
+      "涌潮悲歌"
+    ]
+  },
+  {
+    "name": "山",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "左勾扫拳",
+      "横扫架势",
+      "震地碎岩击"
+    ]
+  },
+  {
+    "name": "鞭刃",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "激励艺术",
+      "鞭刃"
+    ]
+  },
+  {
+    "name": "芳汀",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 4,
+    "skill": [
+      "小玩笑",
+      "致命恶作剧"
+    ]
+  },
+  {
+    "name": "孑",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "断螯",
+      "刺身拼盘"
+    ]
+  },
+  {
+    "name": "星极",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "星座守护",
+      "星辉剑"
+    ]
+  },
+  {
+    "name": "微风",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "y-1",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "集束疗法",
+      "扩散疗法"
+    ]
+  },
+  {
+    "name": "阿消",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "水蒸气泵",
+      "高压水炮"
+    ]
+  },
+  {
+    "name": "梓兰",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 3,
+    "skill": [
+      "迅捷打击·α型"
+    ]
+  },
+  {
+    "name": "送葬人",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-4",
+      "2-5",
+      "2-5"
+    ],
+    "rarity": 5,
+    "skill": [
+      "铳口收束",
+      "最终旅程"
+    ]
+  },
+  {
+    "name": "泡普卡",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "攻击力强化·α型"
+    ]
+  },
+  {
+    "name": "空爆",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-3"
+    ],
+    "rarity": 3,
+    "skill": [
+      "爆破范围提升·α型"
+    ]
+  },
+  {
+    "name": "月见夜",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "2-3"
+    ],
+    "rarity": 3,
+    "skill": [
+      "武器附魔·α型"
+    ]
+  },
+  {
+    "name": "斑点",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 3,
+    "skill": [
+      "次级治疗模式"
+    ]
+  },
+  {
+    "name": "Lancet-2",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "Castle-3",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "缠丸",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "生命回复·β型",
+      "恶鬼之力"
+    ]
+  },
+  {
+    "name": "红豆",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "槌音"
+    ]
+  },
+  {
+    "name": "安洁莉娜",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "秘杖·速充模式",
+      "秘杖·微粒模式",
+      "秘杖·反重力模式"
+    ]
+  },
+  {
+    "name": "棘刺",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 6,
+    "skill": [
+      "攻击力强化·γ型",
+      "护身尖刺",
+      "至高之术"
+    ]
+  },
+  {
+    "name": "断崖",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 5,
+    "skill": [
+      "多导向散射弹丸",
+      "浮游刃启动"
+    ]
+  },
+  {
+    "name": "和弦",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-13",
+      "3-14",
+      "3-14"
+    ],
+    "rarity": 5,
+    "skill": [
+      "轻巧舞步",
+      "沉溺之灾"
+    ]
+  },
+  {
+    "name": "苏苏洛",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "治疗强化·β型",
+      "深度治疗"
+    ]
+  },
+  {
+    "name": "菲亚梅塔",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 6,
+    "skill": [
+      "“你须直面”",
+      "“你须愧悔”",
+      "“你须偿还”"
+    ]
+  },
+  {
+    "name": "刻刀",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "红移",
+      "绯红刺刀"
+    ]
+  },
+  {
+    "name": "安比尔",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 4,
+    "skill": [
+      "阻挡弹",
+      "雷达定位"
+    ]
+  },
+  {
+    "name": "暴雨",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "应急迷彩",
+      "群体迷彩"
+    ]
+  },
+  {
+    "name": "惊蛰",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "初雷"
+    ]
+  },
+  {
+    "name": "诗怀雅",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "指挥调度",
+      "协同作战"
+    ]
+  },
+  {
+    "name": "泥岩",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "防御力强化·γ型",
+      "岩崩锤",
+      "秽壤的血脉"
+    ]
+  },
+  {
+    "name": "老鲤",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "小惩大诫",
+      "驱凶辟邪",
+      "贵客盈门"
+    ]
+  },
+  {
+    "name": "拜松",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "防御力强化·γ型",
+      "深化阵线"
+    ]
+  },
+  {
+    "name": "格劳克斯",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "双线装填",
+      "反制电磁脉冲"
+    ]
+  },
+  {
+    "name": "卡达",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "同步索敌攻击"
+    ]
+  },
+  {
+    "name": "空弦",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "箭矢·散逸",
+      "箭矢·追猎",
+      "箭矢·暴风"
+    ]
+  },
+  {
+    "name": "铸铁",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "生命回复·γ型",
+      "破浪回神"
+    ]
+  },
+  {
+    "name": "稀音",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "保护色隐蔽",
+      "全景过载摄像"
+    ]
+  },
+  {
+    "name": "宴",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "分神",
+      "落地斩·破门"
+    ]
+  },
+  {
+    "name": "爱丽丝",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-13",
+      "3-14",
+      "3-14"
+    ],
+    "rarity": 5,
+    "skill": [
+      "童话守卫者",
+      "梦乡摇篮"
+    ]
+  },
+  {
+    "name": "黑",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 6,
+    "skill": [
+      "强弩",
+      "暮眼锐瞳",
+      "战术的终结"
+    ]
+  },
+  {
+    "name": "寒檀",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迅捷打击·γ型",
+      "“女巫之泪”"
+    ]
+  },
+  {
+    "name": "月禾",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迹无",
+      "森廻"
+    ]
+  },
+  {
+    "name": "蜜蜡",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 5,
+    "tokens": [
+      "沙之碑"
+    ],
+    "skill": [
+      "沙暴扩散",
+      "守卫尖碑"
+    ]
+  },
+  {
+    "name": "亚叶",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "最大剂量输注",
+      "复合型药物弹片"
+    ]
+  },
+  {
+    "name": "奥斯塔",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-4",
+      "2-5",
+      "2-5"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迅捷打击·γ型",
+      "影钉"
+    ]
+  },
+  {
+    "name": "杰克",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "给你一拳！",
+      "全神贯注！"
+    ]
+  },
+  {
+    "name": "锡兰",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-4",
+      "3-4"
+    ],
+    "rarity": 5,
+    "skill": [
+      "集中式水疗",
+      "水灵庇护"
+    ]
+  },
+  {
+    "name": "贾维",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "冲锋号令·γ型",
+      "火焰剥离"
+    ]
+  },
+  {
+    "name": "史尔特尔",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "烈焰魔剑",
+      "熔核巨影",
+      "黄昏"
+    ]
+  },
+  {
+    "name": "伊桑",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "y-1",
+      "y-1",
+      "y-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "花式回旋",
+      "十字悬挂"
+    ]
+  },
+  {
+    "name": "布洛卡",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "通电",
+      "高压电流"
+    ]
+  },
+  {
+    "name": "铃兰",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "全力以赴",
+      "儿时的舞乐",
+      "狐火渺然"
+    ]
+  },
+  {
+    "name": "嵯峨",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "冲锋号令·γ型",
+      "除恶",
+      "怒目"
+    ]
+  },
+  {
+    "name": "熔泉",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "4-4",
+      "4-3",
+      "4-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "信号矢",
+      "便携破城矢"
+    ]
+  },
+  {
+    "name": "四月",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "精准射击",
+      "灵活伪装"
+    ]
+  },
+  {
+    "name": "酸糖",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 4,
+    "skill": [
+      "花式点射",
+      "扳机时刻"
+    ]
+  },
+  {
+    "name": "灰喉",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "飞羽",
+      "回流"
+    ]
+  },
+  {
+    "name": "贝娜",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "奋力修剪",
+      "快速修剪"
+    ]
+  },
+  {
+    "name": "莱恩哈特",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "解构与爆破"
+    ]
+  },
+  {
+    "name": "THRM-EX",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "澄闪",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "火花四溅",
+      "电流翻涌",
+      "澄净闪耀"
+    ]
+  },
+  {
+    "name": "石棉",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "固守模式",
+      "火电模式"
+    ]
+  },
+  {
+    "name": "慑砂",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "延时震荡零件"
+    ]
+  },
+  {
+    "name": "泡泡",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "防御力强化·β型",
+      "“挨打”"
+    ]
+  },
+  {
+    "name": "雪雉",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "2-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "倒刺钩爪",
+      "伸缩式电捕网"
+    ]
+  },
+  {
+    "name": "清流",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-4",
+      "3-4"
+    ],
+    "rarity": 4,
+    "skill": [
+      "治愈水波",
+      "涌泉"
+    ]
+  },
+  {
+    "name": "薄绿",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "风语",
+      "聚能涡旋"
+    ]
+  },
+  {
+    "name": "迷迭香",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "迷迭香的战术装备"
+    ],
+    "skill": [
+      "思维膨大",
+      "末梢阻断",
+      "“如你所愿”"
+    ]
+  },
+  {
+    "name": "正义骑士号",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "布丁",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "战术咏唱·β型",
+      "扩散电流"
+    ]
+  },
+  {
+    "name": "玫拉",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "饱和脉冲",
+      "临界爆发"
+    ]
+  },
+  {
+    "name": "艾丽妮",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "起风",
+      "裂潮",
+      "判决"
+    ]
+  },
+  {
+    "name": "温蒂",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "炮管敲击",
+      "水炮模式",
+      "液氮大炮"
+    ]
+  },
+  {
+    "name": "耶拉",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "心随意动"
+    ]
+  },
+  {
+    "name": "子月",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 5,
+    "skill": [
+      "狩猎时刻",
+      "伏击之影"
+    ]
+  },
+  {
+    "name": "空构",
+    "position": "RANGED",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "见机行事",
+      "临场铳械改装"
+    ]
+  },
+  {
+    "name": "风丸",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "tokens": [
+      "纸偶"
+    ],
+    "skill": [
+      "纸艺·迅击",
+      "纸艺·双影"
+    ]
+  },
+  {
+    "name": "谜图",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "关键线索",
+      "疑点追踪"
+    ]
+  },
+  {
+    "name": "九色鹿",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "人间降吉",
+      "仙山去远"
+    ]
+  },
+  {
+    "name": "极境",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "支援号令·γ型",
+      "聆听"
+    ]
+  },
+  {
+    "name": "暮落",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "速战速决",
+      "燃命狂欢"
+    ]
+  },
+  {
+    "name": "霍尔海雅",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "但为求索",
+      "群星逶迤",
+      "博览者的狂语"
+    ]
+  },
+  {
+    "name": "图耶",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "水流环",
+      "强心剂"
+    ]
+  },
+  {
+    "name": "但书",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "纠纷起诉",
+      "致胜立论"
+    ]
+  },
+  {
+    "name": "见行者",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "护身射击",
+      "惊爆射击"
+    ]
+  },
+  {
+    "name": "号角",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "4-5",
+      "4-5",
+      "4-6"
+    ],
+    "rarity": 6,
+    "skill": [
+      "照明榴弹",
+      "暴风号令",
+      "终极防线"
+    ]
+  },
+  {
+    "name": "洛洛",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "战术咏唱·γ型",
+      "自负此轭"
+    ]
+  },
+  {
+    "name": "褐果",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-17",
+      "3-17"
+    ],
+    "rarity": 4,
+    "skill": [
+      "积微成著",
+      "厚土迸发"
+    ]
+  },
+  {
+    "name": "流明",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-4",
+      "3-4"
+    ],
+    "rarity": 6,
+    "skill": [
+      "沐雨",
+      "沛霖",
+      "灯火不灭"
+    ]
+  },
+  {
+    "name": "埃拉托",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "4-4",
+      "4-3",
+      "4-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "安眠旋律",
+      "英雄赞歌"
+    ]
+  },
+  {
+    "name": "海蒂",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "虚构故事·怒士",
+      "虚构故事·锈城"
+    ]
+  },
+  {
+    "name": "黑键",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-13",
+      "3-14",
+      "3-14"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "旧日残影"
+    ],
+    "skill": [
+      "渐快急板",
+      "荒芜回响",
+      "寂静之声"
+    ]
+  },
+  {
+    "name": "车尔尼",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "纷飞十指",
+      "曲惊四座"
+    ]
+  },
+  {
+    "name": "多萝西",
+    "position": "RANGED",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "危险目标清除",
+      "流沙区域生成",
+      "高速共振排障"
+    ]
+  },
+  {
+    "name": "至简",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "迅捷打击·γ型",
+      "神工意匠"
+    ]
+  },
+  {
+    "name": "鸿雪",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 6,
+    "skill": [
+      "抑扬格",
+      "点题",
+      "锐笔速写"
+    ]
+  },
+  {
+    "name": "苦艾",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "执法模式",
+      "终结连射"
+    ]
+  },
+  {
+    "name": "铅踝",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "4-4",
+      "4-3",
+      "4-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "贯日",
+      "破虹"
+    ]
+  },
+  {
+    "name": "石英",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "攻击力强化·β型",
+      "全力相搏"
+    ]
+  },
+  {
+    "name": "玛恩纳",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-2",
+      "1-2",
+      "1-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "未声张的怒火",
+      "未宽解的悲哀",
+      "未照耀的荣光"
+    ]
+  },
+  {
+    "name": "斥罪",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "一锤定音",
+      "坚心苦修",
+      "披荆斩棘"
+    ]
+  },
+  {
+    "name": "海沫",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-3",
+      "1-3",
+      "1-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "回首，断舍",
+      "泡影，殆尽"
+    ]
+  },
+  {
+    "name": "罗小黑",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 4,
+    "skill": [
+      "掠光尾影",
+      "碎金为刃"
+    ]
+  },
+  {
+    "name": "明椒",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "y-1",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "掩护作战·γ型",
+      "同伴意识"
+    ]
+  },
+  {
+    "name": "白铁",
+    "position": "MELEE",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "tokens": [
+      "白铁™多功能平台",
+      "白铁™多功能平台",
+      "铁钳号·原型机"
+    ],
+    "skill": [
+      "极致火力",
+      "高效补给",
+      "铁钳号·原型机"
+    ]
+  },
+  {
+    "name": "泰拉大陆调查团",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "截云",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-8",
+      "3-10"
+    ],
+    "rarity": 5,
+    "skill": [
+      "探前路",
+      "掷旧尘"
+    ]
+  },
+  {
+    "name": "林",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "玲珑",
+      "荫庇",
+      "流光乍裂"
+    ]
+  },
+  {
+    "name": "仇白",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-3",
+      "3-12",
+      "3-12"
+    ],
+    "rarity": 6,
+    "skill": [
+      "留羽",
+      "承影",
+      "问雪"
+    ]
+  },
+  {
+    "name": "铎铃",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "乡心无改"
+    ]
+  },
+  {
+    "name": "伊内丝",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "淬影突袭",
+      "暗夜无明",
+      "独影归途"
+    ]
+  },
+  {
+    "name": "U-Official",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "Friston-3",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1,
+    "skill": []
+  },
+  {
+    "name": "凛视",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-2",
+      "y-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "我见崩毁之前",
+      "我见枯朽之后"
+    ]
+  },
+  {
+    "name": "苍苔",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "强力击·β型",
+      "土石的恒心"
+    ]
+  },
+  {
+    "name": "特米米",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "部族技艺",
+      "嘉维尔保护方案"
+    ]
+  },
+  {
+    "name": "燧石",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "不息",
+      "锋芒毕露"
+    ]
+  },
+  {
+    "name": "森蚺",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "轻型挂斧",
+      "震慑劈砍",
+      "钢铁意志"
+    ]
+  },
+  {
+    "name": "焰尾",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "迅敏直觉",
+      "“红松林”",
+      "焰心"
+    ]
+  },
+  {
+    "name": "羽毛笔",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-3",
+      "1-3",
+      "1-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "高速切割",
+      "收割"
+    ]
+  },
+  {
+    "name": "极光",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "固守家园",
+      "人工降雪"
+    ]
+  },
+  {
+    "name": "瑕光",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "光芒涌动",
+      "慑敌辉光",
+      "先贤化身"
+    ]
+  },
+  {
+    "name": "卡涅利安",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "x-4",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "沙暴守卫",
+      "沙缚镣锁",
+      "食噬之印"
+    ]
+  },
+  {
+    "name": "伺夜",
+    "position": "RANGED",
+    "profession": "PIONEER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "领袖的呼唤",
+      "领袖的馈赠",
+      "领袖的尊严"
+    ]
+  },
+  {
+    "name": "远牙",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-3",
+      "3-9",
+      "3-9"
+    ],
+    "rarity": 6,
+    "skill": [
+      "迅捷打击·γ型",
+      "同盟支援",
+      "光羽箭"
+    ]
+  },
+  {
+    "name": "灰毫",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "4-5",
+      "4-5",
+      "4-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "攻击力强化·γ型",
+      "专注轰击"
+    ]
+  },
+  {
+    "name": "掠风",
+    "position": "MELEE",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "此身为筑",
+      "此身为源"
+    ]
+  },
+  {
+    "name": "絮雨",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-4",
+      "3-4"
+    ],
+    "rarity": 5,
+    "skill": [
+      "定向诊断",
+      "痛觉抑制"
+    ]
+  },
+  {
+    "name": "水月",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "y-1",
+      "y-1",
+      "y-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "唤醒",
+      "囚徒困境",
+      "镜花水月"
+    ]
+  },
+  {
+    "name": "松果",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "2-4",
+      "2-5",
+      "2-5"
+    ],
+    "rarity": 4,
+    "skill": [
+      "RMA长钉",
+      "电能过载"
+    ]
+  },
+  {
+    "name": "蜜莓",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-17",
+      "3-17"
+    ],
+    "rarity": 5,
+    "skill": [
+      "精神护理",
+      "振奋"
+    ]
+  },
+  {
+    "name": "罗宾",
+    "position": "RANGED",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "束缚“夹子”",
+      "弹射“夹子”"
+    ]
+  },
+  {
+    "name": "豆苗",
+    "position": "RANGED",
+    "profession": "PIONEER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "定点指令",
+      "“大家一起上”"
+    ]
+  },
+  {
+    "name": "乌有",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "知难而退",
+      "阴晴圆缺"
+    ]
+  },
+  {
+    "name": "灰烬",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 6,
+    "skill": [
+      "支援射击",
+      "突击战术",
+      "攻坚榴弹"
+    ]
+  },
+  {
+    "name": "闪击",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "闪光护盾",
+      "突破防线"
+    ]
+  },
+  {
+    "name": "霜华",
+    "position": "RANGED",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "陷阱部署",
+      "击倒猎物"
+    ]
+  },
+  {
+    "name": "战车",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "燃烧榴弹",
+      "倾泻弹药"
+    ]
+  },
+  {
+    "name": "洋灰",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "突破矿层",
+      "结构加固"
+    ]
+  },
+  {
+    "name": "雪绒",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "冻风",
+      "坠雪"
+    ]
+  },
+  {
+    "name": "深靛",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-13",
+      "3-14",
+      "3-14"
+    ],
+    "rarity": 4,
+    "skill": [
+      "灯塔守卫者",
+      "光影迷宫"
+    ]
+  },
+  {
+    "name": "异客",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "电能之触",
+      "聚焦指令",
+      "辉煌裂片"
+    ]
+  },
+  {
+    "name": "桑葚",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-3",
+      "3-17",
+      "3-17"
+    ],
+    "rarity": 5,
+    "skill": [
+      "治愈云雾",
+      "安全区域"
+    ]
+  },
+  {
+    "name": "歌蕾蒂娅",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "2-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "缺水的大洋裂断",
+      "缺水的掌握怒海",
+      "缺水的碎漩狂舞"
+    ]
+  },
+  {
+    "name": "赤冬",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "信影流·雷刀之势",
+      "信影流·十文字胜"
+    ]
+  },
+  {
+    "name": "夜半",
+    "position": "RANGED",
+    "profession": "PIONEER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "半醒",
+      "安眠"
+    ]
+  },
+  {
+    "name": "绮良",
+    "position": "MELEE",
+    "profession": "SPECIAL",
+    "rangeId": [
+      "y-1",
+      "y-1",
+      "y-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "锚击",
+      "锚点捕捉"
+    ]
+  },
+  {
+    "name": "琴柳",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6,
+    "skill": [
+      "支援号令·γ型",
+      "信仰传承",
+      "光辉旗帜"
+    ]
+  },
+  {
+    "name": "罗比菈塔",
+    "position": "MELEE",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4,
+    "skill": [
+      "叙拉古式上妆",
+      "全自动造型仪"
+    ]
+  },
+  {
+    "name": "帕拉斯",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 6,
+    "skill": [
+      "胜利的连击",
+      "信念的长鞭",
+      "英勇的祝福"
+    ]
+  },
+  {
+    "name": "龙舌兰",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-2",
+      "1-2",
+      "1-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "当机立断",
+      "剑走偏锋"
+    ]
+  },
+  {
+    "name": "青枳",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "冲锋号令·γ型",
+      "工程者之愿"
+    ]
+  },
+  {
+    "name": "蚀清",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "4-1",
+      "5-1",
+      "5-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "专注力超载",
+      "传导蚀滞弹"
+    ]
+  },
+  {
+    "name": "休谟斯",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-3",
+      "1-3",
+      "1-3"
+    ],
+    "rarity": 4,
+    "skill": [
+      "固废切割",
+      "高效处理"
+    ]
+  },
+  {
+    "name": "夏栎",
+    "position": "RANGED",
+    "profession": "SUPPORT",
+    "rangeId": [
+      "y-2",
+      "y-6",
+      "y-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "大地的慈悲",
+      "生灵的回响"
+    ]
+  },
+  {
+    "name": "火哨",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "4-5",
+      "4-5",
+      "4-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "野火",
+      "焦土"
+    ]
+  },
+  {
+    "name": "野鬃",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "骑枪刺击",
+      "夹枪冲锋"
+    ]
+  },
+  {
+    "name": "晓歌",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "2-2",
+      "2-2",
+      "2-2"
+    ],
+    "rarity": 5,
+    "skill": [
+      "观火",
+      "浮光"
+    ]
+  },
+  {
+    "name": "隐现",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "“不惹麻烦”",
+      "“解决麻烦”"
+    ]
+  },
+  {
+    "name": "黑角",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 2,
+    "skill": []
+  },
+  {
+    "name": "杜林",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 2,
+    "skill": []
+  },
+  {
+    "name": "夜刀",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 2,
+    "skill": []
+  },
+  {
+    "name": "巡林者",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 2,
+    "skill": []
+  },
+  {
+    "name": "预备干员-近战",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 3
+  },
+  {
+    "name": "预备干员-术师",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "3-6",
+      "3-1",
+      "3-6"
+    ],
+    "rarity": 3
+  },
+  {
+    "name": "预备干员-后勤",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-1"
+    ],
+    "rarity": 3
+  },
+  {
+    "name": "预备干员-狙击",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-1"
+    ],
+    "rarity": 3
+  },
+  {
+    "name": "Sharp",
+    "position": "MELEE",
+    "profession": "WARRIOR",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "亮剑"
+    ]
+  },
+  {
+    "name": "Pith",
+    "position": "RANGED",
+    "profession": "CASTER",
+    "rangeId": [
+      "2-3",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 5,
+    "skill": [
+      "“为我所为”"
+    ]
+  },
+  {
+    "name": "Touch",
+    "position": "RANGED",
+    "profession": "MEDIC",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "宛如天启"
+    ]
+  },
+  {
+    "name": "Stormeye",
+    "position": "RANGED",
+    "profession": "SNIPER",
+    "rangeId": [
+      "3-1",
+      "3-3",
+      "3-3"
+    ],
+    "rarity": 5,
+    "skill": [
+      "旋臂"
+    ]
+  },
+  {
+    "name": "暮落",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "速战速决",
+      "燃命狂欢"
+    ]
+  },
+  {
+    "name": "郁金香",
+    "position": "MELEE",
+    "profession": "PIONEER",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5,
+    "skill": [
+      "只余芬芳"
+    ]
+  },
+  {
+    "name": "预备干员-重装",
+    "position": "MELEE",
+    "profession": "TANK",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 3
+  },
+  {
+    "name": "医疗探机",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "触手",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4
+  },
+  {
+    "name": "Mon3tr",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "幻影",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "机械水獭",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "龙腾.F",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "龙腾.L",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "龙腾.A",
+    "position": "RANGED",
+    "profession": "TOKEN",
+    "rangeId": [
+      "3-6",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "诅咒娃娃",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "镜中虚影",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "此面向敌",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "工程蓄水炮",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "3-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "移动摄影器",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "沙之碑",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "迷迭香的战术装备",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "“夹子”",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "磐蟹护卫队",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 4
+  },
+  {
+    "name": "“小自在”",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "迎宾踏垫",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "斯卡蒂的海嗣",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "全自动造型仪",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 4
+  },
+  {
+    "name": "“耀阳”",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "“清平”",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "“逍遥”",
+    "position": "RANGED",
+    "profession": "TOKEN",
+    "rangeId": [
+      "3-1",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "“弦惊”",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "眠兽",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "纸偶",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "可靠电池",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 5
+  },
+  {
+    "name": "旧日残影",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "共振装置",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "“打字机”",
+    "position": "RANGED",
+    "profession": "TOKEN",
+    "rangeId": [
+      "3-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "白铁™多功能平台",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "白铁™多功能平台",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "铁钳号·原型机",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "3-13",
+      "3-13",
+      "3-13"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "狼群",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "夜灯",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "流形",
+    "position": "ALL",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "香槟炸弹",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 6
+  },
+  {
+    "name": "障碍物",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "震撼装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "闸门",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "侦测器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "干扰装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-3",
+      "x-3",
+      "x-3"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "弩炮",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "指挥终端",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "便携式补给站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "源石冰晶",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "源石祭坛",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "干扰地雷",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "源石流发生装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-2",
+      "3-2",
+      "3-2"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "L-44\"留声机\"",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-2",
+      "x-2",
+      "x-2"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "巨蕈",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "罗德岛临时雇员",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "轰隆隆先生",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "梅什科线圈",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-2",
+      "x-2",
+      "x-2"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "道路障碍物",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "能量聚合体",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "霜星的源石冰晶",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "爱国者的源石祭坛",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "盾卫",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "禁锢装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-15",
+      "3-15",
+      "3-15"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "改良型二踢脚",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "碎石",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "脉冲防御模组",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-3",
+      "x-3",
+      "x-3"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "催泪瓦斯控制阀",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "无人机工厂",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "雪雉的安全起重机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "土石结构",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "高能源石炸弹",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-6",
+      "x-6",
+      "x-6"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "加固装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "大帝",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "沙尘暴",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "可移动战术机库",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "应急救治设施",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-2",
+      "x-2",
+      "x-2"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "子代",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "特制水上平台",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "风筝",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "涨潮控制",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "破碎支柱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战场废墟",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "爆破装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "防水蚀镀膜装置",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "城市霓虹",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "骑士之徽",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "暴风雪",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "无主的财富",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "失修舞台雾机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "便携气罐",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“报幕助手”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "封印的地面",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "丹田",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“冰淇淋机”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "伦蒂尼姆城防副炮",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "断罪者",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1,
+    "skill": [
+      "断罪",
+      "创世纪"
+    ]
+  },
+  {
+    "name": "圣徒之手",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "溟痕",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“低音号”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "L-7 “回音壁”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“谐振器”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "宝箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "尖刺宝箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "骰子",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "箱形恐鱼",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战备激活阀",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "预备区发讯器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "紧急召回情报箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "休整区发讯器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "污染晶石",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-6",
+      "x-6",
+      "x-6"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "聚热晶簇",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "R-31重型动力装甲",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "R-31a重型动力装甲",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "R-11突击动力装甲",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "R-11a突击动力装甲",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "猎潮的骑士",
+    "position": "MELEE",
+    "profession": "TOKEN",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "自走车出发点",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "自走车单行道",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "改派发讯器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "掩体",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "急救包",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "荧光孢子",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“汲营枯枝” ",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "阿勒黛的卫护",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "8面骰子",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "12面骰子",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "实体程式",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "实体程式控制",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "复仇黑手",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "钳兽壳粉",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "高效泡打粉",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "芳香精油",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "山海密语仪",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "城防路障",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "沼泽控制",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "眩光手雷",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "2-7",
+      "2-7",
+      "2-7"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "高能源石爆桶",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "高压脉冲诡雷",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "滞空牵引无人机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "地形增伤控制",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "改性植物激素",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "滞空牵引无人机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "积雪银凇 ",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "空间稳定设施",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-2",
+      "x-2",
+      "x-2"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "宝箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "尖刺宝箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "巨壳藤蔓",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "街头应急储备",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "解雇者清债程序",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "全自动划账器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "爆裂毒气罐",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "毒雾塔控制",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“过去的我”",
+    "position": "RANGED",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-6",
+      "3-6",
+      "3-6"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "圣像",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "塌落的墙垣",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "备用木材",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "破旧的木篱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "重力",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "景观喷泉",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "水汽汽水瓶",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "便携式种植槽",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "采集实习站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-15",
+      "3-15",
+      "3-15"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "蟹蟹抽水泵",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "坚固筑台",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "都市风壁障",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "监控塔",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "基地",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "杂木林",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "巨大岩石",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "奇异矿脉",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-5",
+      "x-5",
+      "x-5"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "移动战塔",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "遗迹残骸",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "灌木丛",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "联络员",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "埋没金属箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "护盾遥控器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "安眠迷香",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "醒神秘药",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "反侦察藏匿机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-4",
+      "x-4",
+      "x-4"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "应急修理车",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "宝刺金属箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "缚网发射台",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "喷拒器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "防御工事",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "模块演算设施",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "资源规划站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "备勤激活站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "跨地块通讯站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "逃脱点",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "冶铸台",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "老伊辛",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“沙卒”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-1",
+      "3-1",
+      "3-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "曼提柯杀手",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "y-1",
+      "y-1",
+      "y-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "寻宝人",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "老练猎手",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-3",
+      "x-3",
+      "x-3"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "采集专员站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-15",
+      "3-15",
+      "3-15"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "采集主任站",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "3-15",
+      "3-15",
+      "3-15"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "阿戈尔示波器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "阿戈尔示波器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "阿戈尔示波器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "自适应补给元件",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "自适应补给元件",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "自适应补给元件",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "镀膜装置导能阀",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "重整导能组件",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "镀膜装置导能阀",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "丛林用示踪信标",
+    "position": "MELEE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "阻断波长",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "干扰波长",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "超重绝缘水泥",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "劣质闪光弹",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "能量扰动放大器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "能量扰动放大器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "能量扰动放大器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战术装备整理箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战术装备整理箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战术装备整理箱",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "便携式医疗设备",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "便携式医疗设备",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "便携式医疗设备",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "溢能回收转化器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "溢能回收转化器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "溢能回收转化器",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战地援护无人机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战地援护无人机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "战地援护无人机",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "x-1",
+      "x-1",
+      "x-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "竞技记录分析仪",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "“甜蜜狂搅”",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "1-1",
+      "1-1",
+      "1-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "神经再生",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "竞技记录分析仪",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "竞技记录分析仪",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  },
+  {
+    "name": "汲取体",
+    "position": "NONE",
+    "profession": "TRAP",
+    "rangeId": [
+      "0-1",
+      "0-1",
+      "0-1"
+    ],
+    "rarity": 1
+  }
+]

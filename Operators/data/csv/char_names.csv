@@ -1,0 +1,365 @@
+full_code,name_zh,name_pinyin,name_en,short_code
+char_002_amiya,阿米娅,amy,Amiya,R001
+char_003_kalts,凯尔希,kex,Kal'tsit,B003
+char_009_12fce,12F,12F,12F,R303
+char_010_chen,陈,c,Ch'en,LM04
+char_017_huang,煌,h,Blaze,RE41
+char_1001_amiya2,阿米娅(近卫),amyjw,Amiya,R001
+char_101_sora,空,k,Sora,PL05
+char_1011_lava2,炎狱炎熔,yyyr,Lava the Purgatory,RF01
+char_1012_skadi2,浊心斯卡蒂,zxskd,Skadi the Corrupting Heart,CR01
+char_1013_chen2,假日威龙陈,jrwlc,Ch'en the Holungday,R112
+char_1014_nearl2,耀骑士临光,yqslg,Nearl the Radiant Knight,KZ01
+char_1016_agoat2,纯烬艾雅法拉,cjayfl,Eyjafjalla the Hvít Aska,LN10
+char_1019_siege2,维娜·维多利亚,wnwdly,Vina Victoria,VC00
+char_102_texas,德克萨斯,dkss,Texas,PL02
+char_1020_reed2,焰影苇草,yywc,Reed the Flame Shadow,DB02
+char_1021_kroos2,寒芒克洛丝,hmkls,Kroos the Keen Glint,RF02
+char_1023_ghost2,归溟幽灵鲨,gmyls,Specter the Unchained,CR02
+char_1024_hbisc2,濯尘芙蓉,zcfr,Hibiscus the Purifier,RF03
+char_1026_gvial2,百炼嘉维尔,bljwe,Gavial the Invincible,RF22
+char_1027_greyy2,承曦格雷伊,cxgly,Greyy the Lightningbearer,RF23
+char_1028_texas2,缄默德克萨斯,jmdkss,Texas the Omertosa,PL07
+char_1029_yato2,麒麟R夜刀,qlRyd,Kirin R Yato,MH02
+char_103_angel,能天使,nts,Exusiai,PL03
+char_1030_noirc2,火龙S黑角,hlShj,Rathalos S Noir Corne,MH03
+char_1031_slent2,淬羽赫默,cyhm,Silence the Paradigmatic,RL10
+char_1032_excu2,圣约送葬人,syszr,Executor the Ex Foedere,LT40
+char_1033_swire2,琳琅诗怀雅,llshy,Swire the Elegant Wit,LM22
+char_1034_jesca2,涤火杰西卡,dhjxk,Jessica the Liberated,BS30
+char_1035_wisdel,维什戴尔,wsde,Wiš'adel,B00W
+char_1036_fang2,历阵锐枪芬,lzrqf,Fang the Fire-sharpened,RF04
+char_1037_amiya3,阿米娅(医疗),amyyl,Amiya,R001
+char_1038_whitw2,荒芜拉普兰德,hwlpld,Lappland the Decadenza,SR04
+char_106_franka,芙兰卡,flk,Franka,BS01
+char_107_liskam,雷蛇,ls,Liskarm,BS02
+char_108_silent,赫默,hm,Silence,RL01
+char_109_fmout,远山,ys,Gitano,SI01
+char_110_deepcl,深海色,shs,Deepcolor,AA04
+char_112_siege,推进之王,tjzw,Siege,GG01
+char_113_cqbw,W,W,W,B214
+char_115_headbr,凛冬,ld,Zima,USS1
+char_117_myrrh,末药,my,Myrrh,R104
+char_118_yuki,白雪,bx,Shirayuki,LM10
+char_120_hibisc,芙蓉,fr,Hibiscus,PA13
+char_121_lava,炎熔,yr,Lava,PA15
+char_122_beagle,米格鲁,mgl,Beagle,PA14
+char_123_fang,芬,f,Fang,PA11
+char_124_kroos,克洛丝,kls,Kroos,PA12
+char_126_shotst,流星,lx,Meteor,ST02
+char_127_estell,艾丝黛尔,asde,Estelle,IU04
+char_128_plosis,白面鸮,bmx,Ptilopsis,RL04
+char_129_bluep,蓝毒,ld,Blue Poison,AA03
+char_130_doberm,杜宾,db,Dobermann,R100
+char_131_flameb,炎客,yk,Flamebringer,R137
+char_133_mm,梅,m,May,VC01
+char_134_ifrit,伊芙利特,yflt,Ifrit,RL03
+char_135_halo,星源,xy,Astgenne,RL08
+char_136_hsguma,星熊,xx,Hoshiguma,LM05
+char_137_brownb,猎蜂,lf,Beehunter,US10
+char_140_whitew,拉普兰德,lpld,Lappland,SR01
+char_141_nights,夜烟,yy,Haze,VC02
+char_143_ghost,幽灵鲨,yls,Specter,AA02
+char_144_red,红,h,Projekt Red,SW01
+char_145_prove,普罗旺斯,plws,Provence,SR03
+char_147_shining,闪灵,sl,Shining,FO01
+char_148_nearl,临光,lg,Nearl,FO02
+char_149_scave,清道夫,qdf,Scavenger,SW02
+char_150_snakek,蛇屠箱,stx,Cuora,IU05
+char_1502_crosly,弑君者,sjz,Crownslayer,R315
+char_1505_frstar,霜星,sx,FrostNova,FN
+char_151_myrtle,桃金娘,tjn,Myrtle,R108
+char_154_morgan,摩根,mg,Morgan,GG02
+char_155_tiger,因陀罗,ytl,Indra,GG03
+char_157_dagda,达格达,dgd,Dagda,GG04
+char_158_milu,守林人,slr,Firewatch,ST01
+char_159_peacok,断罪者,dzz,Conviction,MN01
+char_163_hpsts,火神,hs,Vulcan,MN02
+char_164_nightm,夜魔,ym,Nightmare,VC03
+char_166_skfire,天火,th,Skyfire,SK01
+char_171_bldsk,华法琳,hfl,Warfarin,R106
+char_172_svrash,银灰,yh,SilverAsh,JC01
+char_173_slchan,崖心,yx,Cliffheart,JC06
+char_174_slbell,初雪,cx,Pramanix,JC05
+char_179_cgbird,夜莺,yy,Nightingale,FO03
+char_180_amgoat,艾雅法拉,ayfl,Eyjafjalla,LN02
+char_181_flower,调香师,dxs,Perfumer,MN03
+char_183_skgoat,地灵,dl,Earthspirit,LN01
+char_185_frncat,慕斯,ms,Mousse,VC04
+char_187_ccheal,嘉维尔,jwe,Gavial,IU07
+char_188_helage,赫拉格,hlg,Hellagur,AZ01
+char_190_clour,红云,hy,Vermeil,R122
+char_192_falco,翎羽,ly,Plume,LT05
+char_193_frostl,霜叶,sy,Frostleaf,R123
+char_194_leto,烈夏,lx,Лето,USS5
+char_195_glassb,真理,zl,Istina,USS2
+char_196_sunbr,古米,gm,Gummy,USS3
+char_197_poca,早露,zl,Rosa,USS4
+char_198_blackd,讯使,xs,Courier,JC04
+char_199_yak,角峰,jf,Matterhorn,JC03
+char_201_moeshd,可颂,ks,Croissant,PL04
+char_2012_typhon,提丰,tf,Typhon,SI07
+char_2013_cerber,刻俄柏,keb,Ceobe,R155
+char_2014_nian,年,n,Nian,NM01
+char_2015_dusk,夕,x,Dusk,NM02
+char_202_demkni,塞雷娅,sly,Saria,RL02
+char_2023_ling,令,l,Ling,NM03
+char_2024_chyue,重岳,zy,Chongyue,NM04
+char_2025_shu,黍,s,Shu,NM05
+char_204_platnm,白金,bj,Platinum,KZ03
+char_206_gnosis,灵知,lz,Gnosis,JC02
+char_208_melan,玫兰莎,mls,Melantha,PA41
+char_209_ardign,卡缇,kt,Cardigan,PA45
+char_210_stward,史都华德,sdhd,Steward,PA42
+char_211_adnach,安德切尔,adqe,Adnachiel,PA44
+char_212_ansel,安赛尔,ase,Ansel,PA43
+char_213_mostma,莫斯提马,mstm,Mostima,LT77
+char_214_kafka,卡夫卡,kfk,Kafka,CB06
+char_215_mantic,狮蝎,sx,Manticore,SG01
+char_218_cuttle,安哲拉,azl,Andreana,II04
+char_219_meteo,陨星,yx,Meteorite,ST03
+char_220_grani,格拉尼,gln,Grani,VC05
+char_222_bpipe,风笛,fd,Bagpipe,RV02
+char_225_haak,阿,a,Aak,LM20
+char_226_hmau,吽,h,Hung,LM19
+char_230_savage,暴行,bx,Savage,RB01
+char_235_jesica,杰西卡,jxk,Jessica,BS03
+char_236_rope,暗索,as,Rope,RB02
+char_237_gravel,砾,l,Gravel,KZ04
+char_240_wyvern,香草,xc,Vanilla,BS04
+char_241_panda,食铁兽,sts,FEater,YD01
+char_242_otter,梅尔,me,Mayer,RL05
+char_243_waaifu,槐琥,hh,Waai Fu,LM12
+char_245_cello,塑心,sx,Virtuosa,LT22
+char_248_mgllan,麦哲伦,mzl,Magallan,RL06
+char_249_mlyss,缪尔赛思,mess,Muelsyse,RL09
+char_250_phatom,傀影,gy,Phantom,R109
+char_252_bibeak,柏喙,bh,Bibeak,R138
+char_253_greyy,格雷伊,gly,Greyy,R119
+char_254_vodfox,巫恋,wl,Shamare,R148
+char_258_podego,波登可,bdk,Podenco,R157
+char_260_durnar,坚雷,jl,Dur-nar,R124
+char_261_sddrag,苇草,wc,Reed,HT03
+char_263_skadi,斯卡蒂,skd,Skadi,AA01
+char_264_f12yin,山,s,Mountain,CB05
+char_265_sophia,鞭刃,br,Whislash,KZ07
+char_271_spikes,芳汀,ft,Arene,LT06
+char_272_strong,孑,j,Jaye,LM14
+char_274_astesi,星极,xj,Astesia,RR01
+char_275_breeze,微风,wf,Breeze,R132
+char_277_sqrrel,阿消,ax,Shaw,LM11
+char_278_orchid,梓兰,zl,Orchid,PA61
+char_279_excu,送葬人,szr,Executor,LT01
+char_281_popka,泡普卡,ppk,Popukar,PA65
+char_282_catap,空爆,kb,Catapult,PA63
+char_283_midn,月见夜,yjy,Midnight,PA62
+char_284_spot,斑点,bd,Spot,PA64
+char_285_medic2,Lancet-2,Lancet2,Lancet-2,RCX2
+char_286_cast3,Castle-3,Castle3,Castle-3,RCX3
+char_289_gyuki,缠丸,cw,Matoimaru,HK01
+char_290_vigna,红豆,hd,Vigna,R105
+char_291_aglina,安洁莉娜,ajln,Angelina,SR02
+char_293_thorns,棘刺,jc,Thorns,II01
+char_294_ayer,断崖,dy,Ayerscarpe,RB04
+char_297_hamoni,和弦,hx,Harmonie,DB03
+char_298_susuro,苏苏洛,ssl,Sussurro,R107
+char_300_phenxi,菲亚梅塔,fymt,Fiammetta,LT11
+char_301_cutter,刻刀,kd,Cutter,R144
+char_302_glaze,安比尔,abe,Ambriel,LT02
+char_304_zebra,暴雨,by,Heavyrain,R164
+char_306_leizi,惊蛰,jz,Leizi,YD05
+char_308_swire,诗怀雅,shy,Swire,LM08
+char_311_mudrok,泥岩,ny,Mudrock,R159
+char_322_lmlee,老鲤,ll,Lee,LM18
+char_325_bison,拜松,bs,Bison,LM15
+char_326_glacus,格劳克斯,glks,Glaucus,R128
+char_328_cammou,卡达,kd,Click,R140
+char_332_archet,空弦,kx,Archetto,LT08
+char_333_sidero,铸铁,zt,Sideroca,R126
+char_336_folivo,稀音,xy,Scene,R162
+char_337_utage,宴,y,Utage,HK03
+char_338_iris,爱丽丝,als,Iris,VC12
+char_340_shwaz,黑,h,Schwarz,SS02
+char_341_sntlla,寒檀,ht,Santalla,SI02
+char_343_tknogi,月禾,yh,Tsukinogi,R129
+char_344_beewax,蜜蜡,ml,Beeswax,R147
+char_345_folnic,亚叶,yy,Folinic,R133
+char_346_aosta,奥斯塔,ast,Aosta,SR28
+char_347_jaksel,杰克,jk,Jackie,R166
+char_348_ceylon,锡兰,xl,Ceylon,SS01
+char_349_chiave,贾维,jw,Chiave,SR26
+char_350_surtr,史尔特尔,sete,Surtr,R111
+char_355_ethan,伊桑,ys,Ethan,R130
+char_356_broca,布洛卡,blk,Broca,SR27
+char_358_lisa,铃兰,ll,Suzuran,R172
+char_362_saga,嵯峨,ce,Saga,HK13
+char_363_toddi,熔泉,rq,Toddifons,VC11
+char_365_aprl,四月,sy,April,RB07
+char_366_acdrop,酸糖,st,Aciddrop,R139
+char_367_swllow,灰喉,hh,GreyThroat,R110
+char_369_bena,贝娜,bn,Bena,VC14
+char_373_lionhd,莱恩哈特,leht,Leonhardt,RB03
+char_376_therex,THRM-EX,THRMEX,THRM-EX,RCX4
+char_377_gdglow,澄闪,cs,Goldenglow,VC09
+char_378_asbest,石棉,sm,Asbestos,RB05
+char_379_sesa,慑砂,ss,Sesa,R158
+char_381_bubble,泡泡,pp,Bubble,R146
+char_383_snsant,雪雉,xz,Snowsant,LM16
+char_385_finlpp,清流,ql,Purestream,R160
+char_388_mint,薄绿,bl,Mint,VC08
+char_391_rosmon,迷迭香,mdx,Rosmontis,RE45
+char_400_weedy,温蒂,wd,Weedy,R117
+char_4000_jnight,正义骑士号,zyqsh,"Justice Knight",KZ15
+char_4004_pudd,布丁,bd,Pudding,CB03
+char_4006_melnte,玫拉,ml,Melanite,CB22
+char_4009_irene,艾丽妮,aln,Irene,II07
+char_401_elysm,极境,jj,Elysium,R131
+char_4011_lessng,止颂,zs,Lessing,LN07
+char_4013_kjera,耶拉,yl,Kjera,JC00
+char_4014_lunacu,子月,zy,Lunacub,SR37
+char_4015_spuria,空构,kg,Spuria,LT12
+char_4016_kazema,风丸,fw,Kazemaru,HK09
+char_4017_puzzle,谜图,mt,Puzzle,VC21
+char_4019_ncdeer,九色鹿,jsl,Nine-Colored Deer,YD09
+char_402_tuye,图耶,ty,Tuye,SG08
+char_4023_rfalcn,红隼,hs,Kestrel,SG12
+char_4025_aprot2,暮落,ml,Shalem,VC07
+char_4026_vulpis,忍冬,rd,Vulpisfoglia,SR40
+char_4027_heyak,霍尔海雅,hehy,Ho'olheyak,CB88
+char_4032_provs,但书,ds,Proviso,KZ10
+char_4036_forcer,见行者,jxz,Enforcer,LT10
+char_4039_horn,号角,hj,Horn,VC16
+char_4040_rockr,洛洛,ll,Rockrock,VC18
+char_4041_chnut,褐果,hg,Chestnut,R134
+char_4042_lumen,流明,lm,Lumen,II09
+char_4043_erato,埃拉托,alt,Erato,MN07
+char_4045_heidi,海蒂,hd,Heidi,VC19
+char_4046_ebnhlz,黑键,hj,Ebenholz,LN05
+char_4047_pianst,车尔尼,cen,Czerny,LN06
+char_4048_doroth,多萝西,dlx,Dorothy,RL07
+char_405_absin,苦艾,ka,Absinthe,US11
+char_4054_malist,至简,zj,Minimalist,SG09
+char_4055_bgsnow,鸿雪,hx,Позёмка,R145
+char_4058_pepe,佩佩,pp,Pepe,SG14
+char_4062_totter,铅踝,qh,Totter,SG11
+char_4063_quartz,石英,sy,Quartz,CB18
+char_4064_mlynar,玛恩纳,men,Młynar,KZ08
+char_4065_judge,斥罪,cz,Penance,SR35
+char_4066_highmo,海沫,hm,Highmore,II10
+char_4067_lolxh,罗小黑,lxh,Luo Xiaohei,R161
+char_4071_peper,明椒,mj,Paprika,R175
+char_4072_ironmn,白铁,bt,Stainless,VC17
+char_4077_palico,泰拉大陆调查团,tldldct,Terra Research Commission,MH01
+char_4078_bdhkgt,截云,jy,Jieyun,YD15
+char_4079_haini,海霓,hn,Lucilla,AE05
+char_4080_lin,林,l,Lin,LM21
+char_4081_warmy,温米,wm,Warmy,RB14
+char_4082_qiubai,仇白,cb,Qiubai,YD20
+char_4083_chimes,铎铃,dl,Wind Chimes,YD17
+char_4087_ines,伊内丝,yns,Ines,B215
+char_4088_hodrer,赫德雷,hdl,Hoederer,B216
+char_4091_ulika,U-Official,UOfficial,U-Official,U007
+char_4093_frston,Friston-3,Friston3,Friston-3,RCX5
+char_4098_vvana,薇薇安娜,wwan,Viviana,LN11
+char_4100_caper,跃跃,yy,Caper,BV32
+char_4102_threye,凛视,ls,Valarqvin,SI06
+char_4104_coldst,冰酿,bn,Coldshot,CB28
+char_4105_almond,杏仁,xr,Almond,BS05
+char_4106_bryota,苍苔,ct,Bryophyta,SS03
+char_4107_vrdant,维荻,wd,Verdant,VC25
+char_4109_baslin,深律,sl,Bassline,LN13
+char_411_tomimi,特米米,tmm,Tomimi,SG05
+char_4110_delphn,戴菲恩,dfe,Delphine,VC23
+char_4114_harold,哈洛德,hld,Harold,VC27
+char_4116_blkkgt,锏,j,Degenbrecher,JC07
+char_4117_ray,莱伊,ly,Ray,RB15
+char_4119_wanqin,万顷,wq,Wanqing,YD13
+char_4121_zuole,左乐,zl,Zuo Le,YD06
+char_4122_grabds,小满,xm,Grain Buds,YD14
+char_4123_ela,艾拉,al,Ela,RS05
+char_4124_iana,双月,sy,Iana,RS07
+char_4125_rdoc,医生,ys,Doc,RS06
+char_4126_fuze,导火索,dhs,Fuze,RS08
+char_4130_luton,露托,lt,Lutonada,BV33
+char_4131_odda,奥达,ad,Odda,R167
+char_4132_ascln,阿斯卡纶,askl,Ascalon,SW00
+char_4133_logos,逻各斯,lgs,Logos,RE03
+char_4134_cetsyr,魔王,mw,Civilight Eterna,DWDB
+char_4136_phonor,PhonoR-0,P,PhonoR-0,RCX6
+char_4137_udflow,深巡,sx,Underflow,AE03
+char_4138_narant,娜仁图亚,nrty,Narantuya,SG17
+char_4139_papyrs,莎草,sc,Papyrus,SG19
+char_4140_lasher,衡沙,hs,Sand Reckoner,SG23
+char_4141_marcil,玛露西尔,mlxe,Marcille,DD02
+char_4142_laios,莱欧斯,los,Laios,DD01
+char_4143_sensi,森西,sx,Senshi,DD04
+char_4144_chilc,齐尔查克,qeck,Chilchuck,DD03
+char_4145_ulpia,乌尔比安,weba,Ulpianus,AA00
+char_4146_nymph,妮芙,nf,Nymph,R182
+char_4147_mitm,渡桥,dq,Mitm,R184
+char_4148_philae,菲莱,fl,Philae,SG10
+char_415_flint,燧石,ss,Flint,SG06
+char_4151_tinman,锡人,xr,Tin Man,CB30
+char_4155_talr,裁度,cd,Figurino,SR41
+char_416_zumama,森蚺,sr,Eunectes,SG03
+char_4162_cathy,凯瑟琳,ksl,Catherine,VC20
+char_4165_ctrail,云迹,yj,Contrail,CB33
+char_420_flamtl,焰尾,yw,Flametail,KZ11
+char_421_crow,羽毛笔,ymb,La Pluma,BV13
+char_422_aurora,极光,jg,Aurora,JC09
+char_423_blemsh,瑕光,xg,Blemishine,KZ09
+char_426_billro,卡涅利安,knla,Carnelian,LN04
+char_427_vigil,伺夜,cy,Vigil,SR36
+char_430_fartth,远牙,yy,Fartooth,KZ13
+char_431_ashlok,灰毫,hh,Ashlock,KZ12
+char_433_windft,掠风,lf,Windflit,CB19
+char_436_whispr,絮雨,xy,Whisperain,R163
+char_437_mizuki,水月,sy,Mizuki,HK07
+char_440_pinecn,松果,sg,Pinecone,CB09
+char_446_aroma,阿罗玛,alm,Aroma,SR39
+char_449_glider,蜜莓,mm,Honeyberry,RB06
+char_451_robin,罗宾,lb,Robin,CB08
+char_452_bstalk,豆苗,dm,Beanstalk,CB16
+char_455_nothin,乌有,wy,Mr.Nothing,YD11
+char_456_ash,灰烬,hj,Ash,RS01
+char_457_blitz,闪击,sj,Blitz,RS02
+char_458_rfrost,霜华,sh,Frost,RS03
+char_459_tachak,战车,zc,Tachanka,RS04
+char_464_cement,洋灰,yh,Cement,RB11
+char_466_qanik,雪绒,xr,Qanipalaat,SI03
+char_469_indigo,深靛,sd,Indigo,II05
+char_472_pasngr,异客,yk,Passenger,SG07
+char_473_mberry,桑葚,ss,Mulberry,YD03
+char_474_glady,歌蕾蒂娅,gldy,Gladiia,AA05
+char_475_akafyu,赤冬,cd,Akafuyu,HK04
+char_476_blkngt,夜半,yb,Blacknight,RB12
+char_478_kirara,绮良,ql,Kirara,HK05
+char_479_sleach,琴柳,ql,Saileach,VC10
+char_484_robrta,罗比菈塔,lblt,Roberta,CB11
+char_485_pallas,帕拉斯,pls,Pallas,MN04
+char_486_takila,龙舌兰,lsl,Tequila,BV12
+char_487_bobb,波卜,bb,Bobbing,CB32
+char_488_buildr,青枳,qz,Poncirus,SS04
+char_489_serum,蚀清,sq,Corroserum,CB12
+char_491_humus,休谟斯,xms,Humus,R171
+char_492_quercu,夏栎,xl,Quercus,R121
+char_493_firwhl,火哨,hs,Firewhistle,RB09
+char_494_vendla,刺玫,cm,Vendela,VC24
+char_496_wildmn,野鬃,yz,Wild Mane,KZ14
+char_497_ctable,晓歌,xg,Cantabile,R143
+char_498_inside,隐现,yx,Insider,LT13
+char_499_kaitou,折光,zg,Diamante,LN21
+char_500_noirc,黑角,hj,Noir Corne,A43
+char_501_durin,杜林,dl,Durin,A44
+char_502_nblade,夜刀,yd,Yato,A41
+char_503_rang,巡林者,xlz,Rangers,A42
+char_504_rguard,预备干员-近战,ybgyjz,Reserve Operator - Melee,
+char_505_rcast,预备干员-术师,ybgyss,Reserve Operator - Caster,
+char_506_rmedic,预备干员-后勤,ybgyhq,Reserve Operator - Logistics,
+char_507_rsnipe,预备干员-狙击,ybgyjj,Reserve Operator - Sniper,
+char_508_aguard,Sharp,Sharp,Sharp,
+char_509_acast,Pith,Pith,Pith,
+char_510_amedic,Touch,Touch,Touch,
+char_511_asnipe,Stormeye,Stormeye,Stormeye,
+char_513_apionr,郁金香,Tulip,Tulip,
+char_514_rdfend,预备干员-重装,ybgyzz,Reserve Operator - Defender,
