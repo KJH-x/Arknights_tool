@@ -156,6 +156,7 @@ char_283_midn,月见夜,yjy,Midnight,PA62
 char_284_spot,斑点,bd,Spot,PA64
 char_285_medic2,Lancet-2,Lancet2,Lancet-2,RCX2
 char_286_cast3,Castle-3,Castle3,Castle-3,RCX3
+char_1039_thorn2,引星棘刺,yxjc,Thorns the Lodestar,II02
 char_289_gyuki,缠丸,cw,Matoimaru,HK01
 char_290_vigna,红豆,hd,Vigna,R105
 char_291_aglina,安洁莉娜,ajln,Angelina,SR02
@@ -303,6 +304,8 @@ char_4151_tinman,锡人,xr,Tin Man,CB30
 char_4155_talr,裁度,cd,Figurino,SR41
 char_416_zumama,森蚺,sr,Eunectes,SG03
 char_4162_cathy,凯瑟琳,ksl,Catherine,VC20
+char_4163_rosesa,瑰盐,my,Rose Salt,II11
+char_4164_tecno,特克诺,tkn,Tecno,BV23
 char_4165_ctrail,云迹,yj,Contrail,CB33
 char_420_flamtl,焰尾,yw,Flametail,KZ11
 char_421_crow,羽毛笔,ymb,La Pluma,BV13
@@ -361,5 +364,21 @@ char_508_aguard,Sharp,Sharp,Sharp,
 char_509_acast,Pith,Pith,Pith,
 char_510_amedic,Touch,Touch,Touch,
 char_511_asnipe,Stormeye,Stormeye,Stormeye,
-char_513_apionr,郁金香,Tulip,Tulip,
+char_513_apionr,郁金香,yjx,Tulip,
 char_514_rdfend,预备干员-重装,ybgyzz,Reserve Operator - Defender,
+char_600_cpione,预备干员-先锋(卫戍协议),ybgyxfwsxy,Reserve Operator - Vanguard(AC),
+char_601_cguard,预备干员-近卫(卫戍协议),ybgyjwwsxy,Reserve Operator - Guard(AC),
+char_602_cdfend,预备干员-重装(卫戍协议),ybgyzzwsxy,Reserve Operator - Defender(AC),
+char_603_csnipe,预备干员-狙击(卫戍协议),ybgyjjwsxy,Reserve Operator - Sniper(AC),
+char_604_ccast,预备干员-术师(卫戍协议),ybgysswsxy,Reserve Operator - Caster(AC),
+char_605_cmedic,预备干员-医疗(卫戍协议),ybgyylwsxy,Reserve Operator - Medic(AC),
+char_606_csuppo,预备干员-辅助(卫戍协议),ybgyfzwsxy,Reserve Operator - Supporter(AC),
+char_607_cspec,预备干员-特种(卫戍协议),ybgytzwsxy,Reserve Operator - Specialist(AC),
+char_608_acpion,郁金香(卫戍协议),yjxwsxy,Tulip(AC),
+char_609_acguad,Sharp(卫戍协议),Sharpwsxy,Sharp(AC),
+char_610_acfend,Mechanist(卫戍协议),Mechanistwsxy,Mechanist(AC),
+char_611_acnipe,Stormeye(卫戍协议),Stormeyewsxy,Stormeye(AC),
+char_612_accast,Pith(卫戍协议),Pithwsxy,Pith(AC),
+char_613_acmedc,Touch(卫戍协议),Touchwsxy,Touch(AC),
+char_614_acsupo,Raidian(卫戍协议),Raidianwsxy,Raidian(AC),
+char_615_acspec,Misery(卫戍协议),Miserywsxy,Misery(AC),
